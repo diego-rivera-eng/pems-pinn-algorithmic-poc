@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T05:52:08.585794+00:00",
+  "seed": 126,
+  "max_abs_difference": 0.0,
+  "tolerance": 1e-07,
+  "model_sha256": "f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81",
+  "test_opened": false
+}

@@ -1,0 +1,18 @@
+{
+  "source": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+  "source_sha256": "f3eafa398f6e198415c227df4f570b8cf99e255a9149a23e53f0872abe990e02",
+  "runtime_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\tmp\\wf_nox_full_run\\protocol\\00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+  "project_root": "C:\\ChatGPT-Work\\Walk_Forward R8",
+  "run_mode": null,
+  "patch_counts": {
+    "project_root": 1,
+    "run_mode": 0
+  },
+  "started_unix": 1787078306.1924927,
+  "status": "COMPLETE",
+  "finished_unix": 1787078310.0131445,
+  "elapsed_s": 3.819,
+  "source_sha256_after": "f3eafa398f6e198415c227df4f570b8cf99e255a9149a23e53f0872abe990e02",
+  "executed_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\wf\\work_pinn_wf_protocol\\audit\\EXECUTED_LOCAL_00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+  "executed_notebook_sha256": "78716419658ccacd0561472554c0a18fa6387f4749722b569efd95584276a405"
+}

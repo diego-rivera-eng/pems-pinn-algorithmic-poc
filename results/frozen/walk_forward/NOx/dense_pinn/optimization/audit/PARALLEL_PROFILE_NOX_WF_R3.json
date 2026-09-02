@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PARALLEL",
+  "profile_version": "R3_TIT_INC_ALL_THREE_FOLDS_PREFLIGHT_V1",
+  "generated_at_utc": "2026-08-18T22:37:25.257891+00:00",
+  "parallel_strategy": "FOLD_LEVEL_LOKY_PROCESSES",
+  "parallel_backend": "loky",
+  "optuna_n_jobs": 1,
+  "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+  "max_fold_workers": 3,
+  "selected_workers": 3,
+  "candidate_workers": [
+    1,
+    2,
+    3
+  ],
+  "minimum_speedup": 1.05,
+  "gpu_memory_fraction_limit": 0.8,
+  "environment_fingerprint": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "joblib": "1.5.0",
+    "device_type": "cuda",
+    "tf32": true,
+    "deterministic_warn_only": true,
+    "parallel_inner_threads": 1,
+    "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+    "max_fold_workers": 3,
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_total_memory_gb": 15.92047119140625
+  },
+  "preflight_config_hash": "f3635c1d9f193c11f735237907b70069bcaef62beabcc9fdd9bbeed981aa016a",
+  "preflight_folds": [
+    0,
+    1,
+    2
+  ],
+  "preflight_max_epochs": 5,
+  "benchmark": [
+    {
+      "workers": 1,
+      "elapsed_s": 2.7778185000061058,
+      "speedup": 1.0,
+      "equivalence_pass": true,
+      "memory_pass": true,
+      "estimated_peak_reserved_gb": 0.05859375,
+      "status": "REFERENCE"
+    },
+    {
+      "workers": 2,
+      "elapsed_s": 1.656790999986697,
+      "speedup": 1.6766257784044034,
+      "equivalence_pass": true,
+      "memory_pass": true,
+      "estimated_peak_reserved_gb": 0.1171875,
+      "status": "PASS"
+    },
+    {
+      "workers": 3,
+      "elapsed_s": 1.2479855999699794,
+      "speedup": 2.2258417886175343,
+      "equivalence_pass": true,
+      "memory_pass": true,
+      "estimated_peak_reserved_gb": 0.17578125,
+      "status": "PASS"
+    }
+  ],
+  "parallel_rejection_summary": [],
+  "reused": false
+}

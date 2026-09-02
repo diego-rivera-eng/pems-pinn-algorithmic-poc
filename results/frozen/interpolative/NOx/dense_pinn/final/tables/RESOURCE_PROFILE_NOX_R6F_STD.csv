@@ -1,0 +1,2 @@
+device,cpu,gpu,ram_gib,trainable_parameters,MACs_per_inference,FLOPs_approx,serialized_size_bytes,serialized_size_MB,latency_batch1_median_ms,latency_batch1_p95_ms,throughput_rows_s,training_time_s
+cuda,"Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",NVIDIA GeForce RTX 5070 Ti,31.746,69187,68544,137088,286885,0.286885,0.17100000002301385,0.2810200001363226,37032258.06747423,329.2492188000001

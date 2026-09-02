@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE",
+  "generated_at_utc": "2026-08-29T06:37:27.465216+00:00",
+  "version": "TT_PINN_NOX_INTERP_FINAL_R1F_STD",
+  "target": "NOX",
+  "comparison_policy": "SAME_DEVICE_SAME_ROWS_FLOAT32_IN_MEMORY_STATE_DICT",
+  "environment": {
+    "generated_at_utc": "2026-08-29T06:16:53.902538+00:00",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "logical_cpu_count": 24,
+    "ram_gib": 31.746,
+    "tf32": true,
+    "deterministic_algorithms": "warn_only"
+  },
+  "tt_contract_hash": "dce42d87597ade992fad1f2f96acf3b77f1e47eeea130f3e55238d321d6676d2",
+  "profiles": [
+    {
+      "model_family": "DENSE_PINN",
+      "device": "cuda",
+      "parameter_count": 69187,
+      "parameter_bytes_float32": 276748,
+      "state_dict_bytes": 281401,
+      "checkpoint_bytes": 286885,
+      "latency_batch1_median_ms": 0.4948999994667247,
+      "latency_batch1_p95_ms": 0.5174099997020676,
+      "throughput_rows_s": 8299954.745763718,
+      "benchmark_rows": 4096,
+      "latency_repetitions": 200,
+      "throughput_repetitions": 30
+    },
+    {
+      "model_family": "TT_PINN",
+      "device": "cuda",
+      "parameter_count": 13891,
+      "parameter_bytes_float32": 55564,
+      "state_dict_bytes": 66045,
+      "checkpoint_bytes": 74829,
+      "latency_batch1_median_ms": 1.750499999616295,
+      "latency_batch1_p95_ms": 3.6847400006081408,
+      "throughput_rows_s": 1091496.3128249492,
+      "benchmark_rows": 4096,
+      "latency_repetitions": 200,
+      "throughput_repetitions": 30
+    }
+  ]
+}

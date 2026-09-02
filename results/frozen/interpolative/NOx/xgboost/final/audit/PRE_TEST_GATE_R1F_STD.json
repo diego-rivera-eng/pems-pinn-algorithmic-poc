@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T19:12:25.040562+00:00",
+  "checks": {
+    "ten_models_in_memory": true,
+    "ten_model_files": true,
+    "ten_metadata_files": true,
+    "seeds_exact": true,
+    "test_access_count_zero": true,
+    "test_rows_not_materialized": true,
+    "config_frozen": true,
+    "policy_frozen": true,
+    "pure_data_driven": true,
+    "no_monotonic_constraints": true
+  },
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8",
+  "model_hashes": {
+    "XGBOOST_NOX_INTERP_seed21.ubj": "df941842aaf3f8b61e92b55c375d42e3ad9d32681f25444b394d21af93b1bc25",
+    "XGBOOST_NOX_INTERP_seed42.ubj": "d4b11175fd623fb8089b70dd4650cbe25dd6bad31f0675e7e5d855ffb8eff68f",
+    "XGBOOST_NOX_INTERP_seed63.ubj": "452380227b00a0c35a1af13cf2f9758f17b68146ac994d6928c0a9615a8585bd",
+    "XGBOOST_NOX_INTERP_seed84.ubj": "9f496279523068eb490a3b699b7984844b22d8af66d56291aa7fb906daea391d",
+    "XGBOOST_NOX_INTERP_seed105.ubj": "bdcd9025d650944798fcfb688dc42c245cb10a5b96b1cc347e27b921ab0eead5",
+    "XGBOOST_NOX_INTERP_seed126.ubj": "6f9435fe1b2df05d6f49806b571b99769e627a0f031ede3a12ea190164568ce6",
+    "XGBOOST_NOX_INTERP_seed147.ubj": "99e2207f089b5e11cbe02edd07046303f9fbb121600800fc0bfb2a687b1d0903",
+    "XGBOOST_NOX_INTERP_seed168.ubj": "febb151246a13def185d23361f37afe03fd38cf53525ca690eded86d20f1a251",
+    "XGBOOST_NOX_INTERP_seed189.ubj": "239ac8e869b7b3764c46ec63931ed8d76bd6949db70092b7fd3cbcbfa63fa8b6",
+    "XGBOOST_NOX_INTERP_seed210.ubj": "243fa36d1530d8bb6fb7e1ce74c88381f4e4540ca1c07be12ad2e6266cea61cc"
+  },
+  "metadata_hashes": {
+    "XGBOOST_NOX_INTERP_seed21.metadata.json": "6d5d51d9f75ea862a997cc49c647af60f02ce1c86278aa62f8f4bde47f533586",
+    "XGBOOST_NOX_INTERP_seed42.metadata.json": "2baf00664941d3d595139ba76f4534212d728399e1529aeccf7ed6864a2bd629",
+    "XGBOOST_NOX_INTERP_seed63.metadata.json": "6e1aa22d333f4c718d916469902a83a4530e58cec72e4e54ee009b6a3e4a902b",
+    "XGBOOST_NOX_INTERP_seed84.metadata.json": "1715296c6eaed8a62c3368438ec78be137bb6e862b334f6d6590defc97e1dfab",
+    "XGBOOST_NOX_INTERP_seed105.metadata.json": "6f0f4454d53fce0cda6a76127860fcf799923d8c356bef8e72a62d1de770d93f",
+    "XGBOOST_NOX_INTERP_seed126.metadata.json": "9684d54844120fa6dae1398a2a8bc68c765472bf6252c4716406b10f67d1990a",
+    "XGBOOST_NOX_INTERP_seed147.metadata.json": "4661747931d30b0fd86d9576820ca52a8bfdd61690a4aa758933b60f9421f3c6",
+    "XGBOOST_NOX_INTERP_seed168.metadata.json": "7dfefdfb47f76227aa539631f709598119ea2010927cd4c9aafd619dfea0e1c4",
+    "XGBOOST_NOX_INTERP_seed189.metadata.json": "2bbc77d0a545adc589afa83cf7dd752a82c46bc39444188af4277f681bff5399",
+    "XGBOOST_NOX_INTERP_seed210.metadata.json": "51c522f94c1e315344c1ed98a0e209d056786fa2d99fbab4cef20e902af46637"
+  },
+  "models_frozen_before_test": true,
+  "test_access_count": 0,
+  "gate_sha256": "324a69d819a91426d764c5f7415f4add17154a5610682ca31c9f846fbadb8c01"
+}

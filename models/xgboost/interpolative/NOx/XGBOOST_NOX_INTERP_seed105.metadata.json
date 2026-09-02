@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "seed": 105,
+  "target": "NOX",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8",
+  "n_estimators": 1445,
+  "model_path": "models/interp/work_xgboost_nox_interp_final_r1f_std/models/XGBOOST_NOX_INTERP_seed105.ubj",
+  "model_sha256": "bdcd9025d650944798fcfb688dc42c245cb10a5b96b1cc347e27b921ab0eead5",
+  "test_used": false
+}

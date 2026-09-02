@@ -1,0 +1,126 @@
+{
+  "status": "FROZEN",
+  "version": "NOX_INTERP_OPT_R6",
+  "source": "R6 staged confirmation over DEV only",
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+  "FINAL_EPOCHS": 100,
+  "q25": 75.0,
+  "q75": 122.5,
+  "min": 60,
+  "max": 135,
+  "n": 15,
+  "representative_seed": 84,
+  "final_model_seeds": [
+    84
+  ],
+  "confirmation_seeds_initial": [
+    21,
+    42,
+    84
+  ],
+  "confirmation_seeds_reserve": [
+    126,
+    168
+  ],
+  "confirmation_seeds_executed": [
+    21,
+    42,
+    84
+  ],
+  "confirmation_escalation_triggered": false,
+  "confirmation_escalation_reasons": [],
+  "lbfgs_seeds_initial": [
+    21,
+    42
+  ],
+  "lbfgs_seeds_reserve": [
+    84
+  ],
+  "lbfgs_seeds_executed_by_candidate": {
+    "37": [],
+    "85": [],
+    "115": [
+      21
+    ]
+  },
+  "lbfgs_decision_by_candidate": {
+    "37": "REJECTED_FAILURE_FO_ONLY",
+    "85": "REJECTED_FAILURE_FO_ONLY",
+    "115": "REJECTED_FAILURE_FO_ONLY"
+  },
+  "lbfgs_fallback_events": [
+    {
+      "schema_version": "R6_FOLD_RESULT_V1",
+      "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+      "trial_number": 37,
+      "candidate": "TRIAL_0037_TIT_INC",
+      "config_hash": "547cdc1c4687f5de32b0794b3ec7a2312019d6bd714d7e9dd245482c064cf6a0",
+      "seed": 21,
+      "fold": 0,
+      "worker_status": "FAIL",
+      "error_type": "FloatingPointError",
+      "error_message": "non_finite_lbfgs_loss",
+      "decision": "REJECTED_NUMERICAL_OR_EXECUTION_FAILURE_FO_FALLBACK",
+      "retry_count": 0,
+      "recorded_at_utc": "2026-08-27T05:15:24.255982+00:00"
+    },
+    {
+      "schema_version": "R6_FOLD_RESULT_V1",
+      "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+      "trial_number": 115,
+      "candidate": "TRIAL_0115_TIT_INC",
+      "config_hash": "f72fadc05d58d7df5ae5bc89a0060b39b076caf1bd650b5bd44b1d15e92f7d9c",
+      "seed": 21,
+      "fold": 1,
+      "worker_status": "FAIL",
+      "error_type": "FloatingPointError",
+      "error_message": "non_finite_lbfgs_loss",
+      "decision": "REJECTED_NUMERICAL_OR_EXECUTION_FAILURE_FO_FALLBACK",
+      "retry_count": 0,
+      "recorded_at_utc": "2026-08-27T05:28:07.857568+00:00"
+    },
+    {
+      "schema_version": "R6_FOLD_RESULT_V1",
+      "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+      "trial_number": 85,
+      "candidate": "TRIAL_0085_TIT_INC",
+      "config_hash": "15918229711f36e855f53e348633e198bc32357742f36f59bfcefef0a675bc18",
+      "seed": 21,
+      "fold": 0,
+      "worker_status": "FAIL",
+      "error_type": "FloatingPointError",
+      "error_message": "non_finite_lbfgs_loss",
+      "decision": "REJECTED_NUMERICAL_OR_EXECUTION_FAILURE_FO_FALLBACK",
+      "retry_count": 0,
+      "recorded_at_utc": "2026-08-27T05:29:34.552273+00:00"
+    }
+  ],
+  "use_lbfgs": false,
+  "lbfgs_outer_steps": 15,
+  "lbfgs_max_iter": 200,
+  "lbfgs_history_size": 100,
+  "ablation_seeds_initial": [
+    21,
+    42,
+    84
+  ],
+  "ablation_seeds_reserve": [
+    126,
+    168
+  ],
+  "ablation_seeds_executed": [
+    21,
+    42,
+    84
+  ],
+  "ablation_escalation_triggered": false,
+  "ablation_escalation_reasons": [],
+  "ablation_effect_class": "UNFAVORABLE",
+  "protocol_hashes": {
+    "row_assignment": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+    "fold_assignment": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015"
+  },
+  "best_config_hash": "bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5",
+  "test_opened": false,
+  "test_metrics_computed": false
+}

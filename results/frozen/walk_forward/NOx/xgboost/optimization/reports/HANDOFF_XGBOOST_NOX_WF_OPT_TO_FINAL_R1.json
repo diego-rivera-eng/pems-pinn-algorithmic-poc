@@ -1,0 +1,14 @@
+{
+  "status": "READY",
+  "version": "XGBOOST_NOX_WF_OPT_R1_POC_EFFICIENT",
+  "target": "NOX",
+  "source_notebook": "07_XGBoost_NOX_WF_OPT - R1_POC_EFFICIENT.ipynb",
+  "destination_notebook": "07_XGBoost_NOX_WF_FINAL - R1F_STD.ipynb",
+  "frozen_manifest_path": "models/wf/work_xgboost_nox_wf_opt_r1_poc_efficient/configs/FROZEN_CONFIG_MANIFEST_XGBOOST_NOX_WF_R1.json",
+  "frozen_manifest_sha256": "f3347c338447594862ba82669f88dc150b814919e70707d3085e16ffe3c2e077",
+  "config_hash": "c3f6ea945fde5b226dc4d00e915ecd01e3ca02514412e66a095d3e589af67e5b",
+  "campaign_fingerprint": "4ee6fad4b338c223901b2c2b390ba51be5706a235815e2a4dd04b7653c4ac09b",
+  "study_storage_sha256": "e2afa0dea1d67ac96dd13fe0ccabf070eb0d9a57a26fa9ec4986cba5535c32e9",
+  "test_opened": false,
+  "test_sha256_computed": false
+}

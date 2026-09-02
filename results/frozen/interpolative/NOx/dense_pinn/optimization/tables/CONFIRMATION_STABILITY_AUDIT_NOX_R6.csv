@@ -1,0 +1,2 @@
+schema_version,comparison,leader_prefix2,leader_prefix3,champion_unchanged,top3_prefix2,top3_prefix3,top3_overlap_count,absolute_delta_S_pred,physics_changed_trials,max_seed_median_R2_population_std,dispersion_threshold,escalation_triggered,escalation_reasons,confirmation_seeds_initial,confirmation_seeds_reserve,confirmation_seeds_executed,rows_executed,status
+R6_CONFIRMATION_GATE_V1,"prefix_[21,42]_vs_prefix_[21,42,84]",37,37,True,"[37,85,115]","[37,115,85]",3,0.0001870805085478766,[],0.00664487405362894,0.02,False,[],"[21,42,84]","[126,168]","[21,42,84]",75,PASS

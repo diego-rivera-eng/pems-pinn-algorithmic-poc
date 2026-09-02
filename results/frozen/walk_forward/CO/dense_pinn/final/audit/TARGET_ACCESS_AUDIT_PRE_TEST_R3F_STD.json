@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T03:25:13.590319+00:00",
+  "target": "CO",
+  "dev_target_rows_materialized": 29349,
+  "test_target_rows_materialized": 0,
+  "test_feature_rows_materialized": 0,
+  "test_sha256_computed": false,
+  "non_target_pollutant_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_dev_target_materialized": 7411,
+      "rows_test_target_materialized": 0,
+      "non_target_pollutant_materialized": false
+    },
+    {
+      "year": 2012,
+      "rows_dev_target_materialized": 7628,
+      "rows_test_target_materialized": 0,
+      "non_target_pollutant_materialized": false
+    },
+    {
+      "year": 2013,
+      "rows_dev_target_materialized": 7152,
+      "rows_test_target_materialized": 0,
+      "non_target_pollutant_materialized": false
+    },
+    {
+      "year": 2014,
+      "rows_dev_target_materialized": 7158,
+      "rows_test_target_materialized": 0,
+      "non_target_pollutant_materialized": false
+    }
+  ]
+}

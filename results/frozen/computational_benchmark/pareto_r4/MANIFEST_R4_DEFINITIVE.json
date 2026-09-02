@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE",
+  "scope": "single_models_only",
+  "precision": "R2_TEST_INTERPOLATIVE",
+  "storage": "actual_serialized_bytes_div_2pow20",
+  "latency": "end_to_end_p95_cpu1_batch1_median_of_5_restarts",
+  "pinn_sources": {
+    "CO": {
+      "revision": "R5F_STD",
+      "seed": "126",
+      "metrics": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_final_r5f_std\\tables\\FINAL_METRICS_CO_R5F_STD.csv",
+      "profile": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_final_r5f_std\\tables\\RESOURCE_PROFILE_CO_R5F_STD.csv",
+      "model": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_final_r5f_std\\model\\final_model_seed_126.pt"
+    },
+    "NOx": {
+      "revision": "R6F_STD",
+      "seed": "84",
+      "metrics": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_nox_interp_final_r6f_std\\tables\\FINAL_METRICS_NOX_R6F_STD.csv",
+      "profile": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_nox_interp_final_r6f_std\\tables\\RESOURCE_PROFILE_NOX_R6F_STD.csv",
+      "model": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_nox_interp_final_r6f_std\\model\\final_model_seed_84.pt"
+    }
+  },
+  "xgboost_sources": {
+    "CO": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_xgboost_co_interp_final_r2f_budget_matched",
+    "NOx": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_xgboost_nox_interp_final_r2f_budget_matched"
+  },
+  "figures": {
+    "CO": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_xgboost_pareto_latency_r4_definitive\\figures\\01_co_pareto_3d_2d_lineal_definitivo.png",
+    "NOx": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_xgboost_pareto_latency_r4_definitive\\figures\\01_nox_pareto_3d_2d_lineal_definitivo.png"
+  },
+  "surface_status": {
+    "CO": "superficie con 6 puntos no dominados",
+    "NOx": "frontera degenerada: 1 punto; no hay superficie"
+  }
+}

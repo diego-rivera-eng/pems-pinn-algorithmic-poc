@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "seed": 63,
+  "target": "CO",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "config_hash": "9c254d014635ed5849756616f5ed8ef37b078c2ae7c2cf149831a2a07060d629",
+  "n_estimators": 320,
+  "model_path": "models/interp/work_xgboost_co_interp_final_r1f_std/models/XGBOOST_CO_INTERP_seed63.ubj",
+  "model_sha256": "4e16783aa0f6450e6999f67021f0230a2570db92f1754bb18878f304b8d76fb0",
+  "test_used": false
+}

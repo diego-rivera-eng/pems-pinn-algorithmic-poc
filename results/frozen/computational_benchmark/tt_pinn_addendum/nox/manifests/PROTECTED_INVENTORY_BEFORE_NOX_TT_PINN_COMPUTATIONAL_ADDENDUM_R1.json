@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-08-29T17:25:23.259813+00:00",
+  "files": [
+    {
+      "path": "models/interp/work_pinn_nox_interp_final_r6f_std/configs/FINAL_MODEL_MANIFEST_NOX_R6F_STD.json",
+      "bytes": 1958,
+      "sha256": "58a6b8f2b5389b0f3c69d0803a0ed4bbb563434f496afab1525bea8a45324620"
+    },
+    {
+      "path": "models/interp/work_pinn_nox_interp_final_r6f_std/model/final_model_seed_84.pt",
+      "bytes": 286885,
+      "sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/configs/FINAL_MODEL_MANIFEST_NOX_TT_R1F_STD.json",
+      "bytes": 4608,
+      "sha256": "b22f5e66f20ea8e3f6e37786d9f89c08130ced9812f40071be8364e796ed5bba"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/configs/TT_ARCHITECTURE_CONTRACT_NOX_TT_R1F_STD.json",
+      "bytes": 3351,
+      "sha256": "7eb393c1a623b5f3d5c2cf0b022d2c42c63069326847eed8fb142f07ad08342a"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/model/tt_final_model_seed_84.pt",
+      "bytes": 74829,
+      "sha256": "e4724801a279d0f06184dcb952f3f8b65026ace8a028b6e0ab46b27ebf996ca1"
+    },
+    {
+      "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - LOCAL_EXECUTED.ipynb",
+      "bytes": 2107702,
+      "sha256": "e6ed06cd9d45a96e6c8ee023940181fa74e46b1b22525de70adc494e069abcb8"
+    },
+    {
+      "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD.ipynb",
+      "bytes": 206024,
+      "sha256": "9dbb4ef0a5671daba41fff05003295346e136be52d760d2b32e9dba2922aada1"
+    }
+  ]
+}

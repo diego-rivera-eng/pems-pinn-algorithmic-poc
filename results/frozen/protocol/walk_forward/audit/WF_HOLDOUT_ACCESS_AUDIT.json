@@ -1,0 +1,12 @@
+{
+  "allowed_consumer": "WF_FINAL_AFTER_FROZEN_HANDOFF",
+  "content_sha256_computed": false,
+  "feature_values_materialized": false,
+  "file_exists": true,
+  "header_read": true,
+  "path": "data\\raw\\gt_2015.csv",
+  "protocol_version": "WF_PROTOCOL_R1",
+  "status": "LOCKED",
+  "target_values_materialized": false,
+  "year": 2015
+}

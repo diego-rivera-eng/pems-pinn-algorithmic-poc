@@ -1,0 +1,385 @@
+{
+  "status": "COMPLETE",
+  "version": "CO_WF_FINAL_R3F_STD",
+  "generated_at_utc": "2026-08-19T03:30:33.812806+00:00",
+  "scope": "WF04 prospective annual holdout: 2011-2014 to 2015",
+  "protocol_version": "WF_PROTOCOL_R1",
+  "opt_version": "CO_WF_OPT_R3_POC_EFFICIENT",
+  "opt_stop_policy": {
+    "stop_policy_version": "POC_EFFICIENT_STOP_POLICY_V3",
+    "minimum_attempted_trials": 30,
+    "minimum_complete_total_trials": 12,
+    "minimum_complete_optuna_trials": 8,
+    "minimum_competitive_trials": 3,
+    "competitive_band_delta": 0.01,
+    "material_gain": 0.002,
+    "elite_band_delta": 0.003,
+    "adaptive_block_size": 5,
+    "adaptive_patience_blocks": 2,
+    "maximum_attempted_trials": 55,
+    "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+    "hard_cap_fallback_mode": "HIERARCHICAL_TOP3_MANDATORY_CONFIRMATION",
+    "hard_cap_fallback_min_admissible": 3,
+    "stop_reason": "PRACTICAL_PLATEAU",
+    "evidence_gates": {
+      "minimum_attempted_ready": true,
+      "complete_total_ready": true,
+      "complete_optuna_ready": true,
+      "competitive_ready": true,
+      "complete_optuna": 51,
+      "competitive_trials": [
+        44,
+        4,
+        33
+      ],
+      "all_evidence_ready": true,
+      "hard_cap_reached": true,
+      "top3_admissible_ready": true,
+      "top3_fallback_trials": [
+        44,
+        49,
+        50
+      ],
+      "hard_cap_top3_fallback_ready": true,
+      "development_authorized_for_confirmation": true,
+      "authorization_mode": "PRIMARY_COMPETITIVE_GATES",
+      "confirmation_required_for_freeze": true
+    }
+  },
+  "opt_stop_reason": "PRACTICAL_PLATEAU",
+  "producer_notebook": "04_Gold_Standard_PINN_CO_WF_FINAL - R3F_STD.ipynb",
+  "upstream_notebooks": [
+    "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+    "04_Gold_Standard_PINN_CO_WF_OPT - R3_POC_EFFICIENT.ipynb"
+  ],
+  "input_contract": "PROTOCOL_R1_AND_OPT_R3_FROZEN_ONLY",
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "config_frozen_using_dev_only": true,
+  "config_hash": "4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2",
+  "physics_mode": "CDP_NEG",
+  "physics_feature": "CDP",
+  "monotonic_constraint": "dCO_dCDP_le_0",
+  "active_features": [
+    "CDP"
+  ],
+  "physics_scale_quantiles": [
+    0.05,
+    0.95
+  ],
+  "physics_scale_policy": "FOLD_TRAIN_Q95_MINUS_Q05",
+  "provenance_trial_number": 44,
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_assignment_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "final_epochs": 30,
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "representative_seed_predeclared": 42,
+  "ensemble_rule_predeclared": "arithmetic_mean_over_frozen_seed_predictions",
+  "scheduler_final_policy": "cosine",
+  "dev_rows": 29349,
+  "test_rows": 7384,
+  "models_frozen_before_test": true,
+  "test_opened_once": true,
+  "test_access_count": 1,
+  "test_metrics_computed": true,
+  "model_count": 10,
+  "training_elapsed_seconds": 314.87458590004826,
+  "environment": {
+    "generated_at_utc": "2026-08-19T03:25:13.442554+00:00",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "logical_cpu_count": 24,
+    "ram_gib": 31.746,
+    "tf32": true,
+    "deterministic_algorithms": "warn_only"
+  },
+  "ensemble_metrics": {
+    "seed": "ENSEMBLE",
+    "role": "PREDECLARED_ARITHMETIC_MEAN",
+    "N_test": 7384,
+    "final_epochs": 30,
+    "physics_mode": "CDP_NEG",
+    "physics_feature": "CDP",
+    "config_hash": "4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2",
+    "R2": 0.4763875038893831,
+    "RMSE": 1.6171332855295322,
+    "MAE": 1.0932814587706767,
+    "NRMSE_range": 0.039553991041732295,
+    "NRMSE_std": 0.7235617349904944,
+    "bias": -0.9695430315308523,
+    "residual_std": 1.2943466537718529,
+    "pearson_r": 0.8176553885820332,
+    "slope": 0.6171158367176461,
+    "intercept": 0.22887886209424477,
+    "negative_prediction_pct": 0.0
+  },
+  "computational_footprint": {
+    "input_nodes": 9,
+    "hidden_layers": 4,
+    "hidden_nodes": 544,
+    "output_nodes": 1,
+    "total_nodes": 554,
+    "linear_layers": 5,
+    "trainable_parameters": 50273,
+    "MACs_per_inference": 49728,
+    "FLOPs_approx": 99456,
+    "fourier_features": 0,
+    "total_parameters": 50273,
+    "buffer_elements": 0,
+    "state_tensor_elements": 50273,
+    "parameter_memory_fp32_mib": 0.19177627563476562,
+    "buffer_memory_fp32_mib": 0.0,
+    "state_tensor_memory_fp32_mib": 0.19177627563476562,
+    "measurement_scope": "representative_frozen_seed_model",
+    "representative_seed": 42,
+    "ensemble_model_count": 10,
+    "precision": "FP32",
+    "benchmark_device": "cpu",
+    "latency_batch_size": 1,
+    "latency_warmup": 20,
+    "latency_repetitions": 200,
+    "throughput_warmup": 5,
+    "throughput_repetitions": 30,
+    "serialized_state_dict_mib": 0.19592761993408203,
+    "checkpoint_package_mib": 0.19942188262939453,
+    "ensemble_checkpoint_package_mib": 1.9943103790283203,
+    "cpu_model": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_platform": "Windows-11-10.0.26200-SP0",
+    "cpu_physical_cores": 16,
+    "cpu_logical_threads": 24,
+    "torch_num_threads": 16,
+    "torch_num_interop_threads": 16,
+    "engine_latency_definition": "preprocessed_X_to_standardized_model_output",
+    "end_to_end_latency_definition": "finite_check_scaling_model_inverse_target",
+    "engine_latency_cpu_median_ms": 0.048900023102760315,
+    "engine_latency_cpu_p95_ms": 0.06840499700047076,
+    "engine_latency_cpu_p99_ms": 0.1853590132668613,
+    "end_to_end_latency_cpu_median_ms": 0.16055000014603138,
+    "end_to_end_latency_cpu_p95_ms": 0.22821499151177704,
+    "end_to_end_latency_cpu_p99_ms": 0.41529995971359296,
+    "throughput_batch_rows": 7384,
+    "throughput_cpu_samples_per_s": 4785948.113884873,
+    "throughput_batch_median_ms": 1.5428499900735915
+  },
+  "artifact_count": 39,
+  "artifacts": [
+    {
+      "path": "audit\\ENVIRONMENT_CO_WF_FINAL_R3F_STD.json",
+      "bytes": 515,
+      "sha256": "73b03192ba04f1878f60a947a066fe3dc8b36bdb92ef7a6c3b217668273d8496"
+    },
+    {
+      "path": "audit\\FROZEN_INPUT_AUDIT_CO_WF_FINAL_R3.csv",
+      "bytes": 1769,
+      "sha256": "b906c2c740bb26bec9f5baa7d602a60f6e5fdd5301750ad05ea376976cceea01"
+    },
+    {
+      "path": "audit\\PRE_TEST_GATE_R3F_STD.json",
+      "bytes": 6351,
+      "sha256": "f32856d62352fbc44c78313e90ce17a303ee717f8076289cdf13119ce88ad43b"
+    },
+    {
+      "path": "audit\\PRETRAINING_CHECKS_R3F_STD.csv",
+      "bytes": 390,
+      "sha256": "a1b4ba0132b305bd987f0bb8187471acb5bd126b011ddd3ad32bef6e6cd4a282"
+    },
+    {
+      "path": "audit\\TARGET_ACCESS_AUDIT_PRE_TEST_R3F_STD.json",
+      "bytes": 986,
+      "sha256": "c26e402dcf85c26b53c04543757258a7729891807932e8c246c716668aea7dc3"
+    },
+    {
+      "path": "audit\\TEST_ACCESS_AUDIT_R3F_STD.json",
+      "bytes": 540,
+      "sha256": "a5904cad9cedbc8666caff4e112e88a092103cb6369b626dbee07e19d0d5d838"
+    },
+    {
+      "path": "audit\\UPSTREAM_INPUT_CONTRACT_R3F_STD.json",
+      "bytes": 583,
+      "sha256": "cae9f636f45b2505d7c2be36e6f2ab9531179ed176ee7f3257bd830e93aae17b"
+    },
+    {
+      "path": "configs\\BEST_CONFIG_CO_WF_R3.json",
+      "bytes": 2782,
+      "sha256": "473dfa77100af555471aaaa8dead43a10d2e13ea4eaf705c2b11f50988283141"
+    },
+    {
+      "path": "configs\\FINAL_TRAINING_POLICY_CO_WF_R3.json",
+      "bytes": 186,
+      "sha256": "2f341f0ee1e9a6c08ed6a2f68681f520b49678eb4e84d8b3256dc6761e1e64e7"
+    },
+    {
+      "path": "configs\\FROZEN_INPUT_SNAPSHOT_R3F_STD.json",
+      "bytes": 2610,
+      "sha256": "12b5f615597dc67b975a4ffbc38a7430e0c4e14bf8562f012deb36af1ad59e38"
+    },
+    {
+      "path": "figures\\summary\\06_metricas_por_semilla.png",
+      "bytes": 409236,
+      "sha256": "35ef598a56c64419e5275320b6792ede56732b6dc78a1850396339e992062f53"
+    },
+    {
+      "path": "figures\\summary\\07_perdidas_entrenamiento_seed42.png",
+      "bytes": 108030,
+      "sha256": "edd318daa1b93762d94c8d4da14cb7b3bff4a00e13420fdb08fec0d0c1462596"
+    },
+    {
+      "path": "figures\\test\\01_paridad_ensamble_TEST.png",
+      "bytes": 508130,
+      "sha256": "84114a4ac0dec97deaf9fd12dcb8ef0b0ebb711a5f12ae58602c2abbf723af5f"
+    },
+    {
+      "path": "figures\\test\\02_serie_ensamble_DEV.png",
+      "bytes": 346029,
+      "sha256": "4f25422d8f9ee3cfbf651ec10c8faa3b16bfd23c25819fe4dfd6b6065b143f43"
+    },
+    {
+      "path": "figures\\test\\02_serie_ensamble_TEST.png",
+      "bytes": 343687,
+      "sha256": "5dcce971be3d150b36456427056d07f12ffe87484bfdf31a1b0b1a78c9cd2de7"
+    },
+    {
+      "path": "figures\\test\\03_diagnostico_residuales_TEST.png",
+      "bytes": 267260,
+      "sha256": "6147a8bb45a938a0b02975ab469d509b56f9fe45bf5e5be4a109fe12fd7074af"
+    },
+    {
+      "path": "figures\\test\\04_residuales_vs_CDP_TEST.png",
+      "bytes": 255845,
+      "sha256": "4d0cebc3d318425fa495dd5ea3071db6ac379459c884b93a3e986a39b70ed717"
+    },
+    {
+      "path": "figures\\test\\05_gradiente_CDP_TEST_seed42.png",
+      "bytes": 76517,
+      "sha256": "27f0f211795591f4a6e9c5d01008dd088673533132426c6c81a25d287ece985c"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed105.pt",
+      "bytes": 209125,
+      "sha256": "29506ddb9dce4184c0f84487a8292edbed05727d4e32ec02f27272ddba65447a"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed126.pt",
+      "bytes": 209125,
+      "sha256": "c3f3bd3a0def1e959a0ff29de7680ae87611e7e4a95fe154d2ff2445e3e84301"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed147.pt",
+      "bytes": 209125,
+      "sha256": "5443d51382c4c812696cbe19818a3f138d2786a3d7af01a8371aa655c27978de"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed168.pt",
+      "bytes": 209125,
+      "sha256": "3a58a1fc6fc695a8a3b9a77c88f842336b203c053616729ccab4c07c09158a0f"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed189.pt",
+      "bytes": 209125,
+      "sha256": "587cb03350a7fec33fee5c1ac6a0fa0592a39d3d55a9168c3d7de6fc8f8adfcc"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed21.pt",
+      "bytes": 209109,
+      "sha256": "5deeb04cdbc04e3a1f8c2cdaf427c21531c4c39d8eafcc6213b7ae4643b89c07"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed210.pt",
+      "bytes": 209125,
+      "sha256": "6cbf4515d1873e77a7144f5eaf85a29971c50873737ed4357bf87f8cf635e2f3"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed42.pt",
+      "bytes": 209109,
+      "sha256": "ae4f8cdb1c187c9e816d49ea0e3f82260e6aa1eaa3186c09c7d2dd2818666b71"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed63.pt",
+      "bytes": 209109,
+      "sha256": "0c6060aa26e5546fb3ac7f9864e9da2292ef640bfcb41269e4057a8de0cf2615"
+    },
+    {
+      "path": "models\\PINN_CO_WF_seed84.pt",
+      "bytes": 209109,
+      "sha256": "b7ac18a72161399a3d0ca53b944687c7167d4d9f4cb8bbd919359becbe4d8317"
+    },
+    {
+      "path": "reports\\INFORME_TECNICO_CO_WF_FINAL_R3F_STD.md",
+      "bytes": 1561,
+      "sha256": "23444e5b4f538742433107c071b3dc869e1f10a90d5516a7c0c949c7e5bda4f5"
+    },
+    {
+      "path": "reports\\README_EJECUCION_COLAB_CO_WF_FINAL_R3F_STD.md",
+      "bytes": 487,
+      "sha256": "17da6b719f3d6b17d7b5efed1f9fb461688bccfe5c596fee8468cd3572587e8f"
+    },
+    {
+      "path": "tables\\computational_footprint.csv",
+      "bytes": 1512,
+      "sha256": "c1bc93f80e1f63c363a1df0f1e0a071bb922ee4f6d160a065590a02dda84b164"
+    },
+    {
+      "path": "tables\\computational_footprint.json",
+      "bytes": 1803,
+      "sha256": "2c59db91679c7293864443225034347f3ea0b364997a3562246b7f52d44867be"
+    },
+    {
+      "path": "tables\\model_complexity.csv",
+      "bytes": 1512,
+      "sha256": "c1bc93f80e1f63c363a1df0f1e0a071bb922ee4f6d160a065590a02dda84b164"
+    },
+    {
+      "path": "tables\\test_metrics_by_seed.csv",
+      "bytes": 6551,
+      "sha256": "8c45a96944999682527ffc79137c293286a3a2a20d2d2e5b0b29992fe1a4797b"
+    },
+    {
+      "path": "tables\\test_metrics_ensemble.json",
+      "bytes": 614,
+      "sha256": "bbd66bbd51a54f80b86252af5bdd8899e8d43bd8b21ce16c64a6fdfe2727a8b8"
+    },
+    {
+      "path": "tables\\test_predictions.csv",
+      "bytes": 1363924,
+      "sha256": "a411b7bc4ab824febe3656ea183fde73367d08d2b98c046fc506ac60640e8183"
+    },
+    {
+      "path": "tables\\test_summary_multiseed.csv",
+      "bytes": 1469,
+      "sha256": "abbe637933b64bbd05ca09c462fe0f97f63f04ae1c9a6a620e998e1eb240cf29"
+    },
+    {
+      "path": "tables\\training_history_by_seed.csv",
+      "bytes": 28208,
+      "sha256": "3cdbb7f17bc7edcb51833b99cc91e64bffb52c94775a275df5796d28f0928be5"
+    },
+    {
+      "path": "tables\\training_summary_by_seed.csv",
+      "bytes": 2062,
+      "sha256": "9ff60cca2a1fa37d4f9ddc62e61a8781b3762ad4b11b56a91af31768814e750c"
+    }
+  ],
+  "limitations": [
+    "No demuestra generalización más allá de la frontera anual 2015.",
+    "No demuestra desempeño fuera del periodo y dominio observados.",
+    "No equivale a certificación PEMS, RATA ni homologación regulatoria."
+  ]
+}

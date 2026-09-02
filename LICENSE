@@ -1,0 +1,16 @@
+Copyright (c) 2026 Diego Andrés Rivera
+
+ALL RIGHTS RESERVED
+
+No permission is granted to use, copy, modify, merge, publish, distribute,
+sublicense, sell, or create derivative works from the original software,
+notebooks, trained-model artifacts, figures, or documentation in this
+repository, except where mandatory law permits otherwise or the copyright
+holder provides prior written permission.
+
+This notice is not an open-source license.
+
+Third-party materials are not relicensed by this notice. In particular, the
+files under `data/raw` originate from the UCI Machine Learning Repository and
+are distributed under CC BY 4.0. See `data/README.md` and
+`THIRD_PARTY_NOTICES.md` for attribution and terms.

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "current_notebook": "04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb",
+  "upstream_notebook": "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+  "upstream_artifact_root": "models\\wf\\work_pinn_wf_protocol",
+  "authorized_primary_data": "data\\raw",
+  "primary_data_authorization": "hashes declared by protocol R1",
+  "output_root": "models\\wf\\work_pinn_nox_wf_opt_r3_poc_efficient",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_NOX_WF_FINAL - R3F_STD.ipynb",
+  "test_target_materialized": false
+}

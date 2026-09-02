@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "current_notebook": "04_Gold_Standard_PINN_NOX_INTERP_OPT - R6.ipynb",
+  "upstream_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "upstream_artifact_root": "models/interp/work_pinn_interp_protocol",
+  "authorized_primary_data": "data/raw",
+  "primary_data_authorization": "hashes declared by protocol R1",
+  "output_root": "models/interp/work_pinn_nox_interp_opt_r6",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_NOX_INTERP_FINAL - R6F_STD.ipynb",
+  "authorized_monitor": "LIVE_MONITOR_PINN_CO_INTERP_R6.ipynb",
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+  "test_target_materialized": false
+}

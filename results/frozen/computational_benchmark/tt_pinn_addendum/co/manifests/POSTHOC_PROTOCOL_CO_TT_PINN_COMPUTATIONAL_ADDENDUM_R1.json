@@ -1,0 +1,56 @@
+{
+  "status": "FROZEN_FOR_THIS_CAMPAIGN",
+  "target": "CO",
+  "rounds": 3,
+  "order_patterns": [
+    [
+      "DENSE_PINN",
+      "TT_PINN"
+    ],
+    [
+      "TT_PINN",
+      "DENSE_PINN"
+    ],
+    [
+      "DENSE_PINN",
+      "TT_PINN"
+    ]
+  ],
+  "devices": [
+    "cpu",
+    "cuda"
+  ],
+  "batch_sizes": [
+    1,
+    16,
+    64,
+    256,
+    1024,
+    4096
+  ],
+  "synthetic_standardized_inputs_only": true,
+  "latency": "host wall forward plus explicit device synchronization",
+  "latency_primary": "batch1 median; p95/p99/IQR retained",
+  "throughput_primary": "batch4096 median rows/s; full sweep retained",
+  "memory": "PyTorch CUDA allocator max_memory_allocated/reserved; not total process VRAM",
+  "macs": "linear forward MAC per row for exact contraction order",
+  "flops": "FMA2 convention 2*MAC; excludes bias/activation/loss/backward",
+  "disposable_training_step": {
+    "steps_per_worker": 2,
+    "labels": [
+      "cold_optimizer_materialization",
+      "steady_prepared_batch"
+    ],
+    "boundary": "prepared_batch_model_step",
+    "model": "fresh in-memory clone loaded strictly from checkpoint",
+    "regularizer": "monotonic first derivative proxy with create_graph",
+    "checkpoint_saved": false,
+    "persistent_artifact_training_performed": false,
+    "disposable_clone_weights_changed": true
+  },
+  "not_measured": [
+    "time_to_convergence",
+    "training_energy",
+    "total_process_vram"
+  ]
+}

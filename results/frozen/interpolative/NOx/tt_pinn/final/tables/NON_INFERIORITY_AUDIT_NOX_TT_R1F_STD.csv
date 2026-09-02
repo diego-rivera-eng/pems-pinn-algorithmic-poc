@@ -1,0 +1,6 @@
+criterion,value,operator,limit,passed
+R2_drop,0.006213407119512571,<=,0.02,True
+RMSE_ratio,1.013701571140744,<=,1.1,True
+MAE_ratio,1.0087310180500983,<=,1.1,True
+PCD_drop_pp,0.0,<=,1.0,True
+state_dict_reduction_fraction,0.765139095832637,>=,0.75,True

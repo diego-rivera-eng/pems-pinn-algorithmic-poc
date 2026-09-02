@@ -1,0 +1,5 @@
+trial,step,folds_completed,screening_score,screening_pcd_min,decision,reason,fold_trainings_avoided
+0,2,2,0.5083092959042591,92.08984375,PROMOTED_AFTER_TWO_FOLDS,passed_median_pruner,0
+0,5,5,0.5083092959042591,92.08984375,COMPLETE_FIVE_FOLDS,promotion_completed,0
+2,2,2,0.5083092959042591,92.08984375,PROMOTED_AFTER_TWO_FOLDS,passed_median_pruner,0
+2,5,5,0.5083092959042591,92.08984375,COMPLETE_FIVE_FOLDS,promotion_completed,0

@@ -1,0 +1,18 @@
+{
+  "source": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb",
+  "source_sha256": "335d01d7e2e649b5d3b91fc28d95397851f23334314166c3fb031a2ff1b08b99",
+  "runtime_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\tmp\\wf_nox_full_run\\nox_opt_r3_clean\\04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb",
+  "project_root": "C:\\ChatGPT-Work\\Walk_Forward R8",
+  "run_mode": "FULL_AUTO",
+  "patch_counts": {
+    "project_root": 1,
+    "run_mode": 1
+  },
+  "started_unix": 1787092624.0996232,
+  "status": "COMPLETE",
+  "finished_unix": 1787093212.8309436,
+  "elapsed_s": 588.719,
+  "source_sha256_after": "335d01d7e2e649b5d3b91fc28d95397851f23334314166c3fb031a2ff1b08b99",
+  "executed_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\wf\\work_pinn_nox_wf_opt_r3_poc_efficient\\audit\\EXECUTED_LOCAL_04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb",
+  "executed_notebook_sha256": "635eace60f2a5e14efa826e0640fa6e50edbeaf1529070f86b639cc7979ca342"
+}

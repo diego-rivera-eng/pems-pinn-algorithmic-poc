@@ -1,0 +1,102 @@
+{
+  "schema_version": "R6_RUN_STATE_V1",
+  "campaign_id": "NOX_INTERP_OPT_R6",
+  "run_id": "f2b27b980f3a4182ab69b75047a03018",
+  "controller_id": "a9bc67d7bf624c3ba989e9269b757c93",
+  "revision": 645,
+  "run_mode": "FULL_AUTO",
+  "status": "COMPLETE",
+  "phase": "HANDOFF_READY",
+  "phase_status": "COMPLETE",
+  "started_at_utc": "2026-08-26T08:39:35.002208+00:00",
+  "updated_at_utc": "2026-08-27T05:49:49.081556+00:00",
+  "heartbeat_at_utc": "2026-08-27T05:49:49.081556+00:00",
+  "resume_count": 5,
+  "recovery_events": [
+    {
+      "at_utc": "2026-08-26T16:07:16.816277+00:00",
+      "cause": "STALE_RUNNING_STATE",
+      "previous_controller_id": "b335731b893e4a02a270e9d88e2b7cac",
+      "previous_phase": "OPTUNA_ADAPTIVE",
+      "heartbeat_age_s": 3040.434171,
+      "action": "RECONCILED_AND_RESUMED"
+    },
+    {
+      "at_utc": "2026-08-26T19:20:45.700332+00:00",
+      "cause": "STALE_RUNNING_STATE",
+      "previous_controller_id": "a5f610dc8ab948788cff6de523090455",
+      "previous_phase": "OPTUNA_ADAPTIVE",
+      "heartbeat_age_s": 6782.639637,
+      "action": "RECONCILED_AND_RESUMED"
+    }
+  ],
+  "previous_smoke": null,
+  "current_key": {
+    "config_hash": "962a29331dd67b6aacc72c394497cdfbbd5d648c13892302351c0514750e9a9e",
+    "seed": 84,
+    "fold": 3,
+    "strategy": "MLP_FO_ONLY"
+  },
+  "last_completed_key": {
+    "config_hash": "962a29331dd67b6aacc72c394497cdfbbd5d648c13892302351c0514750e9a9e",
+    "seed": 84,
+    "fold": 3,
+    "strategy": "MLP_FO_ONLY"
+  },
+  "progress": {
+    "CONFIRMATION_INITIAL": {
+      "completed": 75,
+      "initial_planned": 75,
+      "maximum_possible": 125,
+      "remaining_to_initial": 0,
+      "remaining_to_maximum": 50
+    },
+    "LBFGS_STAGE_A": {
+      "completed": 1,
+      "initial_planned": 30,
+      "maximum_possible": 45,
+      "remaining_to_initial": 29,
+      "remaining_to_maximum": 44
+    },
+    "ABLATION_INITIAL": {
+      "completed": 15,
+      "initial_planned": 15,
+      "maximum_possible": 25,
+      "remaining_to_initial": 0,
+      "remaining_to_maximum": 10
+    }
+  },
+  "workers": {
+    "optuna": 1,
+    "requested_fold_workers": [
+      1,
+      2,
+      3
+    ],
+    "effective_fold_workers": 3,
+    "max_fold_workers": 3,
+    "lbfgs_workers": 1
+  },
+  "trial_counts": {
+    "complete": 87,
+    "pruned": 30,
+    "fail": 7,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 124
+  },
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "producer_notebook": "04_Gold_Standard_PINN_NOX_INTERP_OPT - R6.ipynb",
+  "test_opened": false,
+  "test_metrics_computed": false,
+  "last_error": null,
+  "details": {
+    "config_hash": "bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5",
+    "representative_seed": 84,
+    "final_epochs": 100,
+    "manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752",
+    "handoff_sha256": "65120c027a0a20df1bff65fafc05e1237df30cba41b9364429e19f7633e8e867"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-27T06:26:55.161761+00:00",
+  "consumer_notebook": "04_Gold_Standard_PINN_NOX_INTERP_FINAL - R6F_STD.ipynb",
+  "input_policy": "PROTOCOL_R1_AND_NOX_OPT_R6_FROZEN_ONLY",
+  "protocol_manifest_sha256": "8471a0a22637104a6d73b5dfe9d894c7075bbafe56136bf3f7130476f29f443d",
+  "opt_frozen_manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752",
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+  "representative_seed": 84,
+  "final_epochs": 100,
+  "use_lbfgs": false,
+  "test_opened_upstream": false
+}

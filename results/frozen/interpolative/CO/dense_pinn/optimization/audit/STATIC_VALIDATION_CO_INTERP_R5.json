@@ -1,0 +1,39 @@
+{
+  "notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb",
+  "sha256": "7685A2C54626A3BEB5792D77DCC33EB19D5884683D89AC3A7D4898632D6A2612",
+  "cells": 127,
+  "checks": {
+    "json": true,
+    "cell_order": true,
+    "code_syntax": true,
+    "protocol_r1_immutable": true,
+    "source_references_unchanged": true,
+    "target_co_only": true,
+    "features_exactly_nine": true,
+    "physics_fixed_cdp_neg": true,
+    "no_historical_candidates": true,
+    "test_target_closed": true,
+    "optuna_single_writer": true,
+    "median_pruner_fold_unit": true,
+    "barrier_2_plus_3": true,
+    "dynamic_early_stop": true,
+    "adaptive_stop_constants": true,
+    "confirmation_10x5x5": true,
+    "pcd_gate_95": true,
+    "lbfgs_policy": true,
+    "matched_ablation_5x5": true,
+    "representative_seed_rule": true,
+    "final_epochs_median": true,
+    "nine_opt_figures": true,
+    "no_custom_python_dependency": true
+  },
+  "syntax_errors": [],
+  "smoke": {
+    "status": "PASS_SERIAL",
+    "elapsed_seconds": 15.028512100001535,
+    "error": null,
+    "parallel_equivalence": "NOT_RUN_LOCAL_WINDOWS_NATIVE_DEPENDENCY_CRASH"
+  },
+  "full_auto": "NOT_EXECUTED",
+  "status": "READY_FOR_FULL_AUTO_AFTER_COLAB_PARALLEL_PREFLIGHT"
+}

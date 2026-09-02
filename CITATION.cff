@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Si utiliza este software o sus resultados, cite este repositorio y el trabajo académico asociado."
+title: "PEMS-PINN: prueba de concepto algorítmica para estimación de CO y NOx en turbinas de gas"
+type: software
+authors:
+  - family-names: Rivera
+    given-names: "Diego Andrés"
+    affiliation: "Universidad Industrial de Santander"
+version: "1.0.0"
+date-released: "2026-09-01"
+abstract: >-
+  Repositorio canónico y paquete de evidencia para comparar redes neuronales
+  informadas por la física densas, PINN tensor-train y XGBoost en estimación
+  interpolativa y walk-forward de emisiones de turbinas de gas.
+keywords:
+  - physics-informed neural networks
+  - tensor train
+  - XGBoost
+  - gas turbine emissions
+  - walk-forward validation
+  - reproducible research
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: Rivera
+      given-names: "Diego Andrés"
+  title: "Metodología Conceptual para la Implementación de Sistemas de Monitoreo Predictivo de Emisiones (PEMS) Basados en Redes Neuronales Informadas por la Física (PINNs) Aplicado a Fuentes Fijas de Combustión en el Sector Petróleo y Gas Colombiano"
+  year: 2026

@@ -1,0 +1,11 @@
+{
+  "comparison": "exact_float64_without_rounding",
+  "cross_block_groups": 0,
+  "cross_partition_groups": 0,
+  "cross_partition_rows": 0,
+  "cross_partition_rows_fraction": 0.0,
+  "duplicate_groups": 2,
+  "duplicate_rows": 9,
+  "duplicate_rows_fraction": 0.0002450112977431737,
+  "status": "PASS"
+}

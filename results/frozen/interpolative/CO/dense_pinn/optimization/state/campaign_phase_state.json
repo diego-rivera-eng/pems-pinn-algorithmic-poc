@@ -1,0 +1,11 @@
+{
+  "version": "CO_INTERP_OPT_R5",
+  "phase": "FROZEN",
+  "updated_at_utc": "2026-08-26T03:21:48.791944+00:00",
+  "run_mode": "FULL_AUTO",
+  "test_opened": false,
+  "trial_number": 89,
+  "config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "final_epochs": 85,
+  "representative_seed": 126
+}

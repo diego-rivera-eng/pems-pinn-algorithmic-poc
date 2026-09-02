@@ -1,0 +1,22 @@
+{
+  "status": "RUNNING",
+  "mode": "RESUME_CONFIRMATION_ONLY",
+  "workers": 5,
+  "started_at_utc": "2026-08-25T13:46:30.316023+00:00",
+  "source_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb",
+  "resume_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - RESUME_FROM_140_5_WORKERS_EXECUTED.ipynb",
+  "source_sha256": "7685a2c54626a3beb5792d77dcc33eb19d5884683d89ac3a7d4898632d6a2612",
+  "snapshot_sha256_before": "f4eda98d6eeaad7a05602986acc1c91234d60b412c87529e0f14dc142b84af4f",
+  "trial_counts_before": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "confirmation_rows_before": 140,
+  "next_expected_work": "trial 75, seed 84, folds 0-4",
+  "new_optuna_trials_authorized": false,
+  "test_opened": false
+}

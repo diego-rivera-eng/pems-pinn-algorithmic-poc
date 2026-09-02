@@ -1,0 +1,8 @@
+protocol,model,target,scope,representative_seed,R2,RMSE,MAE,NRMSE_mean_pct,PCD_pct
+interpolative,dense_pinn,CO,representative_model,126,0.5317,1.1370,0.5934,53.93,99.12
+interpolative,tt_pinn,CO,representative_model,126,0.5222,1.1484,0.6001,54.47,97.71
+interpolative,xgboost,CO,representative_model,42,0.5081,1.1653,0.6031,55.27,
+interpolative,dense_pinn,NOx,representative_model,84,0.7748,4.4497,3.0346,7.33,100.00
+interpolative,tt_pinn,NOx,representative_model,84,0.7686,4.5106,3.0611,7.43,100.00
+interpolative,xgboost,NOx,representative_model,42,0.7449,4.7358,3.1831,7.80,
+

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "mode": "RESUME_TRIAL97_LBFGS_FALLBACK",
+  "pid": 34056,
+  "workers": 1,
+  "checkpoint_granularity": "EACH_FOLD",
+  "started_at_utc": "2026-08-26T03:17:09.471635+00:00",
+  "resume_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - RESUME_TRIAL97_LBFGS_FALLBACK_EXECUTED.ipynb",
+  "source_sha256": "7685a2c54626a3beb5792d77dcc33eb19d5884683d89ac3a7d4898632d6a2612",
+  "snapshot_sha256_before": "f4eda98d6eeaad7a05602986acc1c91234d60b412c87529e0f14dc142b84af4f",
+  "trial_counts_before": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "confirmation_rows_before": 250,
+  "lbfgs_rows_before": {
+    "89": 25,
+    "81": 25
+  },
+  "trial97_lbfgs_policy": "REJECTED_NUMERICAL_INSTABILITY_FALLBACK_FO_ONLY",
+  "trial97_failure_audit_sha256": "a7b21d16cdb5cee828bb360d7728c2369f871d99f2073b592ffc222d711bb6d5",
+  "next_expected_work": "evaluate trials 89/81, fallback trial97, matched ablation",
+  "consolidate_local_executed_on_pass": true,
+  "new_optuna_trials_authorized": false,
+  "test_opened": false,
+  "finished_at_utc": "2026-08-26T03:21:53.780328+00:00",
+  "elapsed_seconds": 284.337531899997,
+  "trial_counts_after": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "campaign_phase_after": {
+    "version": "CO_INTERP_OPT_R5",
+    "phase": "FROZEN",
+    "updated_at_utc": "2026-08-26T03:21:48.791944+00:00",
+    "run_mode": "FULL_AUTO",
+    "test_opened": false,
+    "trial_number": 89,
+    "config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+    "final_epochs": 85,
+    "representative_seed": 126
+  },
+  "campaign_status_after": "COMPLETE",
+  "inline_png_outputs": 9,
+  "resume_notebook_sha256": "e4ec3f21f04b866759f042e7530a72438e3b639595c3350f5c6e2933f100587f",
+  "local_executed_sha256": "e4ec3f21f04b866759f042e7530a72438e3b639595c3350f5c6e2933f100587f",
+  "local_executed_backup": "C:\\ChatGPT-Work\\Walk_Forward R8\\recovery_backups\\CO_R5_LOCAL_EXECUTED_BEFORE_FINAL_20260826T032153Z\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - LOCAL_EXECUTED.ipynb"
+}

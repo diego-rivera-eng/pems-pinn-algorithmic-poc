@@ -1,0 +1,12 @@
+control,status,detail
+config_hash,PASS,e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8
+target_roundtrip,PASS,log1p
+physics_mode,PASS,CDP_NEG
+physics_feature,PASS,CDP
+parameter_count,PASS,62977
+synthetic_accepted,PASS,446
+final_epochs,PASS,85
+representative_seed,PASS,126
+single_model_policy,PASS,1
+use_lbfgs,PASS,False
+test_target_rows,PASS,0

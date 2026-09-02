@@ -1,0 +1,91 @@
+{
+  "common_contract": {
+    "development_folds": [
+      "WF01",
+      "WF02",
+      "WF03"
+    ],
+    "development_years": [
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "final_fold": "WF04",
+    "final_may_open_2015_after_frozen_handoff": true,
+    "final_test_year": 2015,
+    "fold_train_only_preprocessing": true,
+    "fold_train_only_synthetic_generation": true,
+    "folds_manifest": "manifests/WF_FOLDS_MANIFEST.json",
+    "gap_records": 0,
+    "gap_status": "FIXED_NOT_OPTUNA",
+    "opt_may_read_2015_features": false,
+    "opt_may_read_2015_targets": false,
+    "protocol_version": "WF_PROTOCOL_R1",
+    "scenario": "ANNUAL_EXPANDING_WALK_FORWARD",
+    "shared_row_assignment": "tables/WF_DEVELOPMENT_ROW_ASSIGNMENT.csv",
+    "temporal_weighting": "uniform",
+    "temporal_weighting_status": "FIXED_NOT_OPTUNA"
+  },
+  "optimization_exclusions": [
+    "gap_records",
+    "temporal_weighting",
+    "physics_mode",
+    "dual_alpha"
+  ],
+  "optuna_owned_parameters": [
+    "n_hidden_layers",
+    "hidden_widths",
+    "activation",
+    "dropout",
+    "physics_dropout_mode",
+    "fourier_dim",
+    "fourier_scale",
+    "target_transform",
+    "nonnegative_output",
+    "loss_data",
+    "huber_delta",
+    "optimizer",
+    "learning_rate",
+    "weight_decay",
+    "batch_size",
+    "max_epochs",
+    "gradient_clip",
+    "lr_scheduler",
+    "lambda_phys",
+    "physics_penalty",
+    "tau_softplus",
+    "physics_warmup_fraction",
+    "physics_real_fraction",
+    "synthetic_base_rows",
+    "synthetic_levels",
+    "synthetic_batch_size",
+    "synthetic_local_span_std"
+  ],
+  "protocol_version": "WF_PROTOCOL_R1",
+  "status": "FROZEN",
+  "target_contracts": {
+    "CO": {
+      "constraint": "dCO_dCDP <= 0",
+      "expected_derivative_sign": "NONPOSITIVE",
+      "final_notebook": "04_Gold_Standard_PINN_CO_WF_FINAL - R1F_STD.ipynb",
+      "lambda_phys_status": "OPTUNA",
+      "opt_notebook": "04_Gold_Standard_PINN_CO_WF_OPT - R1_POC_EFFICIENT.ipynb",
+      "physical_metric": "PCD_CDP_NEG",
+      "physics_feature": "CDP",
+      "physics_mode": "CDP_NEG",
+      "target": "CO"
+    },
+    "NOX": {
+      "constraint": "dNOX_dTIT >= 0",
+      "expected_derivative_sign": "NONNEGATIVE",
+      "final_notebook": "04_Gold_Standard_PINN_NOX_WF_FINAL - R1F_STD.ipynb",
+      "lambda_phys_status": "OPTUNA",
+      "opt_notebook": "04_Gold_Standard_PINN_NOX_WF_OPT - R1_POC_EFFICIENT.ipynb",
+      "physical_metric": "PCD_TIT_INC",
+      "physics_feature": "TIT",
+      "physics_mode": "TIT_INC",
+      "target": "NOX"
+    }
+  }
+}

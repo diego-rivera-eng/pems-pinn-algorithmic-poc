@@ -1,0 +1,20 @@
+{
+  "seed": "ENSEMBLE",
+  "role": "PREDECLARED_ARITHMETIC_MEAN",
+  "N_test": 7384,
+  "final_epochs": 30,
+  "physics_mode": "CDP_NEG",
+  "physics_feature": "CDP",
+  "config_hash": "4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2",
+  "R2": 0.4763875038893831,
+  "RMSE": 1.6171332855295322,
+  "MAE": 1.0932814587706767,
+  "NRMSE_range": 0.039553991041732295,
+  "NRMSE_std": 0.7235617349904944,
+  "bias": -0.9695430315308523,
+  "residual_std": 1.2943466537718529,
+  "pearson_r": 0.8176553885820332,
+  "slope": 0.6171158367176461,
+  "intercept": 0.22887886209424477,
+  "negative_prediction_pct": 0.0
+}

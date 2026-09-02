@@ -1,0 +1,344 @@
+{
+  "status": "COMPLETE",
+  "version": "XGBOOST_NOX_INTERP_FINAL_R1F_STD",
+  "generated_at_utc": "2026-08-19T19:13:39.899287+00:00",
+  "scope": "holdout interpolativo intradominio",
+  "producer_notebook": "07_XGBoost_NOX_INTERP_FINAL - R1F_STD.ipynb",
+  "upstream_notebooks": [
+    "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+    "07_XGBoost_NOX_INTERP_OPT - R1_POC_EFFICIENT.ipynb"
+  ],
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "opt_version": "XGBOOST_NOX_INTERP_OPT_R1_POC_EFFICIENT",
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8",
+  "target": "NOX",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  },
+  "final_n_estimators": 1445,
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "ensemble_rule": "arithmetic_mean_all_predeclared_seeds",
+  "models_frozen_before_test": true,
+  "test_opened_once": true,
+  "test_access_count": 1,
+  "dev_rows": 29845,
+  "test_rows": 6888,
+  "training_elapsed_seconds": 294.89758739998797,
+  "ensemble_metrics": {
+    "R2": 0.744565437398409,
+    "RMSE": 4.738998022580692,
+    "MAE": 3.182540233718394,
+    "bias": 0.3286605367184238,
+    "negative_prediction_pct": 0.0,
+    "tail_threshold": 71.68560000000001,
+    "tail_RMSE": 8.624622699185835,
+    "tail_MAE": 6.126437824686658,
+    "tail_bias": -4.78235039443859
+  },
+  "computational_footprint": {
+    "measurement_scope": "representative_seed_model_and_full_ensemble_storage",
+    "representative_seed": 42,
+    "tree_count": 1445,
+    "node_count": 3902865,
+    "leaf_count": 1952155,
+    "effective_depth_max": 13,
+    "effective_depth_median": 13.0,
+    "configured_max_depth": 13,
+    "serialized_ubj_mib": 127.46174716949463,
+    "serialized_json_mib": 203.83941841125488,
+    "ensemble_ubj_mib": 1276.3894939422607,
+    "ensemble_model_count": 10,
+    "model_storage_format": "UBJ",
+    "cpu_model": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_platform": "Windows-11-10.0.26200-SP0",
+    "cpu_physical_cores": 16,
+    "cpu_logical_threads": 24,
+    "benchmark_device": "cpu",
+    "benchmark_threads": 1,
+    "latency_batch_size": 1,
+    "latency_warmup": 50,
+    "latency_repetitions": 200,
+    "throughput_warmup": 10,
+    "throughput_repetitions": 30,
+    "engine_latency_definition": "preprocessed_X_to_model_output",
+    "end_to_end_latency_definition": "finite_check_model_inverse_target",
+    "engine_latency_cpu_median_ms": 0.2547499898355454,
+    "engine_latency_cpu_p95_ms": 0.35465501714497794,
+    "engine_latency_cpu_p99_ms": 0.39878494746517335,
+    "end_to_end_latency_cpu_median_ms": 0.2589499927125871,
+    "end_to_end_latency_cpu_p95_ms": 0.360724952770397,
+    "end_to_end_latency_cpu_p99_ms": 0.4842650168575343,
+    "throughput_batch_rows": 6888,
+    "throughput_cpu_samples_per_s": 12145.379558440101,
+    "throughput_batch_median_ms": 567.1292500046548,
+    "storage_note": "UBJ and JSON are serialization sizes, not RAM"
+  },
+  "artifact_count": 46,
+  "artifacts": [
+    {
+      "path": "audit/ENVIRONMENT_XGBOOST_NOX_FINAL_R1F_STD.json",
+      "bytes": 454,
+      "sha256": "0ef182d25fb948256552b9e2b3adee500e19b6ee98ff10b35288a11b1d7fadec"
+    },
+    {
+      "path": "audit/PRE_TEST_GATE_R1F_STD.json",
+      "bytes": 2955,
+      "sha256": "5f3fc62ed532d90c3b76957ba3f5e3e93a96387a5cb3c59602c8f78d9e218a39"
+    },
+    {
+      "path": "audit/TARGET_ACCESS_AUDIT_PRE_TEST_R1F_STD.json",
+      "bytes": 253,
+      "sha256": "cd004e1a4d4f85b202c55b12a38394eda425dda8aa8852bab27ab03a4a517146"
+    },
+    {
+      "path": "audit/TEST_ACCESS_AUDIT_R1F_STD.json",
+      "bytes": 359,
+      "sha256": "9a696f3b8548dfa5bf842d23e2089ebb6f9031b99d019215733b32921150c631"
+    },
+    {
+      "path": "configs/BEST_CONFIG_XGBOOST_NOX_INTERP.json",
+      "bytes": 1673,
+      "sha256": "1407e1ae3e802e970129a95712d77b53305fa7822d0995637bb098beb1459509"
+    },
+    {
+      "path": "configs/FINAL_TRAINING_POLICY_XGBOOST_NOX_INTERP_R1.json",
+      "bytes": 586,
+      "sha256": "3861fad4e3bb140d0ca56413abe817dfc3fd2daa4e99c1faad31757100059886"
+    },
+    {
+      "path": "configs/FROZEN_INPUT_SNAPSHOT_R1F_STD.json",
+      "bytes": 957,
+      "sha256": "780d91baa119fd998e02f01b068b6053beb38321286b2a9d2ede7efa02427f28"
+    },
+    {
+      "path": "figures/summary/05_r2_por_semilla.png",
+      "bytes": 36025,
+      "sha256": "4d8210cbe785341cf41ce3162f978d893d56b8d2b9d3b91f213e88fc24a2768f"
+    },
+    {
+      "path": "figures/summary/06_rmse_por_decil.png",
+      "bytes": 27634,
+      "sha256": "7d8938815b7f2bd1043f26652e5a3fc7cb895ee9f5c0e6f61def621996c54f40"
+    },
+    {
+      "path": "figures/summary/07_importancia_gain_seed42.png",
+      "bytes": 26431,
+      "sha256": "c47a94100b42ae4b2fa5c6b74db67b224ad2bb3e63e3bf14fe74504e9cca385a"
+    },
+    {
+      "path": "figures/test/01_paridad_ensamble_test.png",
+      "bytes": 282145,
+      "sha256": "b4a7a8ee58414643a3d30e6e435ecc1a82f89df610129c5145e7cf1de515933d"
+    },
+    {
+      "path": "figures/test/02_serie_ensamble_DEV.png",
+      "bytes": 255113,
+      "sha256": "75043c85cca98a412a63d1a311a072879bb69c69ccbe64170b6325c09637a991"
+    },
+    {
+      "path": "figures/test/02_serie_ensamble_test.png",
+      "bytes": 231681,
+      "sha256": "97f04008763c9b7bc34687e341c1931f5be091ffb455c8ff6f5bd09cf9a74917"
+    },
+    {
+      "path": "figures/test/03_diagnostico_residuales_test.png",
+      "bytes": 205431,
+      "sha256": "ac8ecd5424160938a3d219877a20542e295795300588609c919f5c3451415c67"
+    },
+    {
+      "path": "figures/test/04_residuales_variables_operativas.png",
+      "bytes": 685783,
+      "sha256": "abf211461254044467e4e1f6158bf443eacf38759ffa944d4309f5da72c0cc1a"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed105.metadata.json",
+      "bytes": 569,
+      "sha256": "6f0f4454d53fce0cda6a76127860fcf799923d8c356bef8e72a62d1de770d93f"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed105.ubj",
+      "bytes": 133542897,
+      "sha256": "bdcd9025d650944798fcfb688dc42c245cb10a5b96b1cc347e27b921ab0eead5"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed126.metadata.json",
+      "bytes": 569,
+      "sha256": "9684d54844120fa6dae1398a2a8bc68c765472bf6252c4716406b10f67d1990a"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed126.ubj",
+      "bytes": 134191752,
+      "sha256": "6f9435fe1b2df05d6f49806b571b99769e627a0f031ede3a12ea190164568ce6"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed147.metadata.json",
+      "bytes": 569,
+      "sha256": "4661747931d30b0fd86d9576820ca52a8bfdd61690a4aa758933b60f9421f3c6"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed147.ubj",
+      "bytes": 133970546,
+      "sha256": "99e2207f089b5e11cbe02edd07046303f9fbb121600800fc0bfb2a687b1d0903"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed168.metadata.json",
+      "bytes": 569,
+      "sha256": "7dfefdfb47f76227aa539631f709598119ea2010927cd4c9aafd619dfea0e1c4"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed168.ubj",
+      "bytes": 133321961,
+      "sha256": "febb151246a13def185d23361f37afe03fd38cf53525ca690eded86d20f1a251"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed189.metadata.json",
+      "bytes": 569,
+      "sha256": "2bbc77d0a545adc589afa83cf7dd752a82c46bc39444188af4277f681bff5399"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed189.ubj",
+      "bytes": 134235888,
+      "sha256": "239ac8e869b7b3764c46ec63931ed8d76bd6949db70092b7fd3cbcbfa63fa8b6"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed21.metadata.json",
+      "bytes": 567,
+      "sha256": "6d5d51d9f75ea862a997cc49c647af60f02ce1c86278aa62f8f4bde47f533586"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed21.ubj",
+      "bytes": 133611443,
+      "sha256": "df941842aaf3f8b61e92b55c375d42e3ad9d32681f25444b394d21af93b1bc25"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed210.metadata.json",
+      "bytes": 569,
+      "sha256": "51c522f94c1e315344c1ed98a0e209d056786fa2d99fbab4cef20e902af46637"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed210.ubj",
+      "bytes": 133756556,
+      "sha256": "243fa36d1530d8bb6fb7e1ce74c88381f4e4540ca1c07be12ad2e6266cea61cc"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed42.metadata.json",
+      "bytes": 567,
+      "sha256": "2baf00664941d3d595139ba76f4534212d728399e1529aeccf7ed6864a2bd629"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed42.ubj",
+      "bytes": 133653329,
+      "sha256": "d4b11175fd623fb8089b70dd4650cbe25dd6bad31f0675e7e5d855ffb8eff68f"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed63.metadata.json",
+      "bytes": 567,
+      "sha256": "6e1aa22d333f4c718d916469902a83a4530e58cec72e4e54ee009b6a3e4a902b"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed63.ubj",
+      "bytes": 133890240,
+      "sha256": "452380227b00a0c35a1af13cf2f9758f17b68146ac994d6928c0a9615a8585bd"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed84.metadata.json",
+      "bytes": 567,
+      "sha256": "1715296c6eaed8a62c3368438ec78be137bb6e862b334f6d6590defc97e1dfab"
+    },
+    {
+      "path": "models/XGBOOST_NOX_INTERP_seed84.ubj",
+      "bytes": 134216778,
+      "sha256": "9f496279523068eb490a3b699b7984844b22d8af66d56291aa7fb906daea391d"
+    },
+    {
+      "path": "reports/INFORME_TECNICO_XGBOOST_NOX_INTERP_FINAL_R1F_STD.md",
+      "bytes": 1349,
+      "sha256": "3fe01feb5dba56676713cb055dfd5acacf1f2c805c16b7cd5b4b6fd23f254519"
+    },
+    {
+      "path": "tables/computational_footprint.csv",
+      "bytes": 1276,
+      "sha256": "fb7b63778601747b7e2b9429f3dd27741da260558ef6cd4bae203099d45c132c"
+    },
+    {
+      "path": "tables/computational_footprint.json",
+      "bytes": 1541,
+      "sha256": "9d747b9c64b6af069404d0f61257f01a88e977ce1fa5e10d4afe9e41ac119c53"
+    },
+    {
+      "path": "tables/feature_importance_gain_seed42.csv",
+      "bytes": 221,
+      "sha256": "9a0e5283eae6da039eaddbd9ba1e0b9382c56356e5f4a10cb2f5e8143404cc74"
+    },
+    {
+      "path": "tables/model_complexity.csv",
+      "bytes": 1276,
+      "sha256": "fb7b63778601747b7e2b9429f3dd27741da260558ef6cd4bae203099d45c132c"
+    },
+    {
+      "path": "tables/test_metrics_by_decile.csv",
+      "bytes": 1779,
+      "sha256": "23abba47790f7c9a5b2fab7ced8aaf58a630709a24dc29ff922fda524f51e14e"
+    },
+    {
+      "path": "tables/test_metrics_by_seed.csv",
+      "bytes": 1659,
+      "sha256": "60975965fd46ed8b6871b482344f8f2125c90346375e43125c01051c28522d27"
+    },
+    {
+      "path": "tables/test_metrics_ensemble.json",
+      "bytes": 300,
+      "sha256": "a61f74e3e2d0aa3563c6aee194af15435fada60b0525e94c464ea7cc2b856a62"
+    },
+    {
+      "path": "tables/test_predictions.csv",
+      "bytes": 1672050,
+      "sha256": "20233dc07b803d320a23a51667ff088b44cc329bddf1cc10c475798303a96774"
+    },
+    {
+      "path": "tables/test_summary_multiseed.csv",
+      "bytes": 935,
+      "sha256": "c480e4d82522216d6df7607d1c941fb83e35b45cc387efe3541e97708773f28f"
+    },
+    {
+      "path": "tables/training_summary_by_seed.csv",
+      "bytes": 1159,
+      "sha256": "6184e2116449c196bc6630ba4a57c76bcdb89de060a50a845b473f14165c1659"
+    }
+  ],
+  "limitations": [
+    "No valida transferencia temporal.",
+    "No demuestra extrapolación fuera del dominio.",
+    "No equivale a certificación PEMS, RATA ni homologación regulatoria."
+  ]
+}

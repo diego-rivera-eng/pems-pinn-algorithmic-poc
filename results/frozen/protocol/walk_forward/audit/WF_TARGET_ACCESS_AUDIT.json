@@ -1,0 +1,24 @@
+{
+  "development_x_value_reads": 4,
+  "generated_at_utc": "2026-08-17T00:00:00Z",
+  "header_only_reads": 5,
+  "materialized_target_value_reads": 0,
+  "pandas_usecols": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "protected_targets": [
+    "CO",
+    "NOX"
+  ],
+  "protocol_version": "WF_PROTOCOL_R1",
+  "statement": "CO y NOX se verificaron como nombres de encabezado; sus valores no se materializaron.",
+  "status": "PASS"
+}

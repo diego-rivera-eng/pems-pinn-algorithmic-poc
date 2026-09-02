@@ -1,0 +1,17 @@
+# Reference environment for repository inspection and notebook adaptation.
+# Historical runs used more than one frozen environment; see docs/reproducibility.md.
+numpy>=2.1,<3
+pandas>=2.2,<4
+scipy>=1.14,<2
+matplotlib>=3.9,<4
+scikit-learn>=1.6,<2
+torch>=2.11,<2.14
+xgboost>=3.0,<4
+optuna>=4.9,<5
+joblib>=1.5,<2
+psutil>=6,<8
+jupyterlab>=4,<5
+nbconvert>=7,<8
+ipykernel>=6,<8
+pyyaml>=6,<7
+

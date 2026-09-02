@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime and optimization state
+*.log
+*.tmp
+*.temp
+*.bak
+*.bkup
+*.sqlite
+*.sqlite3
+*.db
+*.lock
+checkpoints/
+failed_runs/
+recovery_backups/
+live_monitor*/
+
+# Generated outputs outside the frozen evidence package
+outputs/
+artifacts/
+dist/
+build/
+
+# Local manuscript and office lock files
+2248541 TDA - R11M.docx
+~$*.docx
+

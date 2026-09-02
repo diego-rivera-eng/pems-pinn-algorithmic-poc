@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "seed": 84,
+  "target": "NOX",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "config_hash": "c3f6ea945fde5b226dc4d00e915ecd01e3ca02514412e66a095d3e589af67e5b",
+  "campaign_fingerprint": "4ee6fad4b338c223901b2c2b390ba51be5706a235815e2a4dd04b7653c4ac09b",
+  "n_estimators": 1032,
+  "model_path": "models/wf/work_xgboost_nox_wf_final_r1f_std/models/XGBOOST_NOX_WF_seed84.ubj",
+  "model_sha256": "74be55ce7b0e150d31b6a9323cb38aece1b93e1ae4cc58cb2c9d34a502529d7c",
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "train_rows": 29349,
+  "train_years": [
+    2011,
+    2012,
+    2013,
+    2014
+  ],
+  "test_used": false
+}

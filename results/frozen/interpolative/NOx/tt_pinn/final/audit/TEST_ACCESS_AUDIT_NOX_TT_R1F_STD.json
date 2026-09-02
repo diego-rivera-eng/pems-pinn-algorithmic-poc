@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T06:37:18.093334+00:00",
+  "opened_once_in_tt_execution": true,
+  "access_count": 1,
+  "purpose": "FINAL_PAIRED_EVALUATION_ONLY",
+  "pre_test_gate_sha256": "b9f331658974996a563c5a2c12cd0ea7a9bff19c73b9d9e18753232598594384",
+  "model_frozen_before_access": true,
+  "test_target_rows_materialized": 6888,
+  "test_target_vector_materialized": true,
+  "full_dataset_target_vector_materialized": false,
+  "dense_baseline_had_historical_test_access": true,
+  "events": [
+    {
+      "year": 2011,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2012,
+      "rows_test_materialized": 1512,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2013,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2014,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2015,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    }
+  ]
+}

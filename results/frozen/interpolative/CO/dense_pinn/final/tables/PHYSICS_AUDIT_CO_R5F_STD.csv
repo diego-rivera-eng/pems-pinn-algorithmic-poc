@@ -1,0 +1,3 @@
+split,physics_mode,physics_feature,expected_derivative_sign,PCD_pct,violation_pct,near_zero_pct,physical_gradient_mean,physical_gradient_median,physical_gradient_q05,physical_gradient_q95,diagnostic_only_tit_negative_gradient_pct,diagnostic_only_tit_positive_gradient_pct,diagnostic_only_tit_near_zero_pct,diagnostic_only_dCO_dTIT_median
+DEV,CDP_NEG,CDP,<= 0,99.4140625,0.5859375,0.0,-0.1711079329252243,-0.13571837544441223,-0.43281638622283936,-0.022526707500219345,48.92578125,51.07421875,0.0,0.001866760547272861
+TEST,CDP_NEG,CDP,<= 0,99.12109375,0.87890625,0.0,-0.1536717414855957,-0.12433406710624695,-0.37341588735580444,-0.02345847897231579,43.798828125,56.201171875,0.0,0.014729401096701622

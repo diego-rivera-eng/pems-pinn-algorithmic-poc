@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED",
+  "version": "XGBOOST_CO_INTERP_FINAL_R1F_STD",
+  "generated_at_utc": "2026-08-19T19:07:14.502761+00:00",
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "opt_version": "XGBOOST_CO_INTERP_OPT_R1_POC_EFFICIENT",
+  "protocol_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "opt_notebook": "07_XGBoost_CO_INTERP_OPT - R1_POC_EFFICIENT.ipynb",
+  "config_hash": "9c254d014635ed5849756616f5ed8ef37b078c2ae7c2cf149831a2a07060d629",
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "best_config_file_sha256": "647c6a296fb3d5a2712fc52e32c4b4b8db17420ddfd0cc16705b3682e25a397f",
+  "training_policy_file_sha256": "fd84fd2a0f736652ed4c4a3a1852db551032792ecf828a4c173cf628bae19502",
+  "pre_test_gate_sha256": "36957fd3c15ba8a75217c5a580463d19481ec7214289419246822255d513929a"
+}

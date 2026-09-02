@@ -1,0 +1,27 @@
+{
+  "status": "FINAL_EXECUTED_SCOPE_DECLARATION",
+  "version": "TT_PINN_CO_INTERP_FINAL_R1F_STD",
+  "target": "CO",
+  "model_family": "TT_PINN",
+  "single_model": true,
+  "representative_seed_count": 1,
+  "ensemble_used": false,
+  "hyperparameter_search_performed": false,
+  "rank_selected_with_predictive_metrics": false,
+  "test_used_for_adjustment": false,
+  "retraining_after_test": false,
+  "input_layer_dense": true,
+  "output_layer_dense": true,
+  "hidden_to_hidden_layers_tt": true,
+  "forward_dense_reconstruction": false,
+  "dense_baseline_test_was_historically_open": true,
+  "tt_execution_test_access_count": 1,
+  "engineering_margins": {
+    "max_r2_drop": 0.02,
+    "max_rmse_ratio": 1.1,
+    "max_mae_ratio": 1.1,
+    "max_pcd_drop_pp": 1.0,
+    "min_state_dict_reduction_fraction": 0.75,
+    "origin": "PREDECLARED_ENGINEERING_R1_NOT_FROM_PAPER_OR_PEMS_NORM"
+  }
+}

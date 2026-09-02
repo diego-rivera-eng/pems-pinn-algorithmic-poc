@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-08-27T05:06:26.252529+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "torch": "2.13.0+cu132",
+  "optuna": "4.9.0",
+  "joblib": "1.5.3",
+  "cuda_available": true,
+  "cuda_version": "13.2",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_total_memory_gb": 15.89398193359375,
+  "ram_gb": 31.745697021484375,
+  "tf32": true,
+  "deterministic_warn_only": true,
+  "parallel_strategy": "FOLD_LEVEL_LOKY_SINGLE_WRITER_R6",
+  "parallel_backend": "loky",
+  "parallel_candidate_workers": [
+    1,
+    2,
+    3
+  ],
+  "optuna_n_jobs": 1,
+  "fold_execution_policy": "TWO_FOLD_SCREEN_THEN_THREE_FOLD_PROMOTION",
+  "max_fold_workers": 3
+}

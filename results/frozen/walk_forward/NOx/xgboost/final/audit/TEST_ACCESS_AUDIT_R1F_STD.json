@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T23:39:24.276059+00:00",
+  "target": "NOX",
+  "opened_once": true,
+  "access_count": 1,
+  "test_rows_materialized": 7384,
+  "gt_2015_sha256_after_authorized_open": "9b08f35fde0d4b138232a605db4093c2b8bf9d6757e6f1fbd9534ad616c13591",
+  "other_pollutant_materialized": false,
+  "models_frozen_before_test": true,
+  "pre_test_gate_sha256": "539c50bddd8c0b0cc1adde05b633e6b51def626291ecad415982cf8d3e31550a"
+}

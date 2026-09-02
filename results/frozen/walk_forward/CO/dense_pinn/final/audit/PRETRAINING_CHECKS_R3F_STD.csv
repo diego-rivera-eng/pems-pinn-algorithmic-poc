@@ -1,0 +1,12 @@
+control,status,detail
+config_hash,PASS,4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2
+target_roundtrip,PASS,original
+physics_mode,PASS,CDP_NEG
+physics_feature,PASS,CDP
+monotonic_constraint,PASS,dCO_dCDP_le_0
+parameter_budget,PASS,50273
+physical_gradient,PASS,dCO_dCDP
+synthetic_accepted,PASS,630
+final_epochs,PASS,30
+final_seeds,PASS,10
+test_target_before_training,PASS,0

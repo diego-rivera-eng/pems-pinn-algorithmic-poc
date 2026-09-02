@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_NOX_WF_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T23:35:44.603719+00:00",
+  "target": "NOX",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "fixed_xgb_parameters": {
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "grow_policy": "depthwise",
+    "max_bin": 256,
+    "objective": "reg:squarederror",
+    "sampling_method": "uniform",
+    "colsample_bylevel": 1.0,
+    "colsample_bynode": 1.0,
+    "verbosity": 0
+  },
+  "xgb_parameters": {
+    "learning_rate": 0.061078622536982874,
+    "max_depth": 15,
+    "min_child_weight": 6.738948436325589,
+    "gamma": 1.0818405026366831e-05,
+    "subsample": 0.5894277867285105,
+    "colsample_bytree": 0.9916006649720152,
+    "reg_alpha": 7.195881635842271,
+    "reg_lambda": 944.3130760492467
+  },
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  },
+  "provenance_candidate_id": "OPTUNA_0032",
+  "ranking_rule": "worst_fold_median_R2_then_R2_q10_median_mean_errors_stability_bytes",
+  "campaign_schema": "XGBOOST_NOX_WF_R1_ALL_THREE_FOLDS_FULL_EVAL",
+  "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+  "development_folds": [
+    "WF01",
+    "WF02",
+    "WF03"
+  ],
+  "final_fold": "WF04",
+  "test_opened": false,
+  "test_sha256_computed": false,
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "campaign_fingerprint": "4ee6fad4b338c223901b2c2b390ba51be5706a235815e2a4dd04b7653c4ac09b",
+  "config_hash": "c3f6ea945fde5b226dc4d00e915ecd01e3ca02514412e66a095d3e589af67e5b"
+}

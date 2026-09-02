@@ -1,0 +1,116 @@
+{
+  "schema_version": "R6F_STD_TEST_LEDGER_V1",
+  "version": "NOX_INTERP_FINAL_R6F_STD",
+  "execution_id": "00e06d12-1c13-4b4e-912d-aa6ff4411f20",
+  "revision": 7,
+  "state": "COMPLETE",
+  "created_at_utc": "2026-08-27T06:26:54.983545+00:00",
+  "updated_at_utc": "2026-08-27T06:32:31.919706+00:00",
+  "access_count": 1,
+  "target_rows_materialized": 6888,
+  "model_sha256_before_test": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+  "config_sha256_before_test": "316b5f89c38693bd28de49339bc3b67aaa1cf2ad644158f069650961908c2600",
+  "model_count": 1,
+  "model_frozen_at_utc": "2026-08-27T06:32:27.129948+00:00",
+  "pre_test_gate_sha256": "7888ff8b486c428f2d9c869b6629f434c2084ddf0fc1e6aa737a33bf58af4e6a",
+  "model_sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+  "best_config_file_sha256": "316b5f89c38693bd28de49339bc3b67aaa1cf2ad644158f069650961908c2600",
+  "best_config_hash": "bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5",
+  "frozen_manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752",
+  "access_intent_at_utc": "2026-08-27T06:32:27.202073+00:00",
+  "purpose": "FINAL_EVALUATION_ONLY",
+  "opened_at_utc": "2026-08-27T06:32:27.249071+00:00",
+  "events": [
+    {
+      "year": 2011,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2012,
+      "rows_test_materialized": 1512,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2013,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2014,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2015,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    }
+  ],
+  "evaluated_at_utc": "2026-08-27T06:32:27.478859+00:00",
+  "predictions_written": true,
+  "metrics_written": true,
+  "completed_at_utc": "2026-08-27T06:32:31.915110+00:00",
+  "final_manifest_sha256": "982607c9407282f3b7287fce4d37e339855cefbe5a140d45ed09932cbfeda49d",
+  "artifact_hash_table_sha256": "1d28fcae7c3daf0f3b2d561fd8b67dc3359b16e75f60edad61d0991f202fa7a1"
+}

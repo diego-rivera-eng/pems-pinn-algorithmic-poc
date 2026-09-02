@@ -1,0 +1,100 @@
+{
+  "design_matrix_sha256": "092f29ad95561b52b7f3816234ac45e2a68b7e1ef4ab90694d7b5de6744f9b5e",
+  "development_data_hashes": [
+    {
+      "path": "data\\raw\\gt_2011.csv",
+      "sha256": "d87ceef9aa59533cc7d924d10de241b1b06ecd11f9b26bab59191ea0f8a76b9a",
+      "year": 2011
+    },
+    {
+      "path": "data\\raw\\gt_2012.csv",
+      "sha256": "be54b9d0e1a7de40c55d32fa489e75de892b000c066b5a09f09a19124ee29100",
+      "year": 2012
+    },
+    {
+      "path": "data\\raw\\gt_2013.csv",
+      "sha256": "13c437bb440ec2045bd12057e6654c41dd4107a661eac16ba2e878e897a08f9e",
+      "year": 2013
+    },
+    {
+      "path": "data\\raw\\gt_2014.csv",
+      "sha256": "c2a03c92c9c3207aad0c6be7de8d9b5b4bfa4720ad0efb2c1f21b6cec4d3f3fa",
+      "year": 2014
+    }
+  ],
+  "development_years": [
+    2011,
+    2012,
+    2013,
+    2014
+  ],
+  "expected_development_rows": 29349,
+  "expected_rows_by_year": {
+    "2011": 7411,
+    "2012": 7628,
+    "2013": 7152,
+    "2014": 7158,
+    "2015": 7384
+  },
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "figure_sha256": "b0c5f1c370d1f06bfdbf60bd4fa53213f7a04bfd683e5f9e62d0c9fc94adf607",
+  "final_test_year": 2015,
+  "fixed_parameters": {
+    "gap_records": 0,
+    "temporal_weighting": "uniform"
+  },
+  "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "generated_at_utc": "2026-08-17T00:00:00Z",
+  "protected_targets": [
+    "CO",
+    "NOX"
+  ],
+  "protocol_version": "WF_PROTOCOL_R1",
+  "reference_sources": [
+    {
+      "role": "Estructura, artefactos, controles y escritura atómica",
+      "sha256": "38299fe842f761719b070fc340d71c645269730fd2b3eee3ef00eee72daf5e28",
+      "source": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb"
+    },
+    {
+      "role": "Splitter anual NOx, antifuga y física TIT",
+      "sha256": "dfe58b9407ab5dcb708534a1347e67afaaea643d38bad2b3f1f8197bf8b26e47",
+      "source": "04_Gold_Standard_PINN_NOX_WF04 - R7.ipynb"
+    },
+    {
+      "role": "Splitter anual CO, antifuga y física CDP",
+      "sha256": "ef658af8f25667ed229f9e6864fa66bd23652f4f8221a252f286fc6064612e31",
+      "source": "04_Gold_Standard_PINN_CO_WF04 - R9.ipynb"
+    },
+    {
+      "role": "Documento rector de estilo y calidad",
+      "sha256": "6b3664fdea88ae854399e769af44aa705e0103b18c6179c1216cd9d297215224",
+      "source": "Manual Estilo Convenciones Notebooks - R4.md"
+    },
+    {
+      "role": "Rutas canónicas de Drive",
+      "sha256": "395787c2c899d9347424611e2535b51aa826ea394359cd9a99b26966001a665a",
+      "source": "Estructura Archivos Colab.txt"
+    }
+  ],
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "scope": "Annual expanding walk-forward shared by NOX and CO; 2015 reserved for FINAL.",
+  "status": "FROZEN",
+  "test_protection": {
+    "authorized_stage": "WF_FINAL_AFTER_FROZEN_HANDOFF",
+    "metrics_2015_computed": false,
+    "sha256_2015_computed": false,
+    "x_2015_materialized": false,
+    "y_2015_materialized": false
+  }
+}

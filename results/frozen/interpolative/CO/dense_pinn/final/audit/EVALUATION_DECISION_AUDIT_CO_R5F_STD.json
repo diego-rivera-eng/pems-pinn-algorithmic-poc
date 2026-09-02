@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T05:52:08.920944+00:00",
+  "test_physics_status": "PASS",
+  "pcd_test_pct": 99.12109375,
+  "pcd_reference_threshold_pct": 95.0,
+  "model_changed_after_test": false,
+  "seed_changed_after_test": false,
+  "epochs_changed_after_test": false,
+  "hyperparameters_changed_after_test": false,
+  "candidate_changed_after_test": false,
+  "retraining_after_test": false,
+  "interpretation": "TEST informs; TEST does not decide"
+}

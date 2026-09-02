@@ -1,0 +1,2 @@
+trial_number,candidate,status,failure_reason,failure_seed,failure_fold,source_audit,lbfgs_rows_persisted,fallback_fo_rows,fallback_strategy,selected_before_test,test_opened
+97,TRIAL_0097_CDP_NEG,REJECTED_NUMERICAL_INSTABILITY,non_finite_lbfgs_loss,21,0,RESUME_LBFGS_FROM_10_SERIAL_FINALIZE_CO_R5.json,0,25,FO_ONLY,True,False

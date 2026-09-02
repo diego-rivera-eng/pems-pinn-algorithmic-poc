@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T03:30:30.242940+00:00",
+  "opened_once": true,
+  "access_count": 1,
+  "purpose": "WF04_FINAL_EVALUATION_ONLY",
+  "pre_test_gate_sha256": "f32856d62352fbc44c78313e90ce17a303ee717f8076289cdf13119ce88ad43b",
+  "models_frozen_before_access": true,
+  "test_target_rows_materialized": 7384,
+  "test_feature_rows_materialized": 7384,
+  "gt_2015_sha256_after_authorized_open": "9b08f35fde0d4b138232a605db4093c2b8bf9d6757e6f1fbd9534ad616c13591",
+  "non_target_pollutant_materialized": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN",
+  "source": "DEV champion confirmation 3 WF folds x 5 seeds",
+  "FINAL_EPOCHS": 45,
+  "q25": 10.0,
+  "q75": 120.0,
+  "min": 5,
+  "max": 155,
+  "n": 15
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T06:16:56.105449+00:00",
+  "target": "NOX",
+  "dev_target_rows_materialized": 29845,
+  "test_target_rows_materialized": 0,
+  "full_dataset_target_vector_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_total_metadata": 7411,
+      "rows_dev_materialized": 6067,
+      "rows_test_target_materialized": 0,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "policy": "ASSIGNMENT_FIRST_SAME_ROWS_FOR_X_AND_Y"
+    },
+    {
+      "year": 2012,
+      "rows_total_metadata": 7628,
+      "rows_dev_materialized": 6116,
+      "rows_test_target_materialized": 0,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "policy": "ASSIGNMENT_FIRST_SAME_ROWS_FOR_X_AND_Y"
+    },
+    {
+      "year": 2013,
+      "rows_total_metadata": 7152,
+      "rows_dev_materialized": 5808,
+      "rows_test_target_materialized": 0,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "policy": "ASSIGNMENT_FIRST_SAME_ROWS_FOR_X_AND_Y"
+    },
+    {
+      "year": 2014,
+      "rows_total_metadata": 7158,
+      "rows_dev_materialized": 5814,
+      "rows_test_target_materialized": 0,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "policy": "ASSIGNMENT_FIRST_SAME_ROWS_FOR_X_AND_Y"
+    },
+    {
+      "year": 2015,
+      "rows_total_metadata": 7384,
+      "rows_dev_materialized": 6040,
+      "rows_test_target_materialized": 0,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "policy": "ASSIGNMENT_FIRST_SAME_ROWS_FOR_X_AND_Y"
+    }
+  ]
+}

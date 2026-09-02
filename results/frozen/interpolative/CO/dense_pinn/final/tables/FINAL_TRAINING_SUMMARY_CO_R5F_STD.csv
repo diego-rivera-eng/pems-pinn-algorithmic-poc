@@ -1,0 +1,2 @@
+seed,status,final_epochs,train_rows,parameter_count,training_time_s,use_lbfgs,lbfgs_outer_steps_executed,reload_max_abs_difference,model_path,model_sha256
+126,MODEL_FROZEN_DEV_ONLY,85,29845,62977,11.55324620000465,False,0,0.0,model\final_model_seed_126.pt,f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81

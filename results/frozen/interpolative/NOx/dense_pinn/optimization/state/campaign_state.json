@@ -1,0 +1,66 @@
+{
+  "version": "NOX_INTERP_OPT_R6",
+  "status": "COMPLETE",
+  "phase": "HANDOFF_READY",
+  "run_mode": "FULL_AUTO",
+  "updated_at_utc": "2026-08-27T05:49:49.062267+00:00",
+  "protocol_status": "FROZEN",
+  "campaign_schema": "R6_AUTONOMOUS_TPE_TIT_INC_2PLUS3_TOP5_STAGED_ESCALATION_LBFGS",
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea",
+  "upstream_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_NOX_INTERP_FINAL - R6F_STD.ipynb",
+  "authorized_monitor": "LIVE_MONITOR_PINN_CO_INTERP_R6.ipynb",
+  "output_rel": "models/interp/work_pinn_nox_interp_opt_r6",
+  "test_opened": false,
+  "test_metrics_computed": false,
+  "elapsed_seconds": 2598.9969502999957,
+  "trial_counts": {
+    "complete": 87,
+    "pruned": 30,
+    "fail": 7,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 124
+  },
+  "stop_reason": "STOP_ADAPTIVE_STABILIZATION",
+  "physics_mode": "TIT_INC",
+  "monotonic_constraint": "dNOx_dTIT_ge_0",
+  "physics_scale_quantiles": [
+    0.05,
+    0.95
+  ],
+  "parallel_strategy": "FOLD_LEVEL_LOKY_SINGLE_WRITER_R6",
+  "parallel_workers": 3,
+  "optuna_n_jobs": 1,
+  "parallel_preflight_status": "PASS_PARALLEL",
+  "fold_execution_policy": "TWO_FOLD_SCREEN_THEN_THREE_FOLD_PROMOTION",
+  "stop_policy_version": "R6_TOP10_STABILIZATION_V1",
+  "minimum_attempted_trials": 100,
+  "minimum_complete_trials": 50,
+  "maximum_attempted_trials": 200,
+  "adaptive_block_size": 10,
+  "stable_blocks_required": 3,
+  "material_gain": 0.002,
+  "top_n_confirmation": 5,
+  "confirmation_seeds_initial": [
+    21,
+    42,
+    84
+  ],
+  "confirmation_seeds_reserve": [
+    126,
+    168
+  ],
+  "confirmation_seeds_executed": [
+    21,
+    42,
+    84
+  ],
+  "top_n_lbfgs": 3,
+  "lbfgs_workers": 1,
+  "final_model_seeds": [
+    84
+  ],
+  "frozen_manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752",
+  "handoff_sha256": "65120c027a0a20df1bff65fafc05e1237df30cba41b9364429e19f7633e8e867"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_NOX_INTERP_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T07:20:35.535023+00:00",
+  "target": "NOX",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "fixed_xgb_parameters": {
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "grow_policy": "depthwise",
+    "max_bin": 256,
+    "objective": "reg:squarederror",
+    "sampling_method": "uniform",
+    "colsample_bylevel": 1.0,
+    "colsample_bynode": 1.0,
+    "verbosity": 0
+  },
+  "xgb_parameters": {
+    "learning_rate": 0.006031644089015195,
+    "max_depth": 13,
+    "min_child_weight": 1.546794162409988,
+    "gamma": 0.0,
+    "subsample": 0.6108318592796345,
+    "colsample_bytree": 0.9444494969714717,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.10847212638539946
+  },
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  },
+  "provenance_candidate_id": "OPTUNA_0047",
+  "ranking_rule": "five_folds_then_R2_min_R2_median_RMSE_MAE_bias_stability_bytes",
+  "test_opened": false,
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8"
+}

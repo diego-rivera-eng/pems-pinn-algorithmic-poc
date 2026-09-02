@@ -1,0 +1,4 @@
+trial_number,candidate,decision,use_lbfgs,failed,seeds_initial,seeds_reserve,seeds_executed,pcd_min,r2_win_fraction,median_delta_R2,median_delta_PCD,adoption_gate_pass,extension_gate_pass
+37,TRIAL_0037_TIT_INC,REJECTED_FAILURE_FO_ONLY,False,True,"[21,42]",[84],[],,,,,False,False
+85,TRIAL_0085_TIT_INC,REJECTED_FAILURE_FO_ONLY,False,True,"[21,42]",[84],[],,,,,False,False
+115,TRIAL_0115_TIT_INC,REJECTED_FAILURE_FO_ONLY,False,True,"[21,42]",[84],[21],100.0,0.0,-0.03429209165805791,0.0,False,False

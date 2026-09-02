@@ -1,0 +1,57 @@
+{
+  "version": "CO_INTERP_OPT_R5",
+  "status": "COMPLETE",
+  "run_mode": "FULL_AUTO",
+  "updated_at": "2026-08-26T03:21:52.170107+00:00",
+  "protocol_status": "FROZEN",
+  "upstream_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "upstream_protocol_rel": "models\\interp\\work_pinn_interp_protocol",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb",
+  "output_rel": "models\\interp\\work_pinn_co_interp_opt_r5",
+  "lineage_contract_sha256": "41dd2d35ba3c59a9383e4afa09992855d498d021ec22cc8a4d64da499b78c6da",
+  "test_opened": false,
+  "test_metrics_computed": false,
+  "elapsed_seconds": 276.21426670000073,
+  "trial_counts": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "stop_reason": "STOP_ADAPTIVE_STABILIZATION",
+  "physics_mode": "CDP_NEG",
+  "monotonic_constraint": "dCO_dCDP_le_0",
+  "physics_scale_quantiles": [
+    0.05,
+    0.95
+  ],
+  "parallel_strategy": "FOLD_LEVEL_LOKY_PROCESSES_WITH_2PLUS3_BARRIERS",
+  "parallel_workers": 1,
+  "optuna_n_jobs": 1,
+  "parallel_preflight_status": "SERIAL_RECOVERY_AFTER_NVIDIA_EVENT_153",
+  "fold_execution_policy": "TWO_FOLD_SCREEN_THEN_THREE_FOLD_PROMOTION",
+  "fixed_search_parameters": {
+    "physics_mode": "CDP_NEG"
+  },
+  "survey_attempts": 30,
+  "adaptive_block_size": 10,
+  "stable_blocks_required": 3,
+  "stop_policy_version": "R5_TOP10_STABILIZATION_V1",
+  "minimum_attempted_trials": 100,
+  "minimum_complete_trials": 50,
+  "maximum_attempted_trials": 200,
+  "tpe_startup_trials": 25,
+  "material_gain": 0.002,
+  "top_n_confirmation": 10,
+  "confirmation_seeds": [
+    21,
+    42,
+    84,
+    126,
+    168
+  ],
+  "top_n_lbfgs": 3,
+  "max_trainable_parameters": 500000
+}

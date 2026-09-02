@@ -1,0 +1,12 @@
+{
+  "version": "NOX_WF_OPT_R3_POC_EFFICIENT",
+  "phase": "FROZEN",
+  "updated_at_utc": "2026-08-18T22:46:50.741795+00:00",
+  "run_mode": "FULL_AUTO",
+  "test_opened": false,
+  "development_stop_reason": "HARD_CAP_TOP3_CONFIRMATION_FALLBACK",
+  "development_authorization_mode": "HARD_CAP_TOP3_FALLBACK",
+  "trial_number": 33,
+  "config_hash": "5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05",
+  "final_epochs": 45
+}

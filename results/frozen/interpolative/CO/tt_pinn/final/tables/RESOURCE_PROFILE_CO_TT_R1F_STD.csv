@@ -1,0 +1,3 @@
+model_family,device,parameter_count,parameter_bytes_float32,state_dict_bytes,checkpoint_bytes,latency_batch1_median_ms,latency_batch1_p95_ms,throughput_rows_s,benchmark_rows,latency_repetitions,throughput_repetitions
+DENSE_PINN,cuda,62977,251908,255871,261215,0.21764999837614596,0.6279650029682665,13091978.397108546,4096,200,30
+TT_PINN,cuda,12582,50328,59843,68373,1.701449999018223,3.5331300028701573,1592464.8214562193,4096,200,30

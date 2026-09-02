@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_CO_INTERP_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T08:09:00.697912+00:00",
+  "target": "CO",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "fixed_xgb_parameters": {
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "grow_policy": "depthwise",
+    "max_bin": 256,
+    "objective": "reg:squarederror",
+    "sampling_method": "uniform",
+    "colsample_bylevel": 1.0,
+    "colsample_bynode": 1.0,
+    "verbosity": 0
+  },
+  "xgb_parameters": {
+    "learning_rate": 0.04,
+    "max_depth": 8,
+    "min_child_weight": 8.0,
+    "gamma": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.9,
+    "reg_alpha": 0.0001,
+    "reg_lambda": 10.0
+  },
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  },
+  "provenance_candidate_id": "ANCHOR_BALANCED_identity",
+  "ranking_rule": "five_folds_then_R2_min_R2_median_RMSE_MAE_bias_stability_bytes",
+  "test_opened": false,
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "config_hash": "9c254d014635ed5849756616f5ed8ef37b078c2ae7c2cf149831a2a07060d629"
+}

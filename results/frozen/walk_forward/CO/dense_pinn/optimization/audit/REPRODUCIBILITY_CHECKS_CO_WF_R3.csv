@@ -1,0 +1,13 @@
+check,pass,status
+scaler_fold_train_only,True,PASS
+physics_sample_full_fold,True,PASS
+single_constraint_declared,True,PASS
+knn_fold_train_policy,True,PASS
+gradient_units_and_negative_sign,True,PASS
+cdp_inequality_tolerance_includes_zero,True,PASS
+tit_diagnostic_is_finite_and_non_restrictive,True,PASS
+positive_gradient_penalized_only,True,PASS
+dropout_physics_deterministic,True,PASS
+synthetic_cdp_envelope,True,PASS
+model_reproducible,True,PASS
+serialization,True,PASS

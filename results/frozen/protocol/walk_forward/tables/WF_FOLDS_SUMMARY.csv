@@ -1,0 +1,5 @@
+fold,purpose,train_years,evaluation_year,evaluation_role,gap_records,temporal_weighting,N_train,N_evaluation_expected,N_evaluation_materialized,evaluation_values_materialized
+WF01,DEVELOPMENT,2011,2012,VALIDATION,0,uniform,7411,7628,7628,True
+WF02,DEVELOPMENT,"2011,2012",2013,VALIDATION,0,uniform,15039,7152,7152,True
+WF03,DEVELOPMENT,"2011,2012,2013",2014,VALIDATION,0,uniform,22191,7158,7158,True
+WF04,FINAL_ONLY,"2011,2012,2013,2014",2015,TEST,0,uniform,29349,7384,0,False

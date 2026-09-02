@@ -1,0 +1,15 @@
+control,status,detail
+config_hash,PASS,bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5
+target_roundtrip,PASS,log1p
+physics_mode,PASS,TIT_INC
+physics_feature,PASS,TIT
+parameter_count,PASS,69187
+optimizer,PASS,NAdam
+batch_size,PASS,64
+physics_weighting,PASS,ADAPTIVE_LEARNED
+synthetic_accepted,PASS,752
+final_epochs,PASS,100
+representative_seed,PASS,84
+single_model_policy,PASS,1
+use_lbfgs,PASS,False
+test_target_rows,PASS,0

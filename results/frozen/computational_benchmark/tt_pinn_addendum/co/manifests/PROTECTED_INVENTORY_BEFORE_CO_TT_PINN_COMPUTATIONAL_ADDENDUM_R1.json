@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-08-29T17:24:15.697860+00:00",
+  "files": [
+    {
+      "path": "models/interp/work_pinn_co_interp_final_r5f_std/configs/FINAL_MODEL_MANIFEST_CO_R5F_STD.json",
+      "bytes": 1174,
+      "sha256": "0a703f92f6dc9459b5f5ebd83b8284e74376529a76b45b7a15b891e7fb8433a7"
+    },
+    {
+      "path": "models/interp/work_pinn_co_interp_final_r5f_std/model/final_model_seed_126.pt",
+      "bytes": 261215,
+      "sha256": "f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_co_interp_final_r1f_std/configs/FINAL_MODEL_MANIFEST_CO_TT_R1F_STD.json",
+      "bytes": 4650,
+      "sha256": "15dbf32ef07fe09026f3f1f7f29925b0db8b737d9584c6828246aca0ec980f1d"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_co_interp_final_r1f_std/configs/TT_ARCHITECTURE_CONTRACT_CO_TT_R1F_STD.json",
+      "bytes": 3352,
+      "sha256": "b16d094f604dfb6b287b4328389e54de002c353944c34712c76cddd6643a7f72"
+    },
+    {
+      "path": "models/interp/work_tt_pinn_co_interp_final_r1f_std/model/tt_final_model_seed_126.pt",
+      "bytes": 68373,
+      "sha256": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110"
+    },
+    {
+      "path": "notebooks/05_TT_PINN_CO_INTERP_FINAL - R1F_STD - LOCAL_EXECUTED.ipynb",
+      "bytes": 1639523,
+      "sha256": "5419a09c2e8f90706c73588a757c3837af6115fcdcde91a973e58d332f0e2d20"
+    },
+    {
+      "path": "notebooks/05_TT_PINN_CO_INTERP_FINAL - R1F_STD.ipynb",
+      "bytes": 205992,
+      "sha256": "b713f45a7a42f8bacd5eb29a888e0b0b154747e11d7b6aa16915d85d9e436de1"
+    }
+  ]
+}

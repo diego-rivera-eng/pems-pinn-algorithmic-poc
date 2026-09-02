@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED_IMPORT",
+  "migration_version": "R2_HARD_CAP_TO_R3_TOP3_FALLBACK_V1",
+  "generated_at_utc": "2026-08-18T22:37:28.458584+00:00",
+  "source_version": "NOX_WF_OPT_R2_POC_EFFICIENT",
+  "source_notebook": "04_Gold_Standard_PINN_NOX_WF_OPT - R2_POC_EFFICIENT.ipynb",
+  "source_notebook_sha256": "b7ecebdfa6586ab101d73480d59b08b48a2b671f2fe6d4fb0c1af1ac98784cbe",
+  "source_phase": "DEVELOPMENT_INSUFFICIENT_EVIDENCE",
+  "source_stop_reason": "HARD_CAP_INSUFFICIENT_EVIDENCE",
+  "source_phase_state_sha256": "b2ca44430a4353710b1efdef062a900e8659a04acaa4d874b1d91d569b0cc918",
+  "source_snapshot_rel": "models/wf/work_pinn_nox_wf_opt_r2_poc_efficient/optuna/development/NOX_WF_DEVELOPMENT_r2_all_three_wf_folds_stop_v2_tit_inc_fixed_epochs_54b1229774a5.sqlite",
+  "source_snapshot_sha256": "f22feede71ab2425c432f5494de75bd34df40be4fa2eba9c4925d8702b29543f",
+  "source_study_name": "NOX_WF_DEVELOPMENT_R2_ALL_THREE_WF_FOLDS_STOP_V2_TIT_INC_FIXED_EPOCHS_54b1229774a5",
+  "source_campaign_schema": "R2_ALL_THREE_WF_FOLDS_STOP_V2_TIT_INC_FIXED_EPOCHS",
+  "imported_trials": 55,
+  "imported_states": {
+    "COMPLETE": 55
+  },
+  "target_campaign_schema": "R3_ALL_THREE_WF_FOLDS_STOP_V3_TIT_INC_FIXED_EPOCHS",
+  "target_study_name": "NOX_WF_DEVELOPMENT_R3_ALL_THREE_WF_FOLDS_STOP_V3_TIT_INC_FIXED_EPOCHS_54b1229774a5",
+  "trial_number_mapping": "IDENTITY_0_TO_54",
+  "search_reopened": false,
+  "test_opened": false,
+  "methodological_change": "At hard cap, replace competitive-density sufficiency with mandatory hierarchical Top-3 multiseed confirmation",
+  "authorization": "USER_AUTHORIZED_VERSIONED_R3_AFTER_R2_HARD_CAP"
+}

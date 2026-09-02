@@ -1,0 +1,13 @@
+{
+  "status": "RUNNING",
+  "started_utc": "2026-08-23T06:18:55.190212+00:00",
+  "source_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb",
+  "source_sha256": "7685A2C54626A3BEB5792D77DCC33EB19D5884683D89AC3A7D4898632D6A2612",
+  "executed_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - LOCAL_EXECUTED.ipynb",
+  "run_mode": "FULL_AUTO",
+  "max_fold_workers": 1,
+  "device_policy": "CUDA when available; CPU for orchestration and preprocessing",
+  "fallback_reason": "Native pyarrow/loky crash in Windows subprocess preflight",
+  "resume_note": "No SQLite transaction files are inspected during this run.",
+  "test_opened": false
+}

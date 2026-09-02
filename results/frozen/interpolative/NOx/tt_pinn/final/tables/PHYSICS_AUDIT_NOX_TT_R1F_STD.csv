@@ -1,0 +1,3 @@
+split,physics_mode,physics_feature,expected_derivative_sign,PCD_pct,violation_pct,near_zero_pct,physical_gradient_mean,physical_gradient_median,physical_gradient_q05,physical_gradient_q95,dimensionless_gradient_mean,diagnostic_feature,diagnostic_negative_gradient_pct,diagnostic_positive_gradient_pct,diagnostic_near_zero_pct,diagnostic_gradient_median
+DEV,TIT_INC,TIT,>= 0,100.0,0.0,0.0,1.0428426265716553,0.8378429412841797,0.29565614461898804,2.5852034091949463,1.5301963090896606,CDP,84.47265625,15.52734375,0.0,-4.46047306060791
+TEST,TIT_INC,TIT,>= 0,100.0,0.0,0.0,0.896102786064148,0.713744044303894,0.3067200481891632,2.198380708694458,1.314880132675171,CDP,87.109375,12.890625,0.0,-3.313124418258667

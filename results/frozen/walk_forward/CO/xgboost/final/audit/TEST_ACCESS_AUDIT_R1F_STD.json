@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T23:36:36.097610+00:00",
+  "target": "CO",
+  "purpose": "WF04_FINAL_EVALUATION_ONLY",
+  "opened_once": true,
+  "access_count": 1,
+  "test_rows_materialized": 7384,
+  "test_feature_rows_materialized": 7384,
+  "other_pollutant_materialized": false,
+  "models_frozen_before_test": true,
+  "models_reloaded_before_test": true,
+  "pre_test_gate_sha256": "8a856b1eff0f34c78bedf6e2b42a162e7532926298ab3f170800f4a00e154394",
+  "gt_2015_sha256_after_authorized_open": "9b08f35fde0d4b138232a605db4093c2b8bf9d6757e6f1fbd9534ad616c13591"
+}

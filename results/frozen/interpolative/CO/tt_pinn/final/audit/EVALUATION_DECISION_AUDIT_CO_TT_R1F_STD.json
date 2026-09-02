@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T06:14:55.104950+00:00",
+  "non_inferiority_status": "NOT_MET_INFORMATIONAL",
+  "non_inferiority_is_informational": true,
+  "engineering_margins_origin": "PREDECLARED_ENGINEERING_R1_NOT_FROM_PAPER_OR_PEMS_NORM",
+  "physics_reference_status": "PASS",
+  "hashes_before_test": {
+    "model_sha256": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110",
+    "best_config_file_sha256": "984c0a59463a596d8ac085858557e06ee95b6e63dd10fe6973d99b2347742292",
+    "best_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+    "frozen_manifest_sha256": "80178261d1f4e4306783989ed1ec3bf31b825cff080536c8b6036823c0820756",
+    "tt_contract_file_sha256": "b16d094f604dfb6b287b4328389e54de002c353944c34712c76cddd6643a7f72",
+    "tt_contract_hash": "3f380430407e8f2b528cbc154e38f27c9336251f2521bd7112a1a4b4d5b3eead"
+  },
+  "hashes_after_test": {
+    "model_sha256": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110",
+    "best_config_file_sha256": "984c0a59463a596d8ac085858557e06ee95b6e63dd10fe6973d99b2347742292",
+    "best_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+    "frozen_manifest_sha256": "80178261d1f4e4306783989ed1ec3bf31b825cff080536c8b6036823c0820756",
+    "tt_contract_file_sha256": "b16d094f604dfb6b287b4328389e54de002c353944c34712c76cddd6643a7f72",
+    "tt_contract_hash": "3f380430407e8f2b528cbc154e38f27c9336251f2521bd7112a1a4b4d5b3eead"
+  },
+  "checks": {
+    "all_tt_hashes_immutable": true,
+    "all_dense_hashes_immutable": true,
+    "single_test_access": true,
+    "single_model": true,
+    "seed_unchanged": true,
+    "epochs_unchanged": true,
+    "config_unchanged": true,
+    "tt_contract_unchanged": true
+  },
+  "model_changed_after_test": false,
+  "seed_changed_after_test": false,
+  "epochs_changed_after_test": false,
+  "hyperparameters_changed_after_test": false,
+  "tt_contract_changed_after_test": false,
+  "retraining_after_test": false,
+  "test_used_for_adjustment": false,
+  "interpretation": "TEST informa y no decide"
+}

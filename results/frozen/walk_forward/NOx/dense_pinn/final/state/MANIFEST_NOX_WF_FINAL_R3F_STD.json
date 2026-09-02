@@ -1,0 +1,370 @@
+{
+  "status": "COMPLETE",
+  "version": "NOX_WF_FINAL_R3F_STD",
+  "generated_at_utc": "2026-08-18T22:52:35.546279+00:00",
+  "scope": "WF04 prospective annual holdout: 2011-2014 to 2015",
+  "protocol_version": "WF_PROTOCOL_R1",
+  "opt_version": "NOX_WF_OPT_R3_POC_EFFICIENT",
+  "opt_stop_policy": {
+    "stop_policy_version": "POC_EFFICIENT_STOP_POLICY_V3",
+    "minimum_attempted_trials": 30,
+    "minimum_complete_total_trials": 12,
+    "minimum_complete_optuna_trials": 8,
+    "minimum_competitive_trials": 3,
+    "competitive_band_delta": 0.01,
+    "material_gain": 0.002,
+    "elite_band_delta": 0.003,
+    "adaptive_block_size": 5,
+    "adaptive_patience_blocks": 2,
+    "maximum_attempted_trials": 55,
+    "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+    "hard_cap_fallback_mode": "HIERARCHICAL_TOP3_MANDATORY_CONFIRMATION",
+    "hard_cap_fallback_min_admissible": 3,
+    "stop_reason": "HARD_CAP_TOP3_CONFIRMATION_FALLBACK",
+    "evidence_gates": {
+      "minimum_attempted_ready": true,
+      "complete_total_ready": true,
+      "complete_optuna_ready": true,
+      "competitive_ready": false,
+      "complete_optuna": 51,
+      "competitive_trials": [
+        33
+      ],
+      "all_evidence_ready": false,
+      "hard_cap_reached": true,
+      "top3_admissible_ready": true,
+      "top3_fallback_trials": [
+        33,
+        0,
+        36
+      ],
+      "hard_cap_top3_fallback_ready": true,
+      "development_authorized_for_confirmation": true,
+      "authorization_mode": "HARD_CAP_TOP3_FALLBACK",
+      "confirmation_required_for_freeze": true
+    }
+  },
+  "opt_stop_reason": "HARD_CAP_TOP3_CONFIRMATION_FALLBACK",
+  "producer_notebook": "04_Gold_Standard_PINN_NOX_WF_FINAL - R3F_STD.ipynb",
+  "upstream_notebooks": [
+    "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+    "04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb"
+  ],
+  "input_contract": "PROTOCOL_R1_AND_OPT_R3_FROZEN_ONLY",
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "config_frozen_using_dev_only": true,
+  "config_hash": "5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05",
+  "provenance_trial_number": 33,
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_assignment_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "final_epochs": 45,
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "representative_seed_predeclared": 42,
+  "ensemble_rule_predeclared": "arithmetic_mean_over_frozen_seed_predictions",
+  "scheduler_final_policy": "cosine",
+  "dev_rows": 29349,
+  "test_rows": 7384,
+  "models_frozen_before_test": true,
+  "test_opened_once": true,
+  "test_access_count": 1,
+  "test_metrics_computed": true,
+  "model_count": 10,
+  "training_elapsed_seconds": 118.70676610001829,
+  "environment": {
+    "generated_at_utc": "2026-08-18T22:50:30.212672+00:00",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "logical_cpu_count": 24,
+    "ram_gib": 31.746,
+    "tf32": true,
+    "deterministic_algorithms": "warn_only"
+  },
+  "ensemble_metrics": {
+    "seed": "ENSEMBLE",
+    "role": "PREDECLARED_ARITHMETIC_MEAN",
+    "N_test": 7384,
+    "final_epochs": 45,
+    "config_hash": "5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05",
+    "R2": 0.26113285769351213,
+    "RMSE": 9.568526196066566,
+    "MAE": 7.386317905341301,
+    "NRMSE_range": 0.10203706995457872,
+    "NRMSE_std": 0.8595156072127846,
+    "bias": 6.170413007198925,
+    "residual_std": 7.313681762188676,
+    "pearson_r": 0.7547468508365779,
+    "slope": 0.5963364726219701,
+    "intercept": 30.34602732062333,
+    "negative_prediction_pct": 0.0
+  },
+  "computational_footprint": {
+    "input_nodes": 9,
+    "hidden_layers": 4,
+    "hidden_nodes": 608,
+    "output_nodes": 1,
+    "total_nodes": 618,
+    "linear_layers": 5,
+    "trainable_parameters": 77665,
+    "MACs_per_inference": 77056,
+    "FLOPs_approx": 154112,
+    "fourier_features": 0,
+    "total_parameters": 77665,
+    "buffer_elements": 0,
+    "state_tensor_elements": 77665,
+    "parameter_memory_fp32_mib": 0.2962684631347656,
+    "buffer_memory_fp32_mib": 0.0,
+    "state_tensor_memory_fp32_mib": 0.2962684631347656,
+    "measurement_scope": "representative_frozen_seed_model",
+    "representative_seed": 42,
+    "ensemble_model_count": 10,
+    "precision": "FP32",
+    "benchmark_device": "cpu",
+    "latency_batch_size": 1,
+    "latency_warmup": 20,
+    "latency_repetitions": 200,
+    "throughput_warmup": 5,
+    "throughput_repetitions": 30,
+    "serialized_state_dict_mib": 0.30041980743408203,
+    "checkpoint_package_mib": 0.30368518829345703,
+    "ensemble_checkpoint_package_mib": 3.0373096466064453,
+    "cpu_model": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_platform": "Windows-11-10.0.26200-SP0",
+    "cpu_physical_cores": 16,
+    "cpu_logical_threads": 24,
+    "torch_num_threads": 16,
+    "torch_num_interop_threads": 16,
+    "engine_latency_definition": "preprocessed_X_to_standardized_model_output",
+    "end_to_end_latency_definition": "finite_check_scaling_model_inverse_target",
+    "engine_latency_cpu_median_ms": 0.06500000017695129,
+    "engine_latency_cpu_p95_ms": 0.15274999605026085,
+    "engine_latency_cpu_p99_ms": 0.3423350420780476,
+    "end_to_end_latency_cpu_median_ms": 0.34405000042170286,
+    "end_to_end_latency_cpu_p95_ms": 0.3912450047209856,
+    "end_to_end_latency_cpu_p99_ms": 0.6914119637804101,
+    "throughput_batch_rows": 7384,
+    "throughput_cpu_samples_per_s": 3024865.8150126645,
+    "throughput_batch_median_ms": 2.4411000194959342
+  },
+  "artifact_count": 39,
+  "artifacts": [
+    {
+      "path": "audit\\ENVIRONMENT_NOX_WF_FINAL_R3F_STD.json",
+      "bytes": 515,
+      "sha256": "ce80e1878af41a4bc3d81bae8d99e9d131ad0d22eab933f31d4fc71874a853d2"
+    },
+    {
+      "path": "audit\\FROZEN_INPUT_AUDIT_NOX_WF_FINAL_R3.csv",
+      "bytes": 1778,
+      "sha256": "3c551abd3e9f62dd4a9c6541fedad4adc8249c91b69b56328f156d85103e210e"
+    },
+    {
+      "path": "audit\\PRE_TEST_GATE_R3F_STD.json",
+      "bytes": 5452,
+      "sha256": "7e27d1050197f93647cb8ca6c78e34850633e1ef437f13f8ca3d8c7aff0b0c9a"
+    },
+    {
+      "path": "audit\\PRETRAINING_CHECKS_R3F_STD.csv",
+      "bytes": 284,
+      "sha256": "d679760bbf477edda0c8b4704e816d18e313cd6cbf462e3a884a7ad89df67c71"
+    },
+    {
+      "path": "audit\\TARGET_ACCESS_AUDIT_PRE_TEST_R3F_STD.json",
+      "bytes": 987,
+      "sha256": "ef097ceac183e6899e0809ec5280f8dd860517722f2d983ae1412604a41b5164"
+    },
+    {
+      "path": "audit\\TEST_ACCESS_AUDIT_R3F_STD.json",
+      "bytes": 540,
+      "sha256": "b6aaabde8317dd9af0c8526af362302ffdb95ebbc021bd00617e01bec6323c91"
+    },
+    {
+      "path": "audit\\UPSTREAM_INPUT_CONTRACT_R3F_STD.json",
+      "bytes": 585,
+      "sha256": "5ca7b81e0a6dacad6b4826da689c22c4a53c68f19a12deec2de990b1144f7b67"
+    },
+    {
+      "path": "configs\\BEST_CONFIG_NOX_WF_R3.json",
+      "bytes": 2815,
+      "sha256": "a05c97cc808b3cbcf2976dc6ce68b4fca6f5abeb190e2044c32937b9c274cab7"
+    },
+    {
+      "path": "configs\\FINAL_TRAINING_POLICY_NOX_WF_R3.json",
+      "bytes": 187,
+      "sha256": "1e3f65fe754cc2e3a77b3b1e5d67d9b124177d5571d65456298b4beffabf05f0"
+    },
+    {
+      "path": "configs\\FROZEN_INPUT_SNAPSHOT_R3F_STD.json",
+      "bytes": 2507,
+      "sha256": "d8684c39950e123d0ede898fd9c2c99a4747c50f2fa41a26fdc63bc5164ff869"
+    },
+    {
+      "path": "figures\\summary\\06_metricas_por_semilla.png",
+      "bytes": 446191,
+      "sha256": "3036990bedbdd6042c2eb314d070231ff6b29baed350a017ab1010cd7a717e30"
+    },
+    {
+      "path": "figures\\summary\\07_perdidas_entrenamiento_seed42.png",
+      "bytes": 106564,
+      "sha256": "908f9b63b11daeb90976d54a9326e82816e93db5fe5c5482520b26f6b8aa8cf1"
+    },
+    {
+      "path": "figures\\test\\01_paridad_ensamble_TEST.png",
+      "bytes": 1165265,
+      "sha256": "a04c6be0e8eb2272daef93645cbe4303485bdc619eb186120fd58dab5fe2d289"
+    },
+    {
+      "path": "figures\\test\\02_serie_ensamble_DEV.png",
+      "bytes": 460528,
+      "sha256": "58223749b641fbebfb73b299c81f0a177dc67838f418fd17e47e2b015876c62e"
+    },
+    {
+      "path": "figures\\test\\02_serie_ensamble_TEST.png",
+      "bytes": 413453,
+      "sha256": "08c42f212d361e01eaef0c01fae6b58573b22264cecfe2355919ee6ffd61e5dd"
+    },
+    {
+      "path": "figures\\test\\03_diagnostico_residuales_TEST.png",
+      "bytes": 574882,
+      "sha256": "ff7d011a6b72b757e3fbf6930a1ab1d85ebf4ba2c6934ec18e84e44788a3ec76"
+    },
+    {
+      "path": "figures\\test\\04_residuales_vs_TIT_TEST.png",
+      "bytes": 614083,
+      "sha256": "82ff8f958866d7c6e937043577c07a0b74acd4626c891833eda5c7b3516a18ea"
+    },
+    {
+      "path": "figures\\test\\05_gradiente_TIT_TEST_seed42.png",
+      "bytes": 75492,
+      "sha256": "bf82c3aa1269b8db57e7e6734468c46f6b1b4a69a9bb70e2afdaee4b68470951"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed105.pt",
+      "bytes": 318517,
+      "sha256": "2aba77016ca3b03950e8c1be22e246087f92af984db83d655944b6d1bff3328f"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed126.pt",
+      "bytes": 318517,
+      "sha256": "c8d61a1b9394d40226e385aae8e8c9b4ff899fb1952c9d662aa25499d415fac3"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed147.pt",
+      "bytes": 318517,
+      "sha256": "5f9c8d51adb117cfe7a642b7288760691c8f62a98b193531c1f1ec8d4d725d36"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed168.pt",
+      "bytes": 318517,
+      "sha256": "2b0bb2fc986f5b8dd3c3e960673e7350bb2a3d5a27ad94ec67413a1a17f2f8b8"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed189.pt",
+      "bytes": 318517,
+      "sha256": "ea5bf886e15e17c1cec577fea16a91572c15385139b8f8fc5dd03a12d501011c"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed21.pt",
+      "bytes": 318437,
+      "sha256": "c22a71feb75c85a2a865295f5c5d1e5aeaca58f28137a409849435487b625a84"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed210.pt",
+      "bytes": 318517,
+      "sha256": "7072f98f60e95ee845ab3a10f69752709a49f08e0ab95d192583e0474b09d291"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed42.pt",
+      "bytes": 318437,
+      "sha256": "65b11355b63b58a08196f46923c53f61f70c834b208b181e951c727ce802340f"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed63.pt",
+      "bytes": 318437,
+      "sha256": "731da8bf79845a95c7e177d8e8805cbeeb367154310037cd37b5ef6e127b649b"
+    },
+    {
+      "path": "models\\PINN_NOX_WF_seed84.pt",
+      "bytes": 318437,
+      "sha256": "a55e40662c5a11ed51b2490c600ffc3960b7f40c7b859e572a3b4f7a2bbe0680"
+    },
+    {
+      "path": "reports\\INFORME_TECNICO_NOX_WF_FINAL_R3F_STD.md",
+      "bytes": 1891,
+      "sha256": "25369989a1176538984affd8521adcdce3bc02858b063ea45c8af4cf06903403"
+    },
+    {
+      "path": "reports\\README_EJECUCION_COLAB_NOX_WF_FINAL_R3F_STD.md",
+      "bytes": 517,
+      "sha256": "b26b83d675a7ac37e65d7c184d45e7870441c8abaa29961cee6ffa581b823621"
+    },
+    {
+      "path": "tables\\computational_footprint.csv",
+      "bytes": 1509,
+      "sha256": "f8e0d5e8bf26a9dd42c73920b976cf6a683b2efccf1d9715ddb4e8f6082ef6c2"
+    },
+    {
+      "path": "tables\\computational_footprint.json",
+      "bytes": 1800,
+      "sha256": "e2737d69301e8a912b5e73e8b4eed71848685a8617d613c19bee0f2d3029b651"
+    },
+    {
+      "path": "tables\\model_complexity.csv",
+      "bytes": 1509,
+      "sha256": "f8e0d5e8bf26a9dd42c73920b976cf6a683b2efccf1d9715ddb4e8f6082ef6c2"
+    },
+    {
+      "path": "tables\\test_metrics_by_seed.csv",
+      "bytes": 6274,
+      "sha256": "3e33a4f5fe21b3cf72849f4e455b1031362e4760ccd6c40be73c5913bc08b7e2"
+    },
+    {
+      "path": "tables\\test_metrics_ensemble.json",
+      "bytes": 550,
+      "sha256": "573a8f3055882ea132f112f85aefbedf2fd1508c665c7352009f2aec8ae36af4"
+    },
+    {
+      "path": "tables\\test_predictions.csv",
+      "bytes": 1308649,
+      "sha256": "e39c2d51e08ef653f2784f42d7a9fbb491f952afa18dfa8e591fabfd8a33095b"
+    },
+    {
+      "path": "tables\\test_summary_multiseed.csv",
+      "bytes": 1453,
+      "sha256": "0313899630bb7950276171cac1e8c47c9b1613f6900944036be36480d0a9b6e6"
+    },
+    {
+      "path": "tables\\training_history_by_seed.csv",
+      "bytes": 42416,
+      "sha256": "2aa8b4dd56d80dcf9925c09b6a03024345532364c70531e334eb8924005bb71e"
+    },
+    {
+      "path": "tables\\training_summary_by_seed.csv",
+      "bytes": 1898,
+      "sha256": "a6134ba10b51ce950a4af479332043d6232e9c37cf531f995eebdf5162e20b97"
+    }
+  ],
+  "limitations": [
+    "No demuestra generalización más allá de la frontera anual 2015.",
+    "No demuestra desempeño fuera del periodo y dominio observados.",
+    "No equivale a certificación PEMS, RATA ni homologación regulatoria."
+  ]
+}

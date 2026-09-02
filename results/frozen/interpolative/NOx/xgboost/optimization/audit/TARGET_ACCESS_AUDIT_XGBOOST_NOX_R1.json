@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "target": "NOX",
+  "generated_at_utc": "2026-08-19T05:27:46.856320+00:00",
+  "assignment_first": true,
+  "dev_rows": 29845,
+  "test_target_rows_materialized": 0,
+  "other_pollutant_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "dev_rows_materialized": 6067,
+      "test_target_rows_materialized": 0,
+      "other_pollutant_materialized": false
+    },
+    {
+      "year": 2012,
+      "dev_rows_materialized": 6116,
+      "test_target_rows_materialized": 0,
+      "other_pollutant_materialized": false
+    },
+    {
+      "year": 2013,
+      "dev_rows_materialized": 5808,
+      "test_target_rows_materialized": 0,
+      "other_pollutant_materialized": false
+    },
+    {
+      "year": 2014,
+      "dev_rows_materialized": 5814,
+      "test_target_rows_materialized": 0,
+      "other_pollutant_materialized": false
+    },
+    {
+      "year": 2015,
+      "dev_rows_materialized": 6040,
+      "test_target_rows_materialized": 0,
+      "other_pollutant_materialized": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-27T06:32:27.525424+00:00",
+  "test_physics_status": "PASS",
+  "pcd_test_pct": 100.0,
+  "pcd_reference_threshold_pct": 95.0,
+  "hashes_before_test": {
+    "model_sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+    "best_config_file_sha256": "316b5f89c38693bd28de49339bc3b67aaa1cf2ad644158f069650961908c2600",
+    "best_config_hash": "bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5",
+    "frozen_manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752"
+  },
+  "hashes_after_test": {
+    "model_sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+    "best_config_file_sha256": "316b5f89c38693bd28de49339bc3b67aaa1cf2ad644158f069650961908c2600",
+    "best_config_hash": "bd63d936348b6886210e5ede9b0487741c724167eca7256629e6519c58109fa5",
+    "frozen_manifest_sha256": "b943c12d4ae7c2d949f6ad03b0e73d9b11f2df857458a1c856314d87cfcf4752"
+  },
+  "checks": {
+    "model_unchanged": true,
+    "config_file_unchanged": true,
+    "config_payload_unchanged": true,
+    "frozen_manifest_unchanged": true,
+    "seed_unchanged": true,
+    "epochs_unchanged": true,
+    "candidate_unchanged": true,
+    "training_summary_hash_unchanged": true
+  },
+  "model_changed_after_test": false,
+  "seed_changed_after_test": false,
+  "epochs_changed_after_test": false,
+  "hyperparameters_changed_after_test": false,
+  "candidate_changed_after_test": false,
+  "retraining_after_test": false,
+  "interpretation": "TEST informs; TEST does not decide"
+}

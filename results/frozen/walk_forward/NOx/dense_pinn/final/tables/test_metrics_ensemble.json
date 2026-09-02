@@ -1,0 +1,18 @@
+{
+  "seed": "ENSEMBLE",
+  "role": "PREDECLARED_ARITHMETIC_MEAN",
+  "N_test": 7384,
+  "final_epochs": 45,
+  "config_hash": "5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05",
+  "R2": 0.26113285769351213,
+  "RMSE": 9.568526196066566,
+  "MAE": 7.386317905341301,
+  "NRMSE_range": 0.10203706995457872,
+  "NRMSE_std": 0.8595156072127846,
+  "bias": 6.170413007198925,
+  "residual_std": 7.313681762188676,
+  "pearson_r": 0.7547468508365779,
+  "slope": 0.5963364726219701,
+  "intercept": 30.34602732062333,
+  "negative_prediction_pct": 0.0
+}

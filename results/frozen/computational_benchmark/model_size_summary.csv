@@ -1,0 +1,8 @@
+protocol,model,target,complexity_type,complexity_value,tree_count,serialized_size_mib,parameter_reduction_pct_vs_dense
+interpolative,dense_pinn,CO,trainable_parameters,62977,,0.249,
+interpolative,tt_pinn,CO,trainable_parameters,12582,,0.065,80.02
+interpolative,xgboost,CO,nodes,54838,320,1.980,
+interpolative,dense_pinn,NOx,trainable_parameters,69187,,0.274,
+interpolative,tt_pinn,NOx,trainable_parameters,13891,,0.071,79.92
+interpolative,xgboost,NOx,nodes,3902865,1445,127.462,
+

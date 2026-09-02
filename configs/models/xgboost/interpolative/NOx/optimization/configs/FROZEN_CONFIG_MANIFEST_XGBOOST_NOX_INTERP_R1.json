@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_NOX_INTERP_OPT_R1_POC_EFFICIENT",
+  "target": "NOX",
+  "generated_at_utc": "2026-08-19T07:20:35.545645+00:00",
+  "producer_notebook": "07_XGBoost_NOX_INTERP_OPT - R1_POC_EFFICIENT.ipynb",
+  "authorized_consumer": "07_XGBoost_NOX_INTERP_FINAL - R1F_STD.ipynb",
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "protocol_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "test_opened": false,
+  "campaign_complete": true,
+  "stop_reason": "PRACTICAL_CONVERGENCE",
+  "attempted_trials": 50,
+  "complete_trials": 29,
+  "champion_id": "OPTUNA_0047",
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8",
+  "best_config_path": "models/interp/work_xgboost_nox_interp_opt_r1_poc_efficient/configs/BEST_CONFIG_XGBOOST_NOX_INTERP.json",
+  "best_config_sha256": "1407e1ae3e802e970129a95712d77b53305fa7822d0995637bb098beb1459509",
+  "training_policy_path": "models/interp/work_xgboost_nox_interp_opt_r1_poc_efficient/configs/FINAL_TRAINING_POLICY_XGBOOST_NOX_INTERP_R1.json",
+  "training_policy_sha256": "3861fad4e3bb140d0ca56413abe817dfc3fd2daa4e99c1faad31757100059886",
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  }
+}

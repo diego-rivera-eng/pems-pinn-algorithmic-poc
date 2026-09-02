@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-27T06:32:27.258071+00:00",
+  "opened_once": true,
+  "access_count": 1,
+  "purpose": "FINAL_EVALUATION_ONLY",
+  "pre_test_gate_sha256": "7888ff8b486c428f2d9c869b6629f434c2084ddf0fc1e6aa737a33bf58af4e6a",
+  "model_frozen_before_access": true,
+  "test_target_rows_materialized": 6888,
+  "full_target_vector_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2012,
+      "rows_test_materialized": 1512,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2013,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2014,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2015,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "NOX"
+      ],
+      "operation": "FINAL_EVALUATION_ONLY"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "generated_at_utc": "2026-08-29T17:34:12.322180+00:00",
+  "campaign": "posthoc_tt_pinn_computational_r1",
+  "targets": [
+    {
+      "target": "CO",
+      "manifest_path": "models/interp/posthoc_tt_pinn_computational_r1/co/manifests/ADDENDUM_MANIFEST_CO_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+      "manifest_sha256": "46c4713477e91b79f492ab647e8211bb662679468a550bf3a56c7e65ff355dac",
+      "status": "COMPLETE"
+    },
+    {
+      "target": "NOX",
+      "manifest_path": "models/interp/posthoc_tt_pinn_computational_r1/nox/manifests/ADDENDUM_MANIFEST_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+      "manifest_sha256": "eed5d48bb8a5727878385d24b234955809faf418ffbbd3719cd603247303fd93",
+      "status": "COMPLETE"
+    }
+  ]
+}

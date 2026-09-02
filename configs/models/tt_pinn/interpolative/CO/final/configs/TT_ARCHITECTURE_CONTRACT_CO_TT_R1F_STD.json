@@ -1,0 +1,146 @@
+{
+  "status": "FROZEN_PRE_TRAINING",
+  "version": "TT_PINN_CO_INTERP_FINAL_R1F_STD",
+  "source_dense_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "source_dense_model_sha256": "f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81",
+  "source_dense_final_manifest_sha256": "0a703f92f6dc9459b5f5ebd83b8284e74376529a76b45b7a15b891e7fb8433a7",
+  "tensor_format": "TT_2D_SEPARATED_3WAY_CORES",
+  "tt_order": 3,
+  "uniform_rank": 11,
+  "rank_selection_rule": "MAX_RANK_UNDER_PARAMETER_AND_STATE_DICT_BUDGET",
+  "max_parameter_fraction": 0.25,
+  "max_state_dict_fraction": 0.25,
+  "dense_parameters": 62977,
+  "expected_tt_parameters": 12582,
+  "dense_state_dict_bytes": 255743,
+  "estimated_tt_state_dict_bytes": 59459,
+  "input_layer_dense": true,
+  "output_layer_dense": true,
+  "biases_dense": true,
+  "hidden_matrices_tensorized": 4,
+  "hidden_layers": [
+    {
+      "layer_index": 0,
+      "input_dim": 192,
+      "output_dim": 160,
+      "input_factors": [
+        4,
+        6,
+        8
+      ],
+      "output_factors": [
+        4,
+        5,
+        8
+      ],
+      "ranks": [
+        1,
+        11,
+        11,
+        11,
+        11,
+        11,
+        1
+      ],
+      "tt_parameters_including_bias": 3075,
+      "dense_parameters_including_bias": 30880
+    },
+    {
+      "layer_index": 1,
+      "input_dim": 160,
+      "output_dim": 32,
+      "input_factors": [
+        4,
+        5,
+        8
+      ],
+      "output_factors": [
+        2,
+        4,
+        4
+      ],
+      "ranks": [
+        1,
+        11,
+        11,
+        11,
+        11,
+        11,
+        1
+      ],
+      "tt_parameters_including_bias": 2199,
+      "dense_parameters_including_bias": 5152
+    },
+    {
+      "layer_index": 2,
+      "input_dim": 32,
+      "output_dim": 128,
+      "input_factors": [
+        2,
+        4,
+        4
+      ],
+      "output_factors": [
+        4,
+        4,
+        8
+      ],
+      "ranks": [
+        1,
+        11,
+        11,
+        11,
+        11,
+        11,
+        1
+      ],
+      "tt_parameters_including_bias": 2394,
+      "dense_parameters_including_bias": 4224
+    },
+    {
+      "layer_index": 3,
+      "input_dim": 128,
+      "output_dim": 160,
+      "input_factors": [
+        4,
+        4,
+        8
+      ],
+      "output_factors": [
+        4,
+        5,
+        8
+      ],
+      "ranks": [
+        1,
+        11,
+        11,
+        11,
+        11,
+        11,
+        1
+      ],
+      "tt_parameters_including_bias": 2833,
+      "dense_parameters_including_bias": 20640
+    }
+  ],
+  "initializer": "TT_CORE_NORMAL_MATCHING_INDUCED_XAVIER_VARIANCE",
+  "forward_reconstructs_dense_matrix": false,
+  "hyperparameter_search_performed": false,
+  "multiple_tt_candidates_trained": false,
+  "model_selection_performed": false,
+  "tt_configuration_frozen_pre_training": true,
+  "representative_seed_count": 1,
+  "ensemble_used": false,
+  "test_used_for_adjustment": false,
+  "predictive_metrics_used_for_rank": false,
+  "non_inferiority_contract": {
+    "max_r2_drop": 0.02,
+    "max_rmse_ratio": 1.1,
+    "max_mae_ratio": 1.1,
+    "max_pcd_drop_pp": 1.0,
+    "min_state_dict_reduction_fraction": 0.75,
+    "origin": "PREDECLARED_ENGINEERING_R1_NOT_FROM_PAPER_OR_PEMS_NORM"
+  },
+  "tt_contract_hash": "3f380430407e8f2b528cbc154e38f27c9336251f2521bd7112a1a4b4d5b3eead"
+}

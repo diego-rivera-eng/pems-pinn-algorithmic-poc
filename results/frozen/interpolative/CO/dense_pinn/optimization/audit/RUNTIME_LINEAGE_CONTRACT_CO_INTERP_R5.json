@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "current_notebook": "04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb",
+  "upstream_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "upstream_artifact_root": "models\\interp\\work_pinn_interp_protocol",
+  "authorized_primary_data": "data\\raw",
+  "primary_data_authorization": "hashes declared by protocol R1",
+  "output_root": "models\\interp\\work_pinn_co_interp_opt_r5",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb",
+  "test_target_materialized": false
+}

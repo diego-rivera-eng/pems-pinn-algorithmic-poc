@@ -1,0 +1,10 @@
+test,status,detail
+direct_vs_explicit_dense,PASS,1.6653345369377348e-16
+analytical_parameter_count,PASS,46
+gradcheck_inputs_and_cores,PASS,True
+double_backward_for_physics,PASS,True
+state_dict_reload,PASS,0.0
+deterministic_initialization,PASS,True
+no_persistent_dense_hidden_weight,PASS,[]
+full_model_parameter_contract,PASS,12582
+cpu_gpu_compatibility,PASS,"{'max_abs_error': 0.0003784000873565674, 'atol': 0.001, 'rtol': 0.0001}"

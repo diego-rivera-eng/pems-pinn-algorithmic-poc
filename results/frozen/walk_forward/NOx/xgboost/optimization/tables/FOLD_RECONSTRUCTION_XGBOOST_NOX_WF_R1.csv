@@ -1,0 +1,4 @@
+fold,train_years,validation_year,N_train,N_validation,chronology_check
+WF01,2011,2012,7411,7628,PASS
+WF02,"2011,2012",2013,15039,7152,PASS
+WF03,"2011,2012,2013",2014,22191,7158,PASS

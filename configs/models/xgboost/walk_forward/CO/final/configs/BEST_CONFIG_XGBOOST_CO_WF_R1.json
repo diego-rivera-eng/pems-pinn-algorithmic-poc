@@ -1,0 +1,63 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_CO_WF_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T23:01:17.731176+00:00",
+  "protocol_version": "WF_PROTOCOL_R1",
+  "scenario": "ANNUAL_EXPANDING_WALK_FORWARD",
+  "development_folds": [
+    "WF01",
+    "WF02",
+    "WF03"
+  ],
+  "target": "CO",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "target_transform": "identity",
+  "fixed_xgb_parameters": {
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "grow_policy": "depthwise",
+    "max_bin": 256,
+    "objective": "reg:squarederror",
+    "sampling_method": "uniform",
+    "colsample_bylevel": 1.0,
+    "colsample_bynode": 1.0,
+    "verbosity": 0
+  },
+  "xgb_parameters": {
+    "learning_rate": 0.02474245187686851,
+    "max_depth": 7,
+    "min_child_weight": 1.5753589705124191,
+    "gamma": 18.980801534037948,
+    "subsample": 0.683818269830942,
+    "colsample_bytree": 0.7511502948177292,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.0047691340579783335
+  },
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  },
+  "provenance_candidate_id": "OPTUNA_0033",
+  "ranking_rule": "worst_fold_median_R2_desc_then_R2_q10_desc_then_R2_median_desc_R2_mean_desc_RMSE_MAE_bias_std_bytes_asc",
+  "test_opened": false,
+  "test_content_hashed": false,
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "config_hash": "54da4c07c37bc77d482bdba3f32fd36870adc3eb31e2795748e35698894442a7"
+}

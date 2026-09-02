@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T05:52:08.770518+00:00",
+  "opened_once": true,
+  "access_count": 1,
+  "purpose": "FINAL_EVALUATION_ONLY",
+  "pre_test_gate_sha256": "116d82d00c319a6f7811a15f886c70e01789ef68366ca1805909645794351fb6",
+  "model_frozen_before_access": true,
+  "test_target_rows_materialized": 6888,
+  "full_target_vector_materialized": false,
+  "non_target_pollutant_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_test_target_materialized": 1344,
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2012,
+      "rows_test_target_materialized": 1512,
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2013,
+      "rows_test_target_materialized": 1344,
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2014,
+      "rows_test_target_materialized": 1344,
+      "operation": "FINAL_EVALUATION_ONLY"
+    },
+    {
+      "year": 2015,
+      "rows_test_target_materialized": 1344,
+      "operation": "FINAL_EVALUATION_ONLY"
+    }
+  ]
+}

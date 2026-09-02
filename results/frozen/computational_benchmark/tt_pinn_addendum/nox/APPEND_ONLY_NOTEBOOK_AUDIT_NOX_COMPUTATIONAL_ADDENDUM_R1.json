@@ -1,0 +1,91 @@
+{
+ "schema_version": "TT_PINN_APPEND_ONLY_NOTEBOOK_AUDIT_V1",
+ "audit_id": "NOX_COMPUTATIONAL_ADDENDUM_R1",
+ "target": "NOX",
+ "status": "PASS",
+ "scope": "NOTEBOOK_STRUCTURE_ONLY_NO_BENCHMARK_EXECUTION",
+ "builder_execution": {
+  "notebook_cells_executed": 0,
+  "training_performed": false,
+  "test_dataset_accessed": false,
+  "test_targets_accessed": false,
+  "test_predictions_accessed": false,
+  "checkpoints_written": false
+ },
+ "planned_addendum_execution": {
+  "persistent_training_performed": false,
+  "ephemeral_profile_step_expected": true,
+  "ephemeral_model_clone_required": true,
+  "synthetic_inputs_only": true,
+  "checkpoint_mutation_allowed": false
+ },
+ "base": {
+  "source": {
+   "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD.ipynb",
+   "sha256": "9dbb4ef0a5671daba41fff05003295346e136be52d760d2b32e9dba2922aada1",
+   "cell_count": 57
+  },
+  "local_executed": {
+   "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - LOCAL_EXECUTED.ipynb",
+   "sha256": "e6ed06cd9d45a96e6c8ee023940181fa74e46b1b22525de70adc494e069abcb8",
+   "cell_count": 57
+  },
+  "provenance_anchors": {
+   "tt_manifest": {
+    "path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/configs/FINAL_MODEL_MANIFEST_NOX_TT_R1F_STD.json",
+    "sha256": "b22f5e66f20ea8e3f6e37786d9f89c08130ced9812f40071be8364e796ed5bba",
+    "status": "PASS"
+   },
+   "tt_checkpoint": {
+    "path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/model/tt_final_model_seed_84.pt",
+    "sha256": "e4724801a279d0f06184dcb952f3f8b65026ace8a028b6e0ab46b27ebf996ca1",
+    "status": "PASS"
+   },
+   "dense_manifest": {
+    "path": "models/interp/work_pinn_nox_interp_final_r6f_std/configs/FINAL_MODEL_MANIFEST_NOX_R6F_STD.json",
+    "sha256": "58a6b8f2b5389b0f3c69d0803a0ed4bbb563434f496afab1525bea8a45324620",
+    "status": "PASS"
+   },
+   "dense_checkpoint": {
+    "path": "models/interp/work_pinn_nox_interp_final_r6f_std/model/final_model_seed_84.pt",
+    "sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+    "status": "PASS"
+   }
+  }
+ },
+ "addendum": {
+  "source": {
+   "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - COMPUTATIONAL_ADDENDUM_R1.ipynb",
+   "sha256": "f694212709afb3a227fedd9bb710223a8292f40a786eb0be4154fe5c22b7a4d4",
+   "cell_count": 59
+  },
+  "local_executed": {
+   "path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - COMPUTATIONAL_ADDENDUM_R1 - LOCAL_EXECUTED.ipynb",
+   "sha256": "0f09753e541168b185d06b828ffec2ba0fa751269e9990ac4453acf99e3e4b55",
+   "cell_count": 59,
+   "appended_code_execution_count": null,
+   "appended_code_outputs": 0,
+   "execution_state": "NOT_EXECUTED_BY_BUILDER"
+  },
+  "base_source_prefix_cells_equal": true,
+  "base_executed_prefix_cells_equal": true,
+  "base_source_prefix_canonical_sha256": "a7b6f0eb2199482ab22f140ef3c12c9e8cd0d986601ed81cbaf39550ce17f7bf",
+  "new_source_prefix_canonical_sha256": "a7b6f0eb2199482ab22f140ef3c12c9e8cd0d986601ed81cbaf39550ce17f7bf",
+  "base_executed_prefix_canonical_sha256": "e26b0336293c92b019aea4a354e66041dfcc3dc3158e8507b73581b85329fb47",
+  "new_executed_prefix_canonical_sha256": "e26b0336293c92b019aea4a354e66041dfcc3dc3158e8507b73581b85329fb47",
+  "appended_cell_ids": [
+   "sec-13-computational-addendum-r1",
+   "c-13-01-computational-addendum-r1"
+  ],
+  "appended_cells_canonical_sha256": "ac079b6bbebce795c5c6089dc81b127aef35ef814701a9059e82d810f4f58c4b",
+  "source_and_executed_appended_cells_equal": true,
+  "execution_policy": "APPENDED_CELLS_ONLY_IN_FRESH_KERNEL",
+  "copy_role": "DISPOSABLE_LOCAL_EXECUTED_ADDENDUM"
+ },
+ "immutability_policy": {
+  "base_notebooks_must_not_be_modified": true,
+  "base_manifests_must_not_be_modified": true,
+  "base_checkpoints_must_not_be_modified": true,
+  "force_scope": "FOUR_NEW_ADDENDUM_NOTEBOOKS_ONLY"
+ }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "target": "NOX",
+  "test_target_rows_materialized": 0,
+  "non_target_pollutant_materialized": false,
+  "full_target_vector_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_total_metadata": 7411,
+      "rows_dev_target_materialized": 6067,
+      "rows_test_target_materialized": 0,
+      "input_columns_materialized": 9,
+      "target_columns_materialized": "NOX",
+      "non_target_pollutant_materialized": false,
+      "policy": "assignment-first; parser row selection before target retention"
+    },
+    {
+      "year": 2012,
+      "rows_total_metadata": 7628,
+      "rows_dev_target_materialized": 6116,
+      "rows_test_target_materialized": 0,
+      "input_columns_materialized": 9,
+      "target_columns_materialized": "NOX",
+      "non_target_pollutant_materialized": false,
+      "policy": "assignment-first; parser row selection before target retention"
+    },
+    {
+      "year": 2013,
+      "rows_total_metadata": 7152,
+      "rows_dev_target_materialized": 5808,
+      "rows_test_target_materialized": 0,
+      "input_columns_materialized": 9,
+      "target_columns_materialized": "NOX",
+      "non_target_pollutant_materialized": false,
+      "policy": "assignment-first; parser row selection before target retention"
+    },
+    {
+      "year": 2014,
+      "rows_total_metadata": 7158,
+      "rows_dev_target_materialized": 5814,
+      "rows_test_target_materialized": 0,
+      "input_columns_materialized": 9,
+      "target_columns_materialized": "NOX",
+      "non_target_pollutant_materialized": false,
+      "policy": "assignment-first; parser row selection before target retention"
+    },
+    {
+      "year": 2015,
+      "rows_total_metadata": 7384,
+      "rows_dev_target_materialized": 6040,
+      "rows_test_target_materialized": 0,
+      "input_columns_materialized": 9,
+      "target_columns_materialized": "NOX",
+      "non_target_pollutant_materialized": false,
+      "policy": "assignment-first; parser row selection before target retention"
+    }
+  ],
+  "generated_at_utc": "2026-08-27T05:06:26.535921+00:00"
+}

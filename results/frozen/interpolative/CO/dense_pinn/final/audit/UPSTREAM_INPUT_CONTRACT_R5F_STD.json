@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T05:51:54.982547+00:00",
+  "consumer_notebook": "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb",
+  "input_policy": "PROTOCOL_R1_AND_CO_OPT_R5_FROZEN_ONLY",
+  "protocol_manifest_sha256": "8471a0a22637104a6d73b5dfe9d894c7075bbafe56136bf3f7130476f29f443d",
+  "opt_frozen_manifest_sha256": "80178261d1f4e4306783989ed1ec3bf31b825cff080536c8b6036823c0820756",
+  "representative_seed": 126,
+  "final_epochs": 85,
+  "use_lbfgs": false,
+  "test_opened_upstream": false
+}

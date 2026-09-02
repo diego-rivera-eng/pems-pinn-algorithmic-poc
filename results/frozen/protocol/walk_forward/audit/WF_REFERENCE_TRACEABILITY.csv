@@ -1,0 +1,6 @@
+source,sha256,role
+00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb,38299fe842f761719b070fc340d71c645269730fd2b3eee3ef00eee72daf5e28,"Estructura, artefactos, controles y escritura atómica"
+04_Gold_Standard_PINN_NOX_WF04 - R7.ipynb,dfe58b9407ab5dcb708534a1347e67afaaea643d38bad2b3f1f8197bf8b26e47,"Splitter anual NOx, antifuga y física TIT"
+04_Gold_Standard_PINN_CO_WF04 - R9.ipynb,ef658af8f25667ed229f9e6864fa66bd23652f4f8221a252f286fc6064612e31,"Splitter anual CO, antifuga y física CDP"
+Manual Estilo Convenciones Notebooks - R4.md,6b3664fdea88ae854399e769af44aa705e0103b18c6179c1216cd9d297215224,Documento rector de estilo y calidad
+Estructura Archivos Colab.txt,395787c2c899d9347424611e2535b51aa826ea394359cd9a99b26966001a665a,Rutas canónicas de Drive

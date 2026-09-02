@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "target": "NOX",
+  "development_years": [
+    2011,
+    2012,
+    2013,
+    2014
+  ],
+  "dev_target_rows_materialized": 29349,
+  "test_target_rows_materialized": 0,
+  "test_feature_rows_materialized": 0,
+  "test_content_sha256_computed": false,
+  "non_target_pollutant_materialized": false,
+  "events": [
+    {
+      "year": 2011,
+      "rows_target_materialized": 7411,
+      "non_target_pollutant_materialized": false,
+      "operation": "FEATURES_PLUS_AUTHORIZED_TARGET"
+    },
+    {
+      "year": 2012,
+      "rows_target_materialized": 7628,
+      "non_target_pollutant_materialized": false,
+      "operation": "FEATURES_PLUS_AUTHORIZED_TARGET"
+    },
+    {
+      "year": 2013,
+      "rows_target_materialized": 7152,
+      "non_target_pollutant_materialized": false,
+      "operation": "FEATURES_PLUS_AUTHORIZED_TARGET"
+    },
+    {
+      "year": 2014,
+      "rows_target_materialized": 7158,
+      "non_target_pollutant_materialized": false,
+      "operation": "FEATURES_PLUS_AUTHORIZED_TARGET"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T22:37:07.909357+00:00"
+}

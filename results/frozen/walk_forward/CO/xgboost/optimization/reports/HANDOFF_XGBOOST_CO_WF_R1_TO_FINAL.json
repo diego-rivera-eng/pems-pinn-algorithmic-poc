@@ -1,0 +1,15 @@
+{
+  "status": "READY",
+  "version": "XGBOOST_CO_WF_OPT_R1_POC_EFFICIENT",
+  "target": "CO",
+  "source_notebook": "07_XGBoost_CO_WF_OPT - R1_POC_EFFICIENT.ipynb",
+  "destination_notebook": "07_XGBoost_CO_WF_FINAL - R1F_STD.ipynb",
+  "protocol_notebook": "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+  "frozen_manifest_path": "models/wf/work_xgboost_co_wf_opt_r1_poc_efficient/configs/FROZEN_CONFIG_MANIFEST_XGBOOST_CO_WF_R1.json",
+  "frozen_manifest_sha256": "872c86e88ef20688ff9c6e8184a97ee68435ba38a5563db476fef0f53df8ebe3",
+  "config_hash": "54da4c07c37bc77d482bdba3f32fd36870adc3eb31e2795748e35698894442a7",
+  "confirmation_ranking_rule": "worst_fold_median_R2_desc_then_R2_q10_desc_then_R2_median_desc_R2_mean_desc_RMSE_MAE_bias_std_bytes_asc",
+  "study_fingerprint_sha256": "d3cf1868be5d10fa39f114fca129aad0701e64a61d8cc67bb1f6dc97076c9f50",
+  "test_opened": false,
+  "test_content_hashed": false
+}

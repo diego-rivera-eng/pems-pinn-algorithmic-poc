@@ -1,0 +1,8 @@
+control,status,detail
+config_hash,PASS,5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05
+target_roundtrip,PASS,log1p reversible
+parameter_budget,PASS,77665
+physical_gradient,PASS,64/64 finitos
+final_epochs,PASS,45
+final_seeds,PASS,10
+test_target_before_training,PASS,0

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T19:07:29.154687+00:00",
+  "target": "NOX",
+  "dev_target_rows_materialized": 29845,
+  "test_target_rows_materialized": 0,
+  "test_access_count": 0,
+  "other_pollutant_materialized": false
+}

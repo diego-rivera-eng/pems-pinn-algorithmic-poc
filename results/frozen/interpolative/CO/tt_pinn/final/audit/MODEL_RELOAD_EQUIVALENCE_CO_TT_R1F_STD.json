@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T06:14:54.624524+00:00",
+  "seed": 126,
+  "max_abs_difference": 0.0,
+  "tolerance": 1e-07,
+  "model_sha256": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110",
+  "tt_contract_hash": "3f380430407e8f2b528cbc154e38f27c9336251f2521bd7112a1a4b4d5b3eead",
+  "test_opened": false
+}

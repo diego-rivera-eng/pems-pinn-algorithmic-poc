@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_CO_INTERP_OPT_R1_POC_EFFICIENT",
+  "target": "CO",
+  "generated_at_utc": "2026-08-19T08:09:00.701595+00:00",
+  "producer_notebook": "07_XGBoost_CO_INTERP_OPT - R1_POC_EFFICIENT.ipynb",
+  "authorized_consumer": "07_XGBoost_CO_INTERP_FINAL - R1F_STD.ipynb",
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "protocol_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "test_opened": false,
+  "campaign_complete": true,
+  "stop_reason": "PRACTICAL_CONVERGENCE",
+  "attempted_trials": 40,
+  "complete_trials": 39,
+  "champion_id": "ANCHOR_BALANCED_identity",
+  "config_hash": "9c254d014635ed5849756616f5ed8ef37b078c2ae7c2cf149831a2a07060d629",
+  "best_config_path": "models/interp/work_xgboost_co_interp_opt_r1_poc_efficient/configs/BEST_CONFIG_XGBOOST_CO_INTERP.json",
+  "best_config_sha256": "647c6a296fb3d5a2712fc52e32c4b4b8db17420ddfd0cc16705b3682e25a397f",
+  "training_policy_path": "models/interp/work_xgboost_co_interp_opt_r1_poc_efficient/configs/FINAL_TRAINING_POLICY_XGBOOST_CO_INTERP_R1.json",
+  "training_policy_sha256": "fd84fd2a0f736652ed4c4a3a1852db551032792ecf828a4c173cf628bae19502",
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "pure_data_driven_contract": {
+    "pure_data_driven": true,
+    "physics_loss": false,
+    "synthetic_physics_samples": false,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "other_pollutant_as_input": false,
+    "feature_recipe": "RAW_9",
+    "feature_scaler": null
+  }
+}

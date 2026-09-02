@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN",
+  "source": "champion confirmation 5 seeds x 5 DEV folds",
+  "FINAL_EPOCHS": 85,
+  "q25": 60.0,
+  "q75": 115.0,
+  "min": 25,
+  "max": 185,
+  "n": 25,
+  "representative_seed": 126,
+  "use_lbfgs": false,
+  "lbfgs_outer_steps": 15,
+  "lbfgs_max_iter": 200,
+  "lbfgs_history_size": 100,
+  "protocol_hashes": {
+    "row_assignment": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+    "fold_assignment": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015"
+  },
+  "best_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "test_opened": false
+}

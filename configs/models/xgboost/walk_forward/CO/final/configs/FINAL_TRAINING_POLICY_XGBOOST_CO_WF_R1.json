@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_CO_WF_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T23:01:17.731176+00:00",
+  "target": "CO",
+  "final_n_estimators": 144,
+  "derivation": "ceil_median_best_iteration_plus_one_on_DEV_confirmation",
+  "derivation_rows": 15,
+  "derivation_folds": [
+    "WF01",
+    "WF02",
+    "WF03"
+  ],
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "ensemble_rule": "arithmetic_mean_all_predeclared_seeds",
+  "test_used": false,
+  "config_hash": "54da4c07c37bc77d482bdba3f32fd36870adc3eb31e2795748e35698894442a7"
+}

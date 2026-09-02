@@ -1,0 +1,103 @@
+{
+  "status": "FROZEN_BEFORE_FULL_AUTO",
+  "version": "NOX_INTERP_OPT_R6",
+  "campaign_schema": "R6_AUTONOMOUS_TPE_TIT_INC_2PLUS3_TOP5_STAGED_ESCALATION_LBFGS",
+  "result_schema": "R6_FOLD_RESULT_V1",
+  "target": "NOX",
+  "physics_mode": "TIT_INC",
+  "physics_feature": "TIT",
+  "folds": 5,
+  "test_policy": "CLOSED",
+  "confirmation": {
+    "top_n": 5,
+    "seeds_initial": [
+      21,
+      42,
+      84
+    ],
+    "seeds_reserve": [
+      126,
+      168
+    ],
+    "prospective_comparator": "prefix_[21,42]_vs_prefix_[21,42,84]",
+    "gates": {
+      "champion_unchanged": true,
+      "top3_overlap_min_count": 2,
+      "absolute_delta_S_pred_lt": 0.002,
+      "relevant_physics_admissibility_unchanged": true,
+      "max_population_std_of_per_seed_median_R2": 0.02
+    }
+  },
+  "lbfgs": {
+    "top_n": 3,
+    "seeds_initial": [
+      21,
+      42
+    ],
+    "seeds_reserve": [
+      84
+    ],
+    "workers": 1,
+    "non_finite_policy": "REJECT_CANDIDATE_LBFGS_AND_FALLBACK_FO_ONLY_NO_RETRY",
+    "adoption_gate": {
+      "pcd_min_gte": 95.0,
+      "r2_win_fraction_gte": 0.6,
+      "median_delta_R2_gt": 0.0,
+      "median_delta_PCD_gte": -0.5
+    },
+    "extension_gate": {
+      "median_delta_R2_gte": -0.002,
+      "r2_win_fraction_gte": 0.5,
+      "median_delta_PCD_gte": -1.0
+    }
+  },
+  "ablation": {
+    "seeds_initial": [
+      21,
+      42,
+      84
+    ],
+    "seeds_reserve": [
+      126,
+      168
+    ],
+    "comparison": "FO_PINN_MINUS_MATCHED_FO_MLP",
+    "class_rule": {
+      "favorable": "median_delta_R2>0 and R2_win_fraction>=0.60",
+      "unfavorable": "median_delta_R2<0 and R2_win_fraction<=0.40",
+      "neutral": "otherwise"
+    },
+    "escalate_if": "class_or_sign_changes_between_2_seed_and_3_seed_prefix_or_class_is_NEUTRAL"
+  },
+  "workers": {
+    "optuna": 1,
+    "preflight_candidates": [
+      1,
+      2,
+      3
+    ],
+    "confirmation_max": 3,
+    "ablation_max": 3,
+    "lbfgs": 1
+  },
+  "checkpoint": "ATOMIC_AFTER_EACH_FOLD_SINGLE_WRITER",
+  "controller": "ONE_CANONICAL_RESUMABLE_CONTROLLER",
+  "planned_runs": {
+    "extended_reference": 350,
+    "initial_maximum": 135,
+    "confirmation_initial": 75,
+    "lbfgs_stage_a": 30,
+    "lbfgs_initial_maximum_after_seed84_gate": 45,
+    "ablation_initial": 15,
+    "confirmation_extended_scenario_approx": 185
+  },
+  "design_source_hashes": {
+    "DOCUMENTO_EJECUTIVO_CONCLUSIONES_Y_CAMBIOS_JUSTIFICABLES_NOX_INTERP_R1.docx": "B04911F92DBBDD83C7021FAED463E3814F8DBC3BAF5E7502A6011D050498E5EE",
+    "INFORME_CONSOLIDADO_AUDITORIA_RETROSPECTIVA_CO_R5_PARA_NOX_R1.docx": "C82E4CD6FE8D179126FC528BB7ECEC2A267D68649CCF04DA94BC970BFC7039B9",
+    "04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb": "7685A2C54626A3BEB5792D77DCC33EB19D5884683D89AC3A7D4898632D6A2612",
+    "LIVE_MONITOR_PINN_CO_INTERP_R5.ipynb": "A2B602EE4DEDA9E946FDE146A2DCD1995AB70F24A5FAFB2F0D521E692E8365FF",
+    "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb": "34DB8989CA7B6CE4FF6F8628AD263827B339519BFDE79217020B5BCC132C5A82",
+    "04_Gold_Standard_PINN_NOX_INTERP_OPT - R5.ipynb": "9F892E1DB2E3373D1A606E04BC5D856215EAAFB72660BAFC2171F66A8034D541"
+  },
+  "campaign_contract_sha256": "b4735a9b27d7395e306d2d733bd202b4becbeea8ab9af5a9887ad7cd2abed4ea"
+}

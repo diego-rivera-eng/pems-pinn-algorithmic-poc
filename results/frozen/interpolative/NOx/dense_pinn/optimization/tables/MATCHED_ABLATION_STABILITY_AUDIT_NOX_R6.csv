@@ -1,0 +1,2 @@
+class_prefix2,class_prefix3,sign_R2_RMSE_prefix2,sign_R2_RMSE_prefix3,median_delta_R2_prefix3,median_delta_RMSE_prefix3,status,final_class,escalation_triggered,escalation_reasons,seeds_executed
+UNFAVORABLE,UNFAVORABLE,"[-1,1]","[-1,1]",-0.0025325892750990286,0.031572045898630385,PASS,UNFAVORABLE,False,[],"[21,42,84]"

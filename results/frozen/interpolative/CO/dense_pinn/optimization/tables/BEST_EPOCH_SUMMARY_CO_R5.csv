@@ -1,0 +1,2 @@
+status,source,FINAL_EPOCHS,q25,q75,min,max,n,representative_seed,use_lbfgs,lbfgs_outer_steps,lbfgs_max_iter,lbfgs_history_size,protocol_hashes,best_config_hash,test_opened
+FROZEN,champion confirmation 5 seeds x 5 DEV folds,85,60.0,115.0,25,185,25,126,False,15,200,100,"{'row_assignment': '1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07', 'fold_assignment': 'b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015'}",e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8,False

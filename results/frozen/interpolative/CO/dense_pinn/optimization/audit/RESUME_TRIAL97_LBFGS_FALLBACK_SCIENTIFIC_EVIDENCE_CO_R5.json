@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "mode": "RESUME_LBFGS_FROM_CHECKPOINT",
+  "workers": 1,
+  "confirmation_rows_before": 250,
+  "confirmation_rows_after": 250,
+  "optuna_trials_before": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "optuna_trials_after": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "adaptive_stop_reason": "STOP_ADAPTIVE_STABILIZATION",
+  "stable_streak": 3,
+  "test_opened": false,
+  "elapsed_seconds": 276.21426670000073,
+  "generated_at_utc": "2026-08-26T03:21:52.603956+00:00"
+}

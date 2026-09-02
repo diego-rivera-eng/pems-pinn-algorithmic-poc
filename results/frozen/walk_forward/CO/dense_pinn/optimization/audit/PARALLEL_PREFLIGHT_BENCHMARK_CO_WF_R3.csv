@@ -1,0 +1,4 @@
+workers,elapsed_s,speedup,equivalence_pass,memory_pass,estimated_peak_reserved_gb,status
+1,1.8727863000240177,1.0,True,True,0.0546875,REFERENCE
+2,1.1994119999581017,1.5614203460440939,True,True,0.10546875,PASS
+3,0.9494517000275664,1.9724924395518415,True,True,0.158203125,PASS

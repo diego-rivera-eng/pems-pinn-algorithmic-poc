@@ -1,0 +1,23 @@
+book_element,claim_or_content,primary_evidence,derived_artifact,status
+Table 32,Interpolative performance Dense CO,results/frozen/interpolative/CO/dense_pinn/final/tables/FINAL_METRICS_CO_R5F_STD.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 32,Interpolative performance TT CO,results/frozen/interpolative/CO/tt_pinn/final/tables/FINAL_METRICS_CO_TT_R1F_STD.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 32,Interpolative performance XGBoost CO seed42,results/frozen/interpolative/CO/xgboost/final/tables/test_metrics_by_seed.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 32,Interpolative performance Dense NOx,results/frozen/interpolative/NOx/dense_pinn/final/tables/FINAL_METRICS_NOX_R6F_STD.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 32,Interpolative performance TT NOx,results/frozen/interpolative/NOx/tt_pinn/final/tables/FINAL_METRICS_NOX_TT_R1F_STD.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 32,Interpolative performance XGBoost NOx seed42,results/frozen/interpolative/NOx/xgboost/final/tables/test_metrics_by_seed.csv,results/frozen/interpolative/metrics_summary.csv,VERIFIED
+Table 33,Model complexity and serialized size,results/frozen/computational_benchmark/tt_pinn_addendum/common/COMPUTATIONAL_COMPARISON_CO_NOX_ADDENDUM_R1.csv,results/frozen/computational_benchmark/model_size_summary.csv,VERIFIED
+Table 34,Walk-forward Dense CO ensemble,results/frozen/walk_forward/CO/dense_pinn/final/tables/test_metrics_ensemble.json,results/frozen/walk_forward/metrics_summary.csv,VERIFIED
+Table 34,Walk-forward XGBoost CO ensemble,results/frozen/walk_forward/CO/xgboost/final/tables/test_metrics_ensemble.json,results/frozen/walk_forward/metrics_summary.csv,VERIFIED
+Table 34,Walk-forward Dense NOx ensemble,results/frozen/walk_forward/NOx/dense_pinn/final/tables/test_metrics_ensemble.json,results/frozen/walk_forward/metrics_summary.csv,VERIFIED
+Table 34,Walk-forward XGBoost NOx ensemble,results/frozen/walk_forward/NOx/xgboost/final/tables/test_metrics_ensemble.json,results/frozen/walk_forward/metrics_summary.csv,VERIFIED
+Figure 17,Interpolative protocol,configs/protocols/interpolative/manifests/INTERP_SPLIT_MANIFEST.json,figures/protocol/interpolative_protocol.png,VERIFIED
+Figure 18,Dense train/test segments,results/frozen/interpolative/CO/dense_pinn/final/tables/FINAL_METRICS_CO_R5F_STD.csv,figures/dense_pinn/train_test_segments.png,VERIFIED
+Figure 19,Dense parity and residuals,results/frozen/interpolative/NOx/dense_pinn/final/tables/FINAL_METRICS_NOX_R6F_STD.csv,figures/dense_pinn/parity_residuals.png,VERIFIED
+Figure 20,TT train/test segments,results/frozen/interpolative/CO/tt_pinn/final/tables/FINAL_METRICS_CO_TT_R1F_STD.csv,figures/tt_pinn/train_test_segments.png,VERIFIED
+Figure 21,TT parity and residuals,results/frozen/interpolative/NOx/tt_pinn/final/tables/FINAL_METRICS_NOX_TT_R1F_STD.csv,figures/tt_pinn/parity_residuals.png,VERIFIED
+Figure 22,Physical consistency Dense and TT,results/frozen/figure_data/physical_gradients_test.csv,figures/physical_consistency/dense_tt_gradients_pdp.png,VERIFIED
+Figure 23,XGBoost train/test segments,results/frozen/interpolative/CO/xgboost/final/tables/test_metrics_by_seed.csv,figures/xgboost/train_test_segments.png,VERIFIED
+Figure 24,XGBoost parity and residuals,results/frozen/interpolative/NOx/xgboost/final/tables/test_metrics_by_seed.csv,figures/xgboost/parity_residuals.png,VERIFIED
+Figure 25,Pareto R2 versus size,results/frozen/figure_data/pareto_r2_size.csv,figures/pareto/r2_vs_serialized_size.png,VERIFIED
+Appendix A,Algorithmic proof-of-concept package,manifests/migration_manifest.csv,notebooks/,VERIFIED
+Appendix B,Walk-forward protocol and final evidence,configs/protocols/walk_forward/manifests/WF_PROTOCOL_MANIFEST.json,results/frozen/walk_forward/metrics_summary.csv,VERIFIED

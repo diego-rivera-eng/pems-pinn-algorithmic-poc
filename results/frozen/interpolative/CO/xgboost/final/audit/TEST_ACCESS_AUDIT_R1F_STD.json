@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T19:07:10.191620+00:00",
+  "target": "CO",
+  "opened_once": true,
+  "access_count": 1,
+  "test_rows_materialized": 6888,
+  "other_pollutant_materialized": false,
+  "models_frozen_before_test": true,
+  "pre_test_gate_sha256": "36957fd3c15ba8a75217c5a580463d19481ec7214289419246822255d513929a"
+}

@@ -1,0 +1,13 @@
+target,model_family,layer_role,input_dim,output_dim,forward_linear_macs_per_row,forward_linear_flops_per_row,bias_activation_included
+NOX,DENSE_PINN,dense_input,9,96,864,1728,False
+NOX,DENSE_PINN,hidden_transition_0,96,160,15360,30720,False
+NOX,DENSE_PINN,hidden_transition_1,160,256,40960,81920,False
+NOX,DENSE_PINN,hidden_transition_2,256,32,8192,16384,False
+NOX,DENSE_PINN,hidden_transition_3,32,96,3072,6144,False
+NOX,DENSE_PINN,dense_output,96,1,96,192,False
+NOX,TT_PINN,dense_input,9,96,864,1728,False
+NOX,TT_PINN,hidden_transition_0,96,160,12864,25728,False
+NOX,TT_PINN,hidden_transition_1,160,256,18816,37632,False
+NOX,TT_PINN,hidden_transition_2,256,32,11520,23040,False
+NOX,TT_PINN,hidden_transition_3,32,96,7296,14592,False
+NOX,TT_PINN,dense_output,96,1,96,192,False

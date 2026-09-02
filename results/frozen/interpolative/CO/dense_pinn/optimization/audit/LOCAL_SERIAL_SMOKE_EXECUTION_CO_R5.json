@@ -1,0 +1,6 @@
+{
+  "status": "PASS_SERIAL",
+  "elapsed_seconds": 15.028512100001535,
+  "error": null,
+  "parallel_equivalence": "NOT_RUN_LOCAL_WINDOWS_NATIVE_DEPENDENCY_CRASH"
+}

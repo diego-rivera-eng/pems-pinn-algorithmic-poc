@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T05:52:08.601218+00:00",
+  "version": "CO_INTERP_FINAL_R5F_STD",
+  "meaning": "SINGLE_MODEL_FROZEN_BEFORE_TEST",
+  "model_count": 1,
+  "model_path": "model\\final_model_seed_126.pt",
+  "model_sha256": "f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81",
+  "checks": {
+    "status": true,
+    "seed": true,
+    "epochs": true,
+    "config": true,
+    "target": true,
+    "physics_mode": true,
+    "physics_feature": true,
+    "assignment": true,
+    "folds": true,
+    "lbfgs": true,
+    "test_closed": true,
+    "reload_equivalent": true,
+    "file_hash": true
+  },
+  "config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "representative_seed": 126,
+  "final_epochs": 85,
+  "use_lbfgs": false,
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "fold_assignment_sha256": "b3c660c84099fff3da15ce90b5346c9b52eee2357fd05a62fa35ee91ac6f7015",
+  "test_target_rows_materialized": 0,
+  "test_metrics_computed": false
+}

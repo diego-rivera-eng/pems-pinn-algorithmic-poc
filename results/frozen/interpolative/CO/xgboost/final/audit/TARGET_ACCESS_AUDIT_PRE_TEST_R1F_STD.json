@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T19:06:59.709777+00:00",
+  "target": "CO",
+  "dev_target_rows_materialized": 29845,
+  "test_target_rows_materialized": 0,
+  "test_access_count": 0,
+  "other_pollutant_materialized": false
+}

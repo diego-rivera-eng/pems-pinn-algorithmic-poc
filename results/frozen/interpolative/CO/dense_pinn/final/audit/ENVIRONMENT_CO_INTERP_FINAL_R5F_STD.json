@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-08-26T05:51:54.849664+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "torch": "2.13.0+cu132",
+  "cuda_available": true,
+  "cuda_version": "13.2",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+  "logical_cpu_count": 24,
+  "ram_gib": 31.746,
+  "tf32": true,
+  "deterministic_algorithms": "warn_only"
+}

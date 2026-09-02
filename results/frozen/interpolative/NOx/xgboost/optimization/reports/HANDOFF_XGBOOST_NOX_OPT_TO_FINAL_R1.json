@@ -1,0 +1,11 @@
+{
+  "status": "READY",
+  "version": "XGBOOST_NOX_INTERP_OPT_R1_POC_EFFICIENT",
+  "target": "NOX",
+  "source_notebook": "07_XGBoost_NOX_INTERP_OPT - R1_POC_EFFICIENT.ipynb",
+  "destination_notebook": "07_XGBoost_NOX_INTERP_FINAL - R1F_STD.ipynb",
+  "frozen_manifest_path": "models/interp/work_xgboost_nox_interp_opt_r1_poc_efficient/configs/FROZEN_CONFIG_MANIFEST_XGBOOST_NOX_INTERP_R1.json",
+  "frozen_manifest_sha256": "0bebb06d4dfc5b1c5285997a2f99832752ab3be53c264775cce2b64895dae422",
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8",
+  "test_opened": false
+}

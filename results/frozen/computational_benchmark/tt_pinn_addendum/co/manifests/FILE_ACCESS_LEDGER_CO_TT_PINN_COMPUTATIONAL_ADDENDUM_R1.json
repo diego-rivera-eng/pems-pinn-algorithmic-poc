@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "POSTHOC_SYNTHETIC_COMPUTATIONAL_AUDIT",
+  "declared_read_paths": [
+    "models/interp/work_pinn_co_interp_final_r5f_std/configs/FINAL_MODEL_MANIFEST_CO_R5F_STD.json",
+    "models/interp/work_pinn_co_interp_final_r5f_std/model/final_model_seed_126.pt",
+    "models/interp/work_tt_pinn_co_interp_final_r1f_std/configs/FINAL_MODEL_MANIFEST_CO_TT_R1F_STD.json",
+    "models/interp/work_tt_pinn_co_interp_final_r1f_std/configs/TT_ARCHITECTURE_CONTRACT_CO_TT_R1F_STD.json",
+    "models/interp/work_tt_pinn_co_interp_final_r1f_std/model/tt_final_model_seed_126.pt",
+    "notebooks/05_TT_PINN_CO_INTERP_FINAL - R1F_STD - LOCAL_EXECUTED.ipynb",
+    "notebooks/05_TT_PINN_CO_INTERP_FINAL - R1F_STD.ipynb"
+  ],
+  "dataset_paths_read": [],
+  "test_dataset_accessed": false,
+  "test_targets_accessed": false,
+  "test_predictions_accessed": false,
+  "posthoc_test_row_access_count": 0,
+  "note": "Workers accept only checkpoint paths and generate synthetic inputs."
+}

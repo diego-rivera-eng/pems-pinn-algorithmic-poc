@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-18T22:50:30.314476+00:00",
+  "consumer_notebook": "04_Gold_Standard_PINN_NOX_WF_FINAL - R3F_STD.ipynb",
+  "authorized_producers": [
+    "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+    "04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb"
+  ],
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "opt_frozen_manifest_sha256": "bfc7279497a8b0dd44dc87e7bbdb92db1dc9159666959376d751c8c05908a990",
+  "test_2015_values_materialized": false,
+  "test_2015_sha256_computed": false
+}

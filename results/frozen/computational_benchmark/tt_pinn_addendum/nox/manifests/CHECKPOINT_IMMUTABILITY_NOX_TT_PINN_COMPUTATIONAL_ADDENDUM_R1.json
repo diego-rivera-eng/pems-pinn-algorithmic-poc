@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T17:26:15.136747+00:00",
+  "persistent_checkpoints_written": false,
+  "checkpoints": [
+    {
+      "model_family": "DENSE_PINN",
+      "checkpoint_path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_nox_interp_final_r6f_std\\model\\final_model_seed_84.pt",
+      "sha256_before": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+      "sha256_after": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+      "tensor_sha256_before": "c2809c4db6cf625424301e0ed0c29182b9bf9c58f4be0f027638301bdb64c183",
+      "tensor_sha256_after": "c2809c4db6cf625424301e0ed0c29182b9bf9c58f4be0f027638301bdb64c183",
+      "unchanged": true
+    },
+    {
+      "model_family": "TT_PINN",
+      "checkpoint_path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_tt_pinn_nox_interp_final_r1f_std\\model\\tt_final_model_seed_84.pt",
+      "sha256_before": "e4724801a279d0f06184dcb952f3f8b65026ace8a028b6e0ab46b27ebf996ca1",
+      "sha256_after": "e4724801a279d0f06184dcb952f3f8b65026ace8a028b6e0ab46b27ebf996ca1",
+      "tensor_sha256_before": "7260909b5c5cfdc6b858ad5c452e41f2a90cc3b9be7f8230982e148bd319b546",
+      "tensor_sha256_after": "7260909b5c5cfdc6b858ad5c452e41f2a90cc3b9be7f8230982e148bd319b546",
+      "unchanged": true
+    }
+  ]
+}

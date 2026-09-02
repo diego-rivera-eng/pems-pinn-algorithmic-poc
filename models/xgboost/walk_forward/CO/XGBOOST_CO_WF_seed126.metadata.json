@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "version": "XGBOOST_CO_WF_FINAL_R1F_STD",
+  "seed": 126,
+  "target": "CO",
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "train_rows": 29349,
+  "target_transform": "identity",
+  "config_hash": "54da4c07c37bc77d482bdba3f32fd36870adc3eb31e2795748e35698894442a7",
+  "n_estimators": 144,
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "protocol_general_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "model_path": "models/wf/work_xgboost_co_wf_final_r1f_std/models/XGBOOST_CO_WF_seed126.ubj",
+  "model_sha256": "fea31ebb50228bc2d3e7a9dc406e7f1cd17d00b129b727a6e372a4e048a53c88",
+  "test_used": false
+}

@@ -1,0 +1,74 @@
+{
+  "status": "COMPLETE",
+  "generated_at_utc": "2026-08-29T17:26:17.145043+00:00",
+  "target": "NOX",
+  "producer_role": "POSTHOC_COMPUTATIONAL_ADDENDUM_ONLY",
+  "producer_of_model": false,
+  "persistent_artifact_training_performed": false,
+  "disposable_clone_training_steps_per_worker": 2,
+  "disposable_clone_weights_changed": true,
+  "hyperparameter_search_performed": false,
+  "model_selection_performed": false,
+  "synthetic_inputs_only": true,
+  "test_dataset_accessed": false,
+  "test_targets_accessed": false,
+  "test_predictions_accessed": false,
+  "posthoc_test_row_access_count": 0,
+  "persistent_weights_changed": false,
+  "checkpoints_written": false,
+  "execution_scope": "APPENDED_CELLS_ONLY_FRESH_KERNEL_AND_FRESH_WORKERS",
+  "base_source_notebook_path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD.ipynb",
+  "base_source_notebook_sha256": "9dbb4ef0a5671daba41fff05003295346e136be52d760d2b32e9dba2922aada1",
+  "base_local_executed_path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - LOCAL_EXECUTED.ipynb",
+  "base_local_executed_sha256": "e6ed06cd9d45a96e6c8ee023940181fa74e46b1b22525de70adc494e069abcb8",
+  "extended_source_notebook_path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - COMPUTATIONAL_ADDENDUM_R1.ipynb",
+  "extended_source_notebook_sha256": "f694212709afb3a227fedd9bb710223a8292f40a786eb0be4154fe5c22b7a4d4",
+  "extended_local_executed_path": "notebooks/05_TT_PINN_NOX_INTERP_FINAL - R1F_STD - COMPUTATIONAL_ADDENDUM_R1 - LOCAL_EXECUTED.ipynb",
+  "extended_local_executed_sha256_initial": "0f09753e541168b185d06b828ffec2ba0fa751269e9990ac4453acf99e3e4b55",
+  "extended_local_executed_sha256": "3c711e5659647f494eb81917dbf96be0ba8f68e0b309b64adbf33aef7bd86123",
+  "base_manifest_path": "models/interp/work_tt_pinn_nox_interp_final_r1f_std/configs/FINAL_MODEL_MANIFEST_NOX_TT_R1F_STD.json",
+  "base_manifest_sha256": "b22f5e66f20ea8e3f6e37786d9f89c08130ced9812f40071be8364e796ed5bba",
+  "checkpoint_immutability_path": "manifests/CHECKPOINT_IMMUTABILITY_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+  "file_access_ledger_path": "manifests/FILE_ACCESS_LEDGER_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+  "protocol_path": "manifests/POSTHOC_PROTOCOL_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+  "artifact_hashes_path": "tables/ARTIFACT_HASHES_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.csv",
+  "report_path": "reports/COMPUTATIONAL_ADDENDUM_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.md",
+  "figures": [
+    {
+      "path": "figures/ADDENDUM-01_computational_cards_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.png",
+      "sha256": "db92e07188e35fe24063117717d0562d4622b1b715abf4139ecbf915c19d445c"
+    },
+    {
+      "path": "figures/ADDENDUM-01_computational_cards_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.svg",
+      "sha256": "f34c627bf137c41497b3cf50c637da869cd365dbd4fdba1817ace6d7cf678199"
+    },
+    {
+      "path": "figures/ADDENDUM-02_memory_compute_tradeoff_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.png",
+      "sha256": "e9f3919b260c9e1d1e8fd3c5690b31bfb77fbcc799132e50ee1f8447cda275a2"
+    },
+    {
+      "path": "figures/ADDENDUM-02_memory_compute_tradeoff_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.svg",
+      "sha256": "19ebcb5652d9dacb911362ecf70044fdf326a441eac98f5444762f556208f984"
+    },
+    {
+      "path": "figures/ADDENDUM-03_batch_sweep_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.png",
+      "sha256": "39867297dde7e83a52093f8530944c2f4bc5365a0b06e2a4051342bad8fc96cc"
+    },
+    {
+      "path": "figures/ADDENDUM-03_batch_sweep_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.svg",
+      "sha256": "5f3e76fd2e6f043520075a54e8654ff84a9637c6401cbc534266740fb111b9d1"
+    }
+  ],
+  "validation": {
+    "parameter_counts_exact": true,
+    "mac_counts_exact": true,
+    "raw_samples_recomputed": true,
+    "checkpoint_hashes_unchanged": true,
+    "protected_inventory_unchanged": true,
+    "finite_outputs": true
+  },
+  "finalized_at_utc": "2026-08-29T17:34:12.296211+00:00",
+  "append_only_notebook_audit_path": "manifests/APPEND_ONLY_NOTEBOOK_AUDIT_NOX_TT_PINN_COMPUTATIONAL_ADDENDUM_R1.json",
+  "append_only_notebook_audit_sha256": "3881cbe6c03326abca4aa5f8170780ed65cc9386a12240e8a0103a40c1118ac2",
+  "artifact_hashes_sha256": "c65e035cfb25f55f3533c785a5698522246726e13277c95127614f0c434eb916"
+}

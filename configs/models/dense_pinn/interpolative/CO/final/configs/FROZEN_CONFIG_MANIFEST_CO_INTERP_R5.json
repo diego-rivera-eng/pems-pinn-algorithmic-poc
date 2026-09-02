@@ -1,0 +1,116 @@
+{
+  "status": "FROZEN",
+  "version": "CO_INTERP_OPT_R5",
+  "generated_at_utc": "2026-08-26T03:21:52.189051+00:00",
+  "producer_notebook": "04_Gold_Standard_PINN_CO_INTERP_OPT - R5.ipynb",
+  "upstream_notebook": "00_PEMS_PINN_INTERP_PROTOCOL - R1.ipynb",
+  "authorized_direct_consumer": "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb",
+  "output_rel": "models\\interp\\work_pinn_co_interp_opt_r5",
+  "upstream_protocol_manifest_sha256": "8471a0a22637104a6d73b5dfe9d894c7075bbafe56136bf3f7130476f29f443d",
+  "test_opened": false,
+  "final_seeds": [
+    21,
+    42,
+    84,
+    126,
+    168
+  ],
+  "campaign_schema": "R5_AUTONOMOUS_TPE_CDP_NEG_2PLUS3_TOP10_LBFGS",
+  "trial_counts": {
+    "complete": 94,
+    "pruned": 25,
+    "fail": 1,
+    "running": 0,
+    "waiting": 0,
+    "attempted": 120
+  },
+  "physics_mode": "CDP_NEG",
+  "physics_feature": "CDP",
+  "monotonic_constraint": "dCO_dCDP_le_0",
+  "physics_scale_quantiles": [
+    0.05,
+    0.95
+  ],
+  "physics_evaluation_rows": 2048,
+  "parallel_strategy": "FOLD_LEVEL_LOKY_PROCESSES_WITH_2PLUS3_BARRIERS",
+  "parallel_workers": 1,
+  "optuna_n_jobs": 1,
+  "fold_execution_policy": "TWO_FOLD_SCREEN_THEN_THREE_FOLD_PROMOTION",
+  "fixed_search_parameters": {
+    "physics_mode": "CDP_NEG"
+  },
+  "tpe_startup_trials": 25,
+  "survey_attempts": 30,
+  "stop_policy_version": "R5_TOP10_STABILIZATION_V1",
+  "minimum_attempted_trials": 100,
+  "minimum_complete_total_trials": 50,
+  "material_gain": 0.002,
+  "top_n_confirmation": 10,
+  "confirmation_seeds": [
+    21,
+    42,
+    84,
+    126,
+    168
+  ],
+  "top_n_lbfgs": 3,
+  "max_trainable_parameters": 500000,
+  "parallel_profile_sha256": "6569fd5730456fef60a4cde19ee7794a71e9392b81877d7bab8150ed9f5c04f6",
+  "knn_source": "INTERP_DOMAIN_ENVELOPE.json",
+  "knn_k": 20,
+  "knn_quantile": 0.99,
+  "artifacts": {
+    "BEST_CONFIG_CO_INTERP_R5.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\configs\\BEST_CONFIG_CO_INTERP_R5.json",
+      "sha256": "984c0a59463a596d8ac085858557e06ee95b6e63dd10fe6973d99b2347742292"
+    },
+    "FINAL_TRAINING_POLICY_CO_INTERP_R5.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\configs\\FINAL_TRAINING_POLICY_CO_INTERP_R5.json",
+      "sha256": "5f74ab514e374ba2d44cb429d03c32bebc4e1803ed11b5e4dd750cfe5913bc7a"
+    },
+    "FINAL_REPRESENTATIVE_SEED_CO_R5.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\configs\\FINAL_REPRESENTATIVE_SEED_CO_R5.json",
+      "sha256": "b84ee2e995d5f43c1a85f2bbf10afb523d698fa2d2be17e8bc640bafc2080f07"
+    },
+    "SEARCH_SPACE_SIGNATURE_CO_R5.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\configs\\SEARCH_SPACE_SIGNATURE_CO_R5.json",
+      "sha256": "3f55a9a358331e6f2f45664462ddb3f5ffc42b260814eb79db67539dca9f666f"
+    },
+    "INTERP_ROW_ASSIGNMENT.csv": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_interp_protocol\\tables\\INTERP_ROW_ASSIGNMENT.csv",
+      "sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07"
+    },
+    "INTERP_SPLIT_MANIFEST.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_interp_protocol\\manifests\\INTERP_SPLIT_MANIFEST.json",
+      "sha256": "4e11c67c45e84ff049b65de0a29cb800678e6e505c58319f6b10417790a45193"
+    },
+    "INTERP_FOLDS_MANIFEST.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_interp_protocol\\manifests\\INTERP_FOLDS_MANIFEST.json",
+      "sha256": "3e917c5a5c2c54de2369a6279f4afbb18f913e407bafa5953924ea33faba1399"
+    },
+    "INTERP_DOMAIN_ENVELOPE.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_interp_protocol\\manifests\\INTERP_DOMAIN_ENVELOPE.json",
+      "sha256": "f6aba5767539a6d3a5812e298957f21cd7214fd89db894823bcd118609803094"
+    },
+    "RANKING_CO_R5.csv": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\tables\\RANKING_CO_R5.csv",
+      "sha256": "350b784edaf8951456085a587eae17cccbce6ce85744a82dc7e2b8dde7be0db6"
+    },
+    "CONFIRMATION_RUNS_CO_R5.csv": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\tables\\CONFIRMATION_RUNS_CO_R5.csv",
+      "sha256": "7d92ed2d8b2787c9e8aa93819890ac1a57d5af81a0b82bf53b7a4269da12ec00"
+    },
+    "LBFGS_PAIRED_CO_R5.csv": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\tables\\LBFGS_PAIRED_CO_R5.csv",
+      "sha256": "c9cd74995ac3a2aa0b550f0cc8fae6596cb4bc11477dbc44b9ac27552a290a60"
+    },
+    "MATCHED_ABLATION_DELTAS_CO_R5.csv": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\tables\\MATCHED_ABLATION_DELTAS_CO_R5.csv",
+      "sha256": "da314b15604e80c53ed0692cd25ba8535382d7710abaff6fcb6208609b27a2e2"
+    },
+    "OPTUNA_TRIAL_COUNTS_CO_R5.json": {
+      "path": "C:\\ChatGPT-Work\\Walk_Forward R8\\models\\interp\\work_pinn_co_interp_opt_r5\\audit\\OPTUNA_TRIAL_COUNTS_CO_R5.json",
+      "sha256": "8c7211768c8f5d5dfea50c900c65437892032bdf4f83b825e38e254eff2301f9"
+    }
+  }
+}

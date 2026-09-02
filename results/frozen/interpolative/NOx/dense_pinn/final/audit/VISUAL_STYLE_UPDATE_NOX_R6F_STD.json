@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE",
+  "version": "NOX_INTERP_FINAL_R6F_STD",
+  "updated_at_utc": "2026-08-29T23:32:16.982085+00:00",
+  "scope": "OPERATIONAL_SERIES_VISUAL_STYLE_ONLY",
+  "palette_applies_only_to": [
+    "figures/FINAL-10_dev_operational_series.png",
+    "figures/FINAL-10_dev_operational_series.svg",
+    "figures/FINAL-11_test_operational_series.png",
+    "figures/FINAL-11_test_operational_series.svg"
+  ],
+  "palette": {
+    "real": "#2FA84F",
+    "pinn": "#FF9900"
+  },
+  "restored_to_original": [
+    "FINAL-01_training_history.png",
+    "FINAL-01_training_history.svg",
+    "FINAL-02_dev_parity.png",
+    "FINAL-02_dev_parity.svg",
+    "FINAL-03_test_parity.png",
+    "FINAL-03_test_parity.svg",
+    "FINAL-04_test_residual_vs_predicted.png",
+    "FINAL-04_test_residual_vs_predicted.svg",
+    "FINAL-05_test_residual_distribution.png",
+    "FINAL-05_test_residual_distribution.svg",
+    "FINAL-06_physical_gradient_distribution.png",
+    "FINAL-06_physical_gradient_distribution.svg",
+    "FINAL-07_physical_PDP_TIT.png",
+    "FINAL-07_physical_PDP_TIT.svg",
+    "FINAL-08_computational_profile.png",
+    "FINAL-08_computational_profile.svg",
+    "FINAL-09_combined_parity_dev_test.png",
+    "FINAL-09_combined_parity_dev_test.svg",
+    "FINAL-12_test_residual_vs_CDP.png",
+    "FINAL-12_test_residual_vs_CDP.svg",
+    "FINAL-13_test_residual_diagnostics.png",
+    "FINAL-13_test_residual_diagnostics.svg"
+  ],
+  "correction_backup": "backups/NOX_FINAL_R6F_STD_before_operational_only_correction_20260829T233216Z.zip",
+  "scientific_artifact_hashes_before": {
+    "models/interp/work_pinn_nox_interp_final_r6f_std/model/final_model_seed_84.pt": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/DEV_PREDICTIONS_NOX_R6F_STD.csv": "e436d9040f73a4a74155b7d0d97674254f50f5a551fc7f97568ae7b990d1d2ee",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/TEST_PREDICTIONS_NOX_R6F_STD.csv": "b4af6595194642d3b7adb2b5ee079f7a549ba9536fbc0dea3471503eadf1b30b",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/FINAL_METRICS_NOX_R6F_STD.csv": "ab24ab882627a9bba14fbc3fbb44fc0ff568570a66710867ef761d810f687702",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/TRAINING_HISTORY_NOX_R6F_STD.csv": "f404f5101fb820f7d8c254835799a0408c333de75f29ab7b5844669b3fefe438",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/PHYSICS_AUDIT_NOX_R6F_STD.csv": "94766270213ee55d987ddd73aeca7444ee68dbcd41b5645dcf2755e32b89f9f2",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/audit/TEST_ACCESS_LEDGER_NOX_R6F_STD.json": "7454df855810715c8d6afcb6780c56c9ba72c58263678abd2d0f355aa5cd5809"
+  },
+  "scientific_artifact_hashes_after": {
+    "models/interp/work_pinn_nox_interp_final_r6f_std/model/final_model_seed_84.pt": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/DEV_PREDICTIONS_NOX_R6F_STD.csv": "e436d9040f73a4a74155b7d0d97674254f50f5a551fc7f97568ae7b990d1d2ee",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/TEST_PREDICTIONS_NOX_R6F_STD.csv": "b4af6595194642d3b7adb2b5ee079f7a549ba9536fbc0dea3471503eadf1b30b",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/FINAL_METRICS_NOX_R6F_STD.csv": "ab24ab882627a9bba14fbc3fbb44fc0ff568570a66710867ef761d810f687702",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/TRAINING_HISTORY_NOX_R6F_STD.csv": "f404f5101fb820f7d8c254835799a0408c333de75f29ab7b5844669b3fefe438",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/tables/PHYSICS_AUDIT_NOX_R6F_STD.csv": "94766270213ee55d987ddd73aeca7444ee68dbcd41b5645dcf2755e32b89f9f2",
+    "models/interp/work_pinn_nox_interp_final_r6f_std/audit/TEST_ACCESS_LEDGER_NOX_R6F_STD.json": "7454df855810715c8d6afcb6780c56c9ba72c58263678abd2d0f355aa5cd5809"
+  },
+  "scientific_artifacts_unchanged": true,
+  "model_sha256": "aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47",
+  "test_access_count": 1,
+  "test_reopened": false,
+  "model_retrained": false
+}

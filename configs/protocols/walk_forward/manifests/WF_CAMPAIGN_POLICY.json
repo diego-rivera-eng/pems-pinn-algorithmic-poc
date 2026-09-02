@@ -1,0 +1,77 @@
+{
+  "confirmation": {
+    "folds": [
+      "WF01",
+      "WF02",
+      "WF03"
+    ],
+    "seeds": [
+      21,
+      42,
+      84
+    ],
+    "top_candidates": 5
+  },
+  "development_objective": {
+    "direction": "MAXIMIZE",
+    "formula": "0.60*R2_min + 0.30*R2_median + 0.10*R2_mean - 0.10*std_R2",
+    "physics_in_optuna_score": false,
+    "physics_role": "TRAINING_REGULARIZATION_AND_RANKING_GATE"
+  },
+  "final_epochs": {
+    "estimator": "MEDIAN_BEST_EPOCH",
+    "source": "CONFIRMED_DEVELOPMENT_ONLY",
+    "test_year_used": false
+  },
+  "matched_ablation": {
+    "comparison": "PINN_VS_MLP_WITHOUT_PHYSICS",
+    "preserve_all_nonphysics_conditions": true,
+    "required": true
+  },
+  "physics_admissibility": {
+    "level_A": "PCD_min >= 99",
+    "level_B": "95 <= PCD_min < 99",
+    "level_C": "PCD_min < 95",
+    "normal_championship_levels": [
+      "A",
+      "B"
+    ]
+  },
+  "protocol_version": "WF_PROTOCOL_R1",
+  "ranking_order": [
+    "physics_level",
+    "R2_min_desc",
+    "R2_median_desc",
+    "R2_mean_desc",
+    "NRMSE_asc",
+    "RMSE_asc",
+    "MAE_asc",
+    "R2_std_asc",
+    "abs_bias_asc",
+    "violation_rate_asc",
+    "parameter_count_asc",
+    "training_time_asc"
+  ],
+  "run_profile": "POC_EFFICIENT",
+  "search_budget": {
+    "block_size": 10,
+    "initial_attempts": 80,
+    "maximum_total_attempts": 120,
+    "minimum_complete_trials": 50,
+    "minimum_objective_improvement": 0.001,
+    "patience_blocks": 2
+  },
+  "stage_sequence": [
+    "INIT",
+    "STATIC_VALIDATED",
+    "SMOKE_COMPLETE",
+    "DEVELOPMENT_COMPLETE",
+    "RANKING_COMPLETE",
+    "CONFIRMATION_COMPLETE",
+    "CHAMPION_SELECTED",
+    "ABLATION_COMPLETE",
+    "FROZEN",
+    "HANDOFF_COMPLETE"
+  ],
+  "status": "FROZEN"
+}

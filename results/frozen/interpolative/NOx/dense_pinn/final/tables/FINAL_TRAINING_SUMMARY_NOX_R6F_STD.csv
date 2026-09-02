@@ -1,0 +1,2 @@
+seed,status,final_epochs,train_rows,parameter_count,training_time_s,optimizer,batch_size,physics_weighting,use_lbfgs,lbfgs_outer_steps_executed,reload_max_abs_difference,model_path,model_sha256
+84,MODEL_FROZEN_DEV_ONLY,100,29845,69187,329.2492188000001,NAdam,64,ADAPTIVE_LEARNED,False,0,0.0,model/final_model_seed_84.pt,aae35b5c02a41a28537bfd945aa660ba3ba8c7a9fa0647b2881ebac184e91e47

@@ -1,0 +1,12 @@
+{
+  "version": "CO_WF_OPT_R3_POC_EFFICIENT",
+  "phase": "FROZEN",
+  "updated_at_utc": "2026-08-19T02:26:13.170504+00:00",
+  "run_mode": "FULL_AUTO",
+  "test_opened": false,
+  "development_stop_reason": "PRACTICAL_PLATEAU",
+  "development_authorization_mode": "PRIMARY_COMPETITIVE_GATES",
+  "trial_number": 44,
+  "config_hash": "4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2",
+  "final_epochs": 30
+}

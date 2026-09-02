@@ -1,0 +1,59 @@
+{
+  "status": "VERIFIED",
+  "version": "NOX_WF_FINAL_R3F_STD",
+  "generated_at_utc": "2026-08-18T22:52:35.347620+00:00",
+  "protocol_version": "WF_PROTOCOL_R1",
+  "opt_version": "NOX_WF_OPT_R3_POC_EFFICIENT",
+  "opt_stop_policy": {
+    "stop_policy_version": "POC_EFFICIENT_STOP_POLICY_V3",
+    "minimum_attempted_trials": 30,
+    "minimum_complete_total_trials": 12,
+    "minimum_complete_optuna_trials": 8,
+    "minimum_competitive_trials": 3,
+    "competitive_band_delta": 0.01,
+    "material_gain": 0.002,
+    "elite_band_delta": 0.003,
+    "adaptive_block_size": 5,
+    "adaptive_patience_blocks": 2,
+    "maximum_attempted_trials": 55,
+    "fold_execution_policy": "ALL_THREE_WF_FOLDS_FULL_EVAL",
+    "hard_cap_fallback_mode": "HIERARCHICAL_TOP3_MANDATORY_CONFIRMATION",
+    "hard_cap_fallback_min_admissible": 3,
+    "stop_reason": "HARD_CAP_TOP3_CONFIRMATION_FALLBACK",
+    "evidence_gates": {
+      "minimum_attempted_ready": true,
+      "complete_total_ready": true,
+      "complete_optuna_ready": true,
+      "competitive_ready": false,
+      "complete_optuna": 51,
+      "competitive_trials": [
+        33
+      ],
+      "all_evidence_ready": false,
+      "hard_cap_reached": true,
+      "top3_admissible_ready": true,
+      "top3_fallback_trials": [
+        33,
+        0,
+        36
+      ],
+      "hard_cap_top3_fallback_ready": true,
+      "development_authorized_for_confirmation": true,
+      "authorization_mode": "HARD_CAP_TOP3_FALLBACK",
+      "confirmation_required_for_freeze": true
+    }
+  },
+  "opt_frozen_manifest_sha256": "bfc7279497a8b0dd44dc87e7bbdb92db1dc9159666959376d751c8c05908a990",
+  "consumer_notebook": "04_Gold_Standard_PINN_NOX_WF_FINAL - R3F_STD.ipynb",
+  "authorized_producers": [
+    "00_PEMS_PINN_WF_PROTOCOL - R1.ipynb",
+    "04_Gold_Standard_PINN_NOX_WF_OPT - R3_POC_EFFICIENT.ipynb"
+  ],
+  "protocol_artifact_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+  "config_hash": "5ada2f51dcae4126cb82b6f20799db63ace1cb77867d975d33a59b39e85e7e05",
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_assignment_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "best_config_file_sha256": "a05c97cc808b3cbcf2976dc6ce68b4fca6f5abeb190e2044c32937b9c274cab7",
+  "final_policy_file_sha256": "1e3f65fe754cc2e3a77b3b1e5d67d9b124177d5571d65456298b4beffabf05f0",
+  "pre_test_gate_sha256": "7e27d1050197f93647cb8ca6c78e34850633e1ef437f13f8ca3d8c7aff0b0c9a"
+}

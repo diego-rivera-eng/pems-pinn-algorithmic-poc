@@ -1,0 +1,158 @@
+{
+  "dev_distance_summary": {
+    "50%": 0.5449467899744825,
+    "95%": 1.0635219096371817,
+    "99%": 1.433974889976679,
+    "count": 29845.0,
+    "max": 3.2105268346650018,
+    "mean": 0.6007337536374733,
+    "min": 0.21315167074947328,
+    "std": 0.2474710398833347
+  },
+  "dev_max": {
+    "AFDP": 7.6106,
+    "AH": 100.2,
+    "AP": 1036.6,
+    "AT": 37.103,
+    "CDP": 15.159,
+    "GTEP": 40.716,
+    "TAT": 550.61,
+    "TEY": 179.5,
+    "TIT": 1100.9
+  },
+  "dev_min": {
+    "AFDP": 2.0874,
+    "AH": 24.085,
+    "AP": 985.85,
+    "AT": -6.2348,
+    "CDP": 9.8518,
+    "GTEP": 17.698,
+    "TAT": 511.04,
+    "TEY": 100.02,
+    "TIT": 1000.8
+  },
+  "external_model_required": false,
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "generated_at_utc": "2026-08-11T00:00:00Z",
+  "knn_k": 20,
+  "knn_quantile": 0.99,
+  "knn_threshold": 1.433974889976679,
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "sensitivity": [
+    {
+      "failing_test_rows": 50,
+      "k": 10,
+      "primary": false,
+      "quantile": 0.975,
+      "test_coverage": 0.9927409988385598,
+      "threshold": 1.0512038037302447
+    },
+    {
+      "failing_test_rows": 4,
+      "k": 10,
+      "primary": false,
+      "quantile": 0.99,
+      "test_coverage": 0.9994192799070848,
+      "threshold": 1.2525078136735932
+    },
+    {
+      "failing_test_rows": 0,
+      "k": 10,
+      "primary": false,
+      "quantile": 0.995,
+      "test_coverage": 1.0,
+      "threshold": 1.440246650246567
+    },
+    {
+      "failing_test_rows": 30,
+      "k": 20,
+      "primary": false,
+      "quantile": 0.975,
+      "test_coverage": 0.9956445993031359,
+      "threshold": 1.2227308560904926
+    },
+    {
+      "failing_test_rows": 0,
+      "k": 20,
+      "primary": true,
+      "quantile": 0.99,
+      "test_coverage": 1.0,
+      "threshold": 1.433974889976679
+    },
+    {
+      "failing_test_rows": 0,
+      "k": 20,
+      "primary": false,
+      "quantile": 0.995,
+      "test_coverage": 1.0,
+      "threshold": 1.6267624831164704
+    },
+    {
+      "failing_test_rows": 17,
+      "k": 30,
+      "primary": false,
+      "quantile": 0.975,
+      "test_coverage": 0.9975319396051103,
+      "threshold": 1.3377993495290275
+    },
+    {
+      "failing_test_rows": 0,
+      "k": 30,
+      "primary": false,
+      "quantile": 0.99,
+      "test_coverage": 1.0,
+      "threshold": 1.5596645951622679
+    },
+    {
+      "failing_test_rows": 0,
+      "k": 30,
+      "primary": false,
+      "quantile": 0.995,
+      "test_coverage": 1.0,
+      "threshold": 1.7629722363372857
+    }
+  ],
+  "standard_scaler_mean": {
+    "AFDP": 3.9058144513318713,
+    "AH": 78.03120154129753,
+    "AP": 1013.28016317641,
+    "AT": 16.913717670162487,
+    "CDP": 12.042176320991778,
+    "GTEP": 25.51486935835145,
+    "TAT": 545.9175171720569,
+    "TEY": 133.4041353660589,
+    "TIT": 1080.702177919226
+  },
+  "standard_scaler_scale": {
+    "AFDP": 0.8121444713312155,
+    "AH": 14.446247567542791,
+    "AP": 6.7416527105801425,
+    "AT": 7.362498188099959,
+    "CDP": 1.1196834531338842,
+    "GTEP": 4.318031876278615,
+    "TAT": 7.025882021116432,
+    "TEY": 16.076087570578835,
+    "TIT": 18.059541995191175
+  },
+  "status": "FROZEN",
+  "test_distance_summary": {
+    "50%": 0.4953688343635741,
+    "95%": 0.839022070832927,
+    "99%": 1.1324192769151793,
+    "count": 6888.0,
+    "max": 1.3801287595111809,
+    "mean": 0.5252646429529205,
+    "min": 0.22818778456361677,
+    "std": 0.16796174510697143
+  }
+}

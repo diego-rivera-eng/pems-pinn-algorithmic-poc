@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T03:21:53.762668+00:00",
+  "source_resume_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - RESUME_TRIAL97_LBFGS_FALLBACK_EXECUTED.ipynb",
+  "local_executed_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\notebooks\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - LOCAL_EXECUTED.ipynb",
+  "local_executed_sha256_before": "e831799956eb1f3b0a5c8890607d833801d617416a67d358eb7c80e2be2a2bd7",
+  "local_executed_sha256_after": "e4ec3f21f04b866759f042e7530a72438e3b639595c3350f5c6e2933f100587f",
+  "backup_notebook": "C:\\ChatGPT-Work\\Walk_Forward R8\\recovery_backups\\CO_R5_LOCAL_EXECUTED_BEFORE_FINAL_20260826T032153Z\\04_Gold_Standard_PINN_CO_INTERP_OPT - R5 - LOCAL_EXECUTED.ipynb",
+  "backup_sha256": "e831799956eb1f3b0a5c8890607d833801d617416a67d358eb7c80e2be2a2bd7",
+  "inline_png_outputs": 9,
+  "test_opened": false
+}

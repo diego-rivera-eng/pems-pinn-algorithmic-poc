@@ -1,0 +1,15 @@
+check,passed,detail
+best_config_byte_copy_semantics,True,igual
+config_hash,True,válido
+target,True,CO
+features,True,"['AT', 'AP', 'AH', 'AFDP', 'GTEP', 'TIT', 'TAT', 'TEY', 'CDP']"
+physics_mode,True,CDP_NEG
+single_seed,True,126
+single_model_contract,True,1
+tt_unit_tests,True,[]
+tt_parameter_budget,True,12582
+tt_state_budget_estimate,True,59459
+rank_without_metrics,True,False
+physics_reaches_all_tt_cores,True,True
+exact_model_parameter_count,True,12582
+test_still_closed,True,TT_TEST_CLOSED_PRE_TRAINING

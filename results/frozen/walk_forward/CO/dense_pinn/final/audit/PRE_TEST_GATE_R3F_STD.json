@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-19T03:30:30.210834+00:00",
+  "version": "CO_WF_FINAL_R3F_STD",
+  "meaning": "TRAINING_FROZEN_BEFORE_TEST",
+  "config_hash": "4c3e9076ccc96176de854e87f203d92c46b381da88c87bfadeda70af2126f1c2",
+  "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+  "fold_assignment_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+  "final_epochs": 30,
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "model_count": 10,
+  "models": [
+    {
+      "seed": 21,
+      "path": "models\\PINN_CO_WF_seed21.pt",
+      "sha256": "5deeb04cdbc04e3a1f8c2cdaf427c21531c4c39d8eafcc6213b7ae4643b89c07",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 42,
+      "path": "models\\PINN_CO_WF_seed42.pt",
+      "sha256": "ae4f8cdb1c187c9e816d49ea0e3f82260e6aa1eaa3186c09c7d2dd2818666b71",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 63,
+      "path": "models\\PINN_CO_WF_seed63.pt",
+      "sha256": "0c6060aa26e5546fb3ac7f9864e9da2292ef640bfcb41269e4057a8de0cf2615",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 84,
+      "path": "models\\PINN_CO_WF_seed84.pt",
+      "sha256": "b7ac18a72161399a3d0ca53b944687c7167d4d9f4cb8bbd919359becbe4d8317",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 105,
+      "path": "models\\PINN_CO_WF_seed105.pt",
+      "sha256": "29506ddb9dce4184c0f84487a8292edbed05727d4e32ec02f27272ddba65447a",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 126,
+      "path": "models\\PINN_CO_WF_seed126.pt",
+      "sha256": "c3f3bd3a0def1e959a0ff29de7680ae87611e7e4a95fe154d2ff2445e3e84301",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 147,
+      "path": "models\\PINN_CO_WF_seed147.pt",
+      "sha256": "5443d51382c4c812696cbe19818a3f138d2786a3d7af01a8371aa655c27978de",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 168,
+      "path": "models\\PINN_CO_WF_seed168.pt",
+      "sha256": "3a58a1fc6fc695a8a3b9a77c88f842336b203c053616729ccab4c07c09158a0f",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 189,
+      "path": "models\\PINN_CO_WF_seed189.pt",
+      "sha256": "587cb03350a7fec33fee5c1ac6a0fa0592a39d3d55a9168c3d7de6fc8f8adfcc",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    },
+    {
+      "seed": 210,
+      "path": "models\\PINN_CO_WF_seed210.pt",
+      "sha256": "6cbf4515d1873e77a7144f5eaf85a29971c50873737ed4357bf87f8cf635e2f3",
+      "checks": {
+        "status": true,
+        "seed": true,
+        "epochs": true,
+        "config": true,
+        "physics_mode": true,
+        "physics_feature": true,
+        "constraint": true,
+        "assignment": true,
+        "fold_assignment": true,
+        "features": true,
+        "target": true,
+        "train_rows": true,
+        "test_closed": true,
+        "file_hash": true
+      }
+    }
+  ],
+  "test_target_rows_materialized": 0,
+  "test_metrics_computed": false
+}

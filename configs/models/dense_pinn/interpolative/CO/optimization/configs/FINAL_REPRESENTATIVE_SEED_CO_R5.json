@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN",
+  "all_seed_scores": {
+    "168": 0.7489232650414213,
+    "42": 0.7515530229725516,
+    "126": 0.7528621225833946,
+    "84": 0.7535139529323698,
+    "21": 0.755332285083482
+  },
+  "selected_seed": 126,
+  "selection_rule": "median of the five per-seed median R2 values over five DEV folds",
+  "tie_break_rule": "ascending numeric seed",
+  "selected_before_test": true
+}

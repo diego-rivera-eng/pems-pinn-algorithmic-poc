@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-08-29T06:13:54.105492+00:00",
+  "consumer_notebook": "05_TT_PINN_CO_INTERP_FINAL - R1F_STD.ipynb",
+  "consumer_role": "INDIRECT_DERIVATIVE_OF_AUTHENTICATED_DENSE_FINAL",
+  "dense_direct_consumer": "04_Gold_Standard_PINN_CO_INTERP_FINAL - R5F_STD.ipynb",
+  "protocol_manifest_sha256": "8471a0a22637104a6d73b5dfe9d894c7075bbafe56136bf3f7130476f29f443d",
+  "opt_frozen_manifest_sha256": "80178261d1f4e4306783989ed1ec3bf31b825cff080536c8b6036823c0820756",
+  "dense_final_manifest_sha256": "0a703f92f6dc9459b5f5ebd83b8284e74376529a76b45b7a15b891e7fb8433a7",
+  "dense_model_sha256": "f226546a9fc624be8b6012967212dfbaeb40d4e82da749b0593e9ab3b6962c81",
+  "dense_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "representative_seed": 126,
+  "final_epochs": 85,
+  "test_metrics_read_before_tt_freeze": false,
+  "dense_test_already_used_historically": true
+}

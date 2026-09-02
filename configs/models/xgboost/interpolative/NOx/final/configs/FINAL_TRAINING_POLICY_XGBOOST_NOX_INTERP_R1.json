@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN",
+  "version": "XGBOOST_NOX_INTERP_OPT_R1_POC_EFFICIENT",
+  "generated_at_utc": "2026-08-19T07:20:35.535023+00:00",
+  "target": "NOX",
+  "final_n_estimators": 1445,
+  "derivation": "ceil_median_best_iteration_plus_one_on_DEV_confirmation",
+  "derivation_rows": 25,
+  "final_seeds": [
+    21,
+    42,
+    63,
+    84,
+    105,
+    126,
+    147,
+    168,
+    189,
+    210
+  ],
+  "ensemble_rule": "arithmetic_mean_all_predeclared_seeds",
+  "test_used": false,
+  "config_hash": "6f348ea7343fe566f381e96842be3d4a5087f4d1624eaafd5196ff830bd676b8"
+}

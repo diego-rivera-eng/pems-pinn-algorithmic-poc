@@ -1,0 +1,126 @@
+{
+  "status": "AUTHENTICATED",
+  "generated_at_utc": "2026-08-19T22:56:07.965538+00:00",
+  "storage_path": "models/wf/work_xgboost_co_wf_opt_r1_poc_efficient/optuna/CO_XGBOOST_WF_FULL_AUTO_R1.sqlite",
+  "study_name": "CO_XGBOOST_WF_FULL_AUTO_R1",
+  "study_fingerprint_sha256": "d3cf1868be5d10fa39f114fca129aad0701e64a61d8cc67bb1f6dc97076c9f50",
+  "study_fingerprint_payload": {
+    "version": "XGBOOST_CO_WF_OPT_R1_POC_EFFICIENT",
+    "target": "CO",
+    "active_anchor_ids": [
+      "ANCHOR_COMPACT_identity",
+      "ANCHOR_BALANCED_identity",
+      "ANCHOR_REGULARIZED_identity",
+      "ANCHOR_LITERATURE_SHAPE_identity",
+      "ANCHOR_COMPACT_log1p",
+      "ANCHOR_BALANCED_log1p",
+      "ANCHOR_REGULARIZED_log1p",
+      "ANCHOR_LITERATURE_SHAPE_log1p"
+    ],
+    "active_anchor_count": 8,
+    "protocol_version": "WF_PROTOCOL_R1",
+    "protocol_general_manifest_sha256": "c503451b56a194811082e4ee16729109529163150e4e6b93d8ce1f2228c0df68",
+    "row_assignment_sha256": "54b1229774a57cb5e708340040e8171839cd320b72cd90058879a7f9e638f89b",
+    "fold_summary_sha256": "2b4f6970215ab0ea6c2d3f3d8bb3288ba5c22c8c54af0a9f853f9a649c3b2dcd",
+    "search_space": {
+      "learning_rate": [
+        0.005,
+        0.3,
+        "log"
+      ],
+      "max_depth": [
+        2,
+        16,
+        "integer"
+      ],
+      "min_child_weight": [
+        0.5,
+        256.0,
+        "log"
+      ],
+      "gamma": [
+        0.0,
+        1e-08,
+        20.0,
+        "zero_or_log"
+      ],
+      "subsample": [
+        0.55,
+        1.0,
+        "uniform"
+      ],
+      "colsample_bytree": [
+        0.55,
+        1.0,
+        "uniform"
+      ],
+      "reg_alpha": [
+        0.0,
+        1e-08,
+        10.0,
+        "zero_or_log"
+      ],
+      "reg_lambda": [
+        0.001,
+        1000.0,
+        "log"
+      ],
+      "target_transform": [
+        "identity",
+        "log1p"
+      ]
+    },
+    "objective": {
+      "direction": "maximize",
+      "formula": "R2_min + 0.25*R2_median - 0.05*R2_std",
+      "folds": [
+        "WF01",
+        "WF02",
+        "WF03"
+      ],
+      "partial_temporal_screening": false
+    },
+    "fixed_xgb_parameters": {
+      "booster": "gbtree",
+      "tree_method": "hist",
+      "grow_policy": "depthwise",
+      "max_bin": 256,
+      "objective": "reg:squarederror",
+      "sampling_method": "uniform",
+      "colsample_bylevel": 1.0,
+      "colsample_bynode": 1.0,
+      "verbosity": 0
+    },
+    "search_seed": 42,
+    "optuna_seed": 20260818,
+    "confirmation_screening_seeds": [
+      21,
+      42,
+      84
+    ],
+    "confirmation_extension_seeds": [
+      126,
+      168
+    ],
+    "final_seeds": [
+      21,
+      42,
+      63,
+      84,
+      105,
+      126,
+      147,
+      168,
+      189,
+      210
+    ],
+    "run_mode": "FULL_AUTO",
+    "max_boost_rounds": 4000,
+    "early_stopping_rounds": 100,
+    "backend": "cuda",
+    "xgb_n_jobs": 1,
+    "optuna_n_jobs": 1,
+    "xgboost_version": "3.0.1"
+  },
+  "trials_at_authentication": 0
+}

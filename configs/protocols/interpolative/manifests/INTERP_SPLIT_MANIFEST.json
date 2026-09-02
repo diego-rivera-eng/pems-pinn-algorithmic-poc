@@ -1,0 +1,137 @@
+{
+  "actual_test_fraction": 0.18751531320610895,
+  "annual_counts": {
+    "2011": {
+      "DEV": 6067,
+      "TEST": 1344
+    },
+    "2012": {
+      "DEV": 6116,
+      "TEST": 1512
+    },
+    "2013": {
+      "DEV": 5808,
+      "TEST": 1344
+    },
+    "2014": {
+      "DEV": 5814,
+      "TEST": 1344
+    },
+    "2015": {
+      "DEV": 6040,
+      "TEST": 1344
+    }
+  },
+  "block_rule": {
+    "candidate_records": [
+      12,
+      24,
+      48,
+      72,
+      168
+    ],
+    "confidence_band": "1.96/sqrt(n_year)",
+    "fallback_combinations": 30,
+    "interpretation": "Control de redundancia local en registros consecutivos; no supone continuidad horaria, no demuestra independencia completa ni constituye embargo temporal.",
+    "max_lag": 168,
+    "mode": "AUTO",
+    "robust_lag_records": 168.0,
+    "robust_summary": "percentile_75",
+    "selected_records": 168,
+    "unit": "consecutive_records_in_preserved_file_order"
+  },
+  "coverage": {
+    "knn": 1.0,
+    "marginal": 1.0
+  },
+  "data_hashes": [
+    {
+      "path": "data\\raw\\gt_2011.csv",
+      "sha256": "d87ceef9aa59533cc7d924d10de241b1b06ecd11f9b26bab59191ea0f8a76b9a",
+      "year": 2011
+    },
+    {
+      "path": "data\\raw\\gt_2012.csv",
+      "sha256": "be54b9d0e1a7de40c55d32fa489e75de892b000c066b5a09f09a19124ee29100",
+      "year": 2012
+    },
+    {
+      "path": "data\\raw\\gt_2013.csv",
+      "sha256": "13c437bb440ec2045bd12057e6654c41dd4107a661eac16ba2e878e897a08f9e",
+      "year": 2013
+    },
+    {
+      "path": "data\\raw\\gt_2014.csv",
+      "sha256": "c2a03c92c9c3207aad0c6be7de8d9b5b4bfa4720ad0efb2c1f21b6cec4d3f3fa",
+      "year": 2014
+    },
+    {
+      "path": "data\\raw\\gt_2015.csv",
+      "sha256": "9b08f35fde0d4b138232a605db4093c2b8bf9d6757e6f1fbd9534ad616c13591",
+      "year": 2015
+    }
+  ],
+  "exact_x_duplicate_audit": {
+    "comparison": "exact_float64_without_rounding",
+    "cross_block_groups": 0,
+    "cross_partition_groups": 0,
+    "cross_partition_rows": 0,
+    "cross_partition_rows_fraction": 0.0,
+    "duplicate_groups": 2,
+    "duplicate_rows": 9,
+    "duplicate_rows_fraction": 0.0002450112977431737,
+    "status": "PASS"
+  },
+  "feature_extreme_anchor_blocks": 15,
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "generated_at_utc": "2026-08-11T00:00:00Z",
+  "knn": {
+    "k": 20,
+    "quantile": 0.99,
+    "threshold": 1.433974889976679
+  },
+  "nominal_test_fraction": 0.2,
+  "permanent_anchor_blocks": 87,
+  "protected_targets": [
+    "CO",
+    "NOX"
+  ],
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "row_assignment_sha256": "1a1706f37198468e010c066361444072daddf979543bd40d78dba776223c4f07",
+  "scope": "Holdout interpolativo intradominio, X-aware y y-blind.",
+  "selection_design": "annual balance with density-aware selection and post-hoc support gates",
+  "split_seed": 42,
+  "status": "FROZEN",
+  "support_promotions": {
+    "external_any_blocks": 7,
+    "external_knn_blocks": 7,
+    "external_marginal_blocks": 0,
+    "internal_fold_blocks": 65
+  },
+  "test_fraction_gate": [
+    0.18,
+    0.22
+  ],
+  "total_rows": 36733,
+  "warnings": [
+    "No valida transferencia temporal.",
+    "No equivale a certificación PEMS, RATA ni homologación regulatoria."
+  ],
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ]
+}

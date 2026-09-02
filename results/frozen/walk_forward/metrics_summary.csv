@@ -1,0 +1,6 @@
+protocol,model,target,scope,test_year,n_test,R2,RMSE,MAE,bias,PCD_pct
+walk_forward,dense_pinn,CO,multiseed_ensemble,2015,7384,0.4764,1.6171,1.0933,-0.9695,99.95
+walk_forward,xgboost,CO,multiseed_ensemble,2015,7384,0.5258,1.5390,0.9456,-0.7461,
+walk_forward,dense_pinn,NOx,multiseed_ensemble,2015,7384,0.2611,9.5685,7.3863,6.1704,99.01
+walk_forward,xgboost,NOx,multiseed_ensemble,2015,7384,0.1275,10.3977,8.4938,7.6243,
+

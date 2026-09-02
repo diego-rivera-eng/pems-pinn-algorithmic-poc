@@ -1,0 +1,206 @@
+{
+  "events": [
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO",
+        "NOX"
+      ],
+      "data_values_read": false,
+      "operation": "HEADER_ONLY",
+      "path": "data\\raw\\gt_2011.csv",
+      "year": 2011
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP"
+      ],
+      "data_values_read": true,
+      "operation": "DATA_USECOLS",
+      "path": "data\\raw\\gt_2011.csv",
+      "year": 2011
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO",
+        "NOX"
+      ],
+      "data_values_read": false,
+      "operation": "HEADER_ONLY",
+      "path": "data\\raw\\gt_2012.csv",
+      "year": 2012
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP"
+      ],
+      "data_values_read": true,
+      "operation": "DATA_USECOLS",
+      "path": "data\\raw\\gt_2012.csv",
+      "year": 2012
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO",
+        "NOX"
+      ],
+      "data_values_read": false,
+      "operation": "HEADER_ONLY",
+      "path": "data\\raw\\gt_2013.csv",
+      "year": 2013
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP"
+      ],
+      "data_values_read": true,
+      "operation": "DATA_USECOLS",
+      "path": "data\\raw\\gt_2013.csv",
+      "year": 2013
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO",
+        "NOX"
+      ],
+      "data_values_read": false,
+      "operation": "HEADER_ONLY",
+      "path": "data\\raw\\gt_2014.csv",
+      "year": 2014
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP"
+      ],
+      "data_values_read": true,
+      "operation": "DATA_USECOLS",
+      "path": "data\\raw\\gt_2014.csv",
+      "year": 2014
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO",
+        "NOX"
+      ],
+      "data_values_read": false,
+      "operation": "HEADER_ONLY",
+      "path": "data\\raw\\gt_2015.csv",
+      "year": 2015
+    },
+    {
+      "columns": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP"
+      ],
+      "data_values_read": true,
+      "operation": "DATA_USECOLS",
+      "path": "data\\raw\\gt_2015.csv",
+      "year": 2015
+    }
+  ],
+  "generated_at_utc": "2026-08-11T00:00:00Z",
+  "header_only_reads": 5,
+  "protected_targets": [
+    "CO",
+    "NOX"
+  ],
+  "protected_value_reads": 0,
+  "protocol_version": "INTERP_PROTOCOL_R1",
+  "read_csv_data_usecols": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "statement": "Los nombres CO y NOX se verificaron únicamente en el encabezado; sus valores no se cargaron ni se resumieron.",
+  "status": "PASS",
+  "x_only_data_reads": 5
+}

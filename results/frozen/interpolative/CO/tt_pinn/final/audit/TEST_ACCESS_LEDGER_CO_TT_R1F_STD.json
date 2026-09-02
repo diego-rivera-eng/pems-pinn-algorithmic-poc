@@ -1,0 +1,123 @@
+{
+  "schema_version": "TT_R1F_STD_TEST_LEDGER_V1",
+  "version": "TT_PINN_CO_INTERP_FINAL_R1F_STD",
+  "execution_id": "5a9302d1-547f-4d37-8ee6-054a8ae367b7",
+  "revision": 8,
+  "state": "TT_RUN_COMPLETE",
+  "created_at_utc": "2026-08-29T06:13:53.993543+00:00",
+  "updated_at_utc": "2026-08-29T06:15:04.044183+00:00",
+  "access_count": 1,
+  "target_rows_materialized": 6888,
+  "global_test_previously_used_by_dense_baseline": true,
+  "model_sha256_before_test": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110",
+  "config_sha256_before_test": "984c0a59463a596d8ac085858557e06ee95b6e63dd10fe6973d99b2347742292",
+  "tt_contract_sha256_before_test": "b16d094f604dfb6b287b4328389e54de002c353944c34712c76cddd6643a7f72",
+  "model_count": 1,
+  "model_frozen_at_utc": "2026-08-29T06:14:54.624524+00:00",
+  "pre_test_gate_sha256": "6da514d87aef31fd8c837d757f6336afbf5fe4731a5f24e9c958211d012553a9",
+  "model_sha256": "cf00d198b053777e48ffa80a9a671dba9e12a04a08ca2d894f3ce123f8558110",
+  "best_config_file_sha256": "984c0a59463a596d8ac085858557e06ee95b6e63dd10fe6973d99b2347742292",
+  "best_config_hash": "e5d4ddb830ce31387f933b4c4522485991650de24af4aed05e4225610ccd9be8",
+  "frozen_manifest_sha256": "80178261d1f4e4306783989ed1ec3bf31b825cff080536c8b6036823c0820756",
+  "tt_contract_file_sha256": "b16d094f604dfb6b287b4328389e54de002c353944c34712c76cddd6643a7f72",
+  "tt_contract_hash": "3f380430407e8f2b528cbc154e38f27c9336251f2521bd7112a1a4b4d5b3eead",
+  "access_intent_at_utc": "2026-08-29T06:14:54.691780+00:00",
+  "purpose": "FINAL_PAIRED_EVALUATION_ONLY",
+  "opened_at_utc": "2026-08-29T06:14:54.742670+00:00",
+  "events": [
+    {
+      "year": 2011,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2012,
+      "rows_test_materialized": 1512,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2013,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2014,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    },
+    {
+      "year": 2015,
+      "rows_test_materialized": 1344,
+      "columns_materialized": [
+        "AT",
+        "AP",
+        "AH",
+        "AFDP",
+        "GTEP",
+        "TIT",
+        "TAT",
+        "TEY",
+        "CDP",
+        "CO"
+      ],
+      "operation": "FINAL_PAIRED_EVALUATION_ONLY"
+    }
+  ],
+  "evaluated_at_utc": "2026-08-29T06:14:55.053057+00:00",
+  "predictions_written": true,
+  "metrics_written": true,
+  "dense_metrics_first_read_after_tt_freeze": true,
+  "non_inferiority_status": "NOT_MET_INFORMATIONAL",
+  "test_used_for_adjustment": false,
+  "completed_at_utc": "2026-08-29T06:15:04.032518+00:00",
+  "model_changed_after_test": false,
+  "retraining_after_test": false
+}
