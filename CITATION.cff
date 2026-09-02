@@ -8,6 +8,7 @@ authors:
     affiliation: "Universidad Industrial de Santander"
 version: "1.0.0"
 date-released: "2026-09-01"
+repository-code: "https://github.com/diego-rivera-eng/pems-pinn-algorithmic-poc"
 abstract: >-
   Repositorio canónico y paquete de evidencia para comparar redes neuronales
   informadas por la física densas, PINN tensor-train y XGBoost en estimación
