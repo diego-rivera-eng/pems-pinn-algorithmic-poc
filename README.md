@@ -6,6 +6,47 @@ Repositorio de investigación que reúne la evidencia computacional del Capítul
 NOx de una turbina de gas bajo evaluación interpolativa y validación temporal
 *walk-forward*.
 
+## Resultados visuales destacados
+
+Las siguientes gráficas presentan una muestra representativa de la evaluación
+predictiva y del proceso de optimización para NOx.
+
+<p align="center">
+  <a href="assets/image1.png">
+    <img src="assets/image1.png"
+         alt="Serie de referencia y predicción PINN de NOx en el conjunto de prueba"
+         width="950">
+  </a>
+</p>
+
+<p align="center">
+  <em>Figura 1. Comparación entre la serie de referencia y la predicción PINN de NOx en el conjunto de prueba.</em>
+</p>
+
+<p align="center">
+  <a href="assets/image2.png">
+    <img src="assets/image2.png"
+         alt="Gráficos de paridad y residuos de la predicción de NOx"
+         width="950">
+  </a>
+</p>
+
+<p align="center">
+  <em>Figura 2. Paridad entre valores medidos y predichos de NOx, acompañada del análisis de residuos.</em>
+</p>
+
+<p align="center">
+  <a href="assets/image3.png">
+    <img src="assets/image3.png"
+         alt="Historial de optimización del desempeño predictivo para NOx"
+         width="950">
+  </a>
+</p>
+
+<p align="center">
+  <em>Figura 3. Evolución del desempeño durante la optimización de hiperparámetros.</em>
+</p>
+
 ## Contenido verificable
 
 - Los cinco CSV originales de UCI (`gt_2011.csv`–`gt_2015.csv`), con 36.733
